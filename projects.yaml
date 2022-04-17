@@ -8,36 +8,38 @@ configuration:
   project_dead_months: 99999  # "dead" is a somewhat strong assumption, so we avoid making it
 
 categories:
-- category: site-management
-  title: ⚙️ Site management
-- category: theming
-  title: 🎨 Theming
-- category: i18n-l10n
-  title: 💬 Internationalization & localization
-- category: nav-pages
-  title: 🧭 Navigation & page building
-- category: search-toc
-  title: 🔍 Search & tables of content
-- category: links-refs
-  title: 🔗 Links & references
-- category: html-css
-  title: 🖌️ HTML processing & CSS styling
+- category: api-docs
+  title: 💻 API documentation building
+- category: blogging
+  title: 📖 Blogging
+- category: charts
+  title: 🖼️ Charts, Images, Tables & Graphs
 - category: code-exec-templating
   title: 📝 Code execution, variables & templating
 - category: git-info
   title: ":octocat: Git repos & info"
-- category: snippets-include
-  title: 📁 Reusing content, snippets & includes
-- category: api-docs
-  title: 💻 API documentation building
+- category: html-css
+  title: 🖌️ HTML processing & CSS styling
+- category: integrations
+  title: 🌐 Integrations with other tools
+- category: i18n-l10n
+  title: 💬 Internationalization & localization
+- category: links-refs
+  title: 🔗 Links & references
+- category: nav-pages
+  title: 🧭 Navigation & page building
+- category: quality
+  title: Quality checks (code blocks, spelling, etc.)
+- category: search-toc
+  title: 🔍 Search & tables of content
 - category: site-conversion
-  title: 📄 PDF & site conversion
-- category: blogging
-  title: 📖 Blogging
-- category: web-services
-  title: 🌐 Web services
-- category: charts
-  title: 🖼️ Images, Tables, Charts & Graphs
+  title: 📄 Site conversion (PDF/ePUB/etc.)
+- category: site-management
+  title: ⚙️ Site management
+- category: snippets-include
+  title: 📁 Snippets & includes (reusing contents)
+- category: theming
+  title: 🎨 Theming
 - category: other
   title: ➕ Other
 
@@ -53,251 +55,159 @@ labels:
   description: Mkdocs-based project (website, templates, etc.)
 
 projects:
-- name: Material for MkDocs
-  github_id: squidfunk/mkdocs-material
-  pypi_id: mkdocs-material
-  labels: [theme]
-  category: theming
+- name: automacdoc
+  github_id: AlexandreKempf/automacdoc
+  labels: [plugin]
+  category: api-docs
+- name: mkdocstrings
+  github_id: mkdocstrings/mkdocstrings
+  pypi_id: mkdocstrings
+  labels: [plugin]
+  category: api-docs
+- name: MkAutoDoc
+  github_id: tomchristie/mkautodoc
+  pypi_id: mkautodoc
+  labels: [plugin]
+  license: BSD
+  category: api-docs
+- name: doxygen
+  github_id: pieterdavid/mkdocs-doxygen-plugin
+  labels: [plugin]
+  category: api-docs
+- name: inari
+  github_id: tkamenoko/inari
+  pypi_id: inari
+  labels: [plugin]
+  category: api-docs
+- name: mktheapidocs
+  github_id: greenape/mktheapidocs
+  pypi_id: mktheapidocs
+  labels: [plugin]
+  category: api-docs
+- name: MkApi
+  github_id: daizutabi/mkapi
+  pypi_id: mkapi
+  labels: [plugin]
+  category: api-docs
+- name: mkdocs-yaarg-plugin
+  github_id: g6123/mkdocs-yaarg-plugin
+  pypi_id: mkdocs-yaarg-plugin
+  labels: [plugin]
+  category: api-docs
+- name: mkdocs-click
+  github_id: DataDog/mkdocs-click
+  pypi_id: mkdocs-click
+  labels: [plugin]
+  category: api-docs
+- name: ansible-document
+  description: Auto-generate ansible role documentation
+  pypi_id: ansible-mkdocs
+  labels: [plugin]
+  category: api-docs
 
-- name: mkdocs-multirepo-plugin
-  github_id: jdoiro3/mkdocs-multirepo-plugin
-  pypi_id: mkdocs-multirepo-plugin
+- name: blog
+  github_id: andyoakley/mkdocs-blog
   labels: [plugin]
-  category: site-management
-- name: monorepo
-  github_id: backstage/mkdocs-monorepo-plugin
-  pypi_id: mkdocs-monorepo-plugin
+  category: blogging
+- name: Blogs for MkDocs
+  github_id: fmaida/mkdocs-blog-plugin
   labels: [plugin]
-  category: site-management
-- name: multirepo
-  github_id: wilhelmer/mkdocs-multirepo
-  pypi_id: mkdocs-multirepo
+  category: blogging
+- name: rss
+  github_id: Guts/mkdocs-rss-plugin
+  pypi_id: mkdocs-rss-plugin
   labels: [plugin]
-  category: site-management
-- name: multiple
-  github_id: experimaestro/mkdocs-multiple
-  pypi_id: mkdocs-multiple
+  category: blogging
+- name: newsletter
+  github_id: lyz-code/mkdocs-newsletter
+  pypi_id: mkdocs-newsletter
   labels: [plugin]
-  category: site-management
-- name: simple
-  github_id: athackst/mkdocs-simple-plugin
-  pypi_id: mkdocs-simple-plugin
+  category: blogging
+- name: mkdocs-blogging-plugin
+  github_id: liang2kl/mkdocs-blogging-plugin
+  pypi_id: mkdocs-blogging-plugin
   labels: [plugin]
-  category: site-management
-- name: mkdocs-versioning
-  github_id: zayd62/mkdocs-versioning
-  pypi_id: mkdocs-versioning
+  category: blogging
+- name: python-mkblog
+  github_id: derJD/python-mkblog
+  pypi_id: mkblog
   labels: [plugin]
-  category: site-management
-- name: mike
-  github_id: jimporter/mike
-  pypi_id: mike
-  labels: [plugin]
-  category: site-management
-- name: mkdocs-new-features-notifier
-  github_id: kevin-411/mkdocs-new-features-notifier
-  pypi_id: mkdocs-new-features-notifier
-  labels: [plugin]
-  category: site-management
-- name: progress
-  github_id: rdilweb/mkdocs-plugin-progress
-  labels: [plugin]
-  category: site-management
+  category: blogging
 
-- name: static-i18n
-  github_id: ultrabug/mkdocs-static-i18n
-  pypi_id: mkdocs-static-i18n
+- name: img2fig
+  github_id: stuebersystems/mkdocs-img2fig-plugin
   labels: [plugin]
-  category: i18n-l10n
-- name: mkdocs-mdpo
-  github_id: mondeja/mkdocs-mdpo-plugin
-  pypi_id: mkdocs-mdpo-plugin
+  category: charts
+- name: table-reader
+  github_id: timvink/mkdocs-table-reader-plugin
+  pypi_id: mkdocs-table-reader-plugin
   labels: [plugin]
-  category: i18n-l10n
-
-- name: exclude
-  github_id: apenwarr/mkdocs-exclude
+  category: charts
+- name: charts
+  github_id: timvink/mkdocs-charts-plugin
+  pypi_id: mkdocs-charts-plugin
   labels: [plugin]
-  category: nav-pages
-- name: select-files
-  description: Filter pages for assignments
-  github_id: supcik/mkdocs-select-files
-  pypi_id: mkdocs-select-files
+  category: charts
+- name: drawio-exporter
+  github_id: LukeCarrier/mkdocs-drawio-exporter
+  pypi_id: mkdocs-drawio-exporter
   labels: [plugin]
-  category: nav-pages
-- name: awesome-pages
-  github_id: lukasgeiter/mkdocs-awesome-pages-plugin
-  pypi_id: mkdocs-awesome-pages-plugin
+  category: charts
+- name: markdownmermaid
+  description: A MkDocs plugin that support mermaid graph in markdown file
+  github_id: pugong/mkdocs-mermaid-plugin
+  pypi_id: mkdocs-mermaid-plugin
   labels: [plugin]
-  category: nav-pages
-- name: mkdocs-nav-enhancements
-  github_id: Rylon/mkdocs-nav-enhancements
-  pypi_id: mkdocs-nav-enhancements
+  category: charts
+- name: mermaid2
+  github_id: fralau/mkdocs-mermaid2-plugin
+  pypi_id: mkdocs-mermaid2-plugin
   labels: [plugin]
-  category: nav-pages
-- name: section-index
-  github_id: oprypin/mkdocs-section-index
-  pypi_id: mkdocs-section-index
+  category: charts
+- name: markdownwavedrom
+  github_id: kuri65536/mkdocs-wavedrom-plugin
+  pypi_id: mkdocs-wavedrom-plugin
   labels: [plugin]
-  category: nav-pages
-- name: literate-nav
-  github_id: oprypin/mkdocs-literate-nav
-  pypi_id: mkdocs-literate-nav
+  category: charts
+- name: build-plantuml
+  github_id: christo-ph/mkdocs_build_plantuml
+  pypi_id: mkdocs-build-plantuml-plugin
   labels: [plugin]
-  category: nav-pages
-- name: encryptcontent
-  github_id: CoinK0in/mkdocs-encryptcontent-plugin
-  pypi_id: mkdocs-encryptcontent-plugin
+  category: charts
+- name: sequence-js
+  github_id: fcannizzaro/mkdocs-sequence-js-plugin
   labels: [plugin]
-  category: nav-pages
-- name: awesome-list
-  github_id: carlosperate/mkdocs-awesome-list-plugin
+  category: charts
+- name: kroki
+  github_id: AVATEAM-IT-SYSTEMHAUS/mkdocs-kroki-plugin
+  pypi_id: mkdocs-kroki-plugin
   labels: [plugin]
-  category: nav-pages
-- name: toc-sidebar
-  github_id: midnightprioriem/mkdocs-toc-sidebar-plugin
-  pypi_id: mkdocs-toc-sidebar-plugin
+  category: charts
+- name: MkDocs Img2Fig Plugin
+  github_id: stuebersystems/mkdocs-img2fig-plugin
+  pypi_id: mkdocs-img2fig-plugin
   labels: [plugin]
-  category: nav-pages
-- name: mkdocs-simple-hooks
-  github_id: aklajnert/mkdocs-simple-hooks
-  pypi_id: mkdocs-simple-hooks
+  category: charts
+- name: MkDocs Video
+  github_id: soulless-viewer/mkdocs-video
+  pypi_id: mkdocs-video
   labels: [plugin]
-  category: nav-pages
-- name: schema-reader
-  github_id: magicaljellybeans/mkdocs_schema_reader
-  pypi_id: mkdocs-schema-reader
+  category: charts
+- name: MkDocs Graphviz
+  gitlab_id: rodrigo.schwencke/mkdocs-graphviz
+  pypi_id: mkdocs-graphviz
   labels: [plugin]
-  license: MIT
-  category: nav-pages
-- name: pagenav-generator
-  github_id: Andre601/mkdocs-pagenav-generator
+  category: charts
+- name: mkdocs-diagrams
+  github_id: zoni/mkdocs-diagrams
+  pypi_id: mkdocs-diagrams
   labels: [plugin]
-  license: MIT
-  category: nav-pages
-- name: mkdocs-categories-plugin
-  github_id: eddyluten/mkdocs-categories-plugin
-  pypi_id: mkdocs-categories-plugin
+  category: charts
+- name: docutools
+  github_id: axiros/docutools
+  pypi_id: docutools
   labels: [plugin]
-  category: nav-pages
-
-- name: localsearch
-  github_id: wilhelmer/mkdocs-localsearch
-  pypi_id: mkdocs-localsearch
-  labels: [plugin]
-  category: search-toc
-- name: exclude-search
-  github_id: chrieke/mkdocs-exclude-search
-  pypi_id: mkdocs-exclude-search
-  labels: [plugin]
-  category: search-toc
-- name: tags
-  description: Processes tags in yaml metadata
-  github_id: jldiaz/mkdocs-plugin-tags
-  pypi_id: mkdocs-plugin-tags
-  labels: [plugin]
-  category: search-toc
-
-- name: Autolink References
-  github_id: theskumar/autolink-references-mkdocs-plugin
-  pypi_id: autolink-references-mkdocs-plugin
-  labels: [plugin]
-  category: links-refs
-- name: autorefs
-  github_id: mkdocstrings/autorefs
-  pypi_id: mkdocs-autorefs
-  labels: [plugin]
-  category: links-refs
-- name: ezlinks
-  github_id: orbikm/mkdocs-ezlinks-plugin
-  labels: [plugin]
-  category: links-refs
-- name: autoreflinks
-  github_id: pauloue/mkdocs-autoreflinks-plugin
-  labels: [plugin]
-  category: links-refs
-- name: autolinks
-  github_id: midnightprioriem/mkdocs-autolinks-plugin
-  labels: [plugin]
-  category: links-refs
-- name: roamlinks
-  github_id: Jackiexiao/mkdocs-roamlinks-plugin
-  pypi_id: mkdocs-roamlinks-plugin
-  labels: [plugin]
-  category: links-refs
-- name: abs-to-rel
-  github_id: sander76/mkdocs-abs-rel-plugin
-  labels: [plugin]
-  category: links-refs
-- name: webcontext
-  github_id: Darrelk/mkdocs-webcontext-plugin
-  pypi_id: mkdocs-webcontext-plugin
-  labels: [plugin]
-  category: links-refs
-- name: emailprotect
-  github_id: rkoe/mkdocs-emailprotect
-  labels: [plugin]
-  category: links-refs
-- name: linkpatcher-plugin
-  github_id: sekikawattt/mkdocs-linkpatcher-plugin
-  labels: [plugin]
-  category: links-refs
-- name: mkdocs-redirects
-  github_id: mkdocs/mkdocs-redirects
-  pypi_id: mkdocs-redirects
-  labels: [plugin]
-  category: links-refs
-- name: htmlproofer
-  github_id: manuzhang/mkdocs-htmlproofer-plugin
-  pypi_id: mkdocs-htmlproofer-plugin
-  labels: [plugin]
-  category: links-refs
-- name: tooltipster-links
-  github_id: midnightprioriem/mkdocs-tooltipster-links-plugin
-  pypi_id: mkdocs-tooltipster-links-plugin
-  labels: [plugin]
-  category: links-refs
-- name: alternate-link
-  github_id: cmitu/mkdocs-altlink-plugin
-  labels: [plugin]
-  category: links-refs
-- name: mkdocs-alias-plugin
-  github_id: eddyluten/mkdocs-alias-plugin
-  pypi_id: mkdocs-alias-plugin
-  labels: [plugin]
-  category: links-refs
-
-- name: docstyler
-  github_id: hfagerlund/mkdocs-docstyler-plugin
-  labels: [plugin]
-  category: html-css
-- name: mkdocs-add-teaser
-  github_id: wilhelmer/mkdocs-add-teaser
-  labels: [plugin]
-  category: html-css
-- name: mkdocs_safe_text
-  github_id: raimon49/mkdocs-safe-text-plugin
-  pypi_id: mkdocs-safe-text-plugin
-  labels: [plugin]
-  category: html-css
-- name: minify
-  github_id: byrnereese/mkdocs-minify-plugin
-  pypi_id: mkdocs-minify-plugin
-  labels: [plugin]
-  category: html-css
-- name: bootstrap-tables
-  github_id: byrnereese/mkdocs-bootstrap-tables-plugin
-  labels: [plugin]
-  category: html-css
-- name: add-number
-  github_id: ignorantshr/mkdocs-add-number-plugin
-  labels: [plugin]
-  category: html-css
-- name: enumerate-headings
-  github_id: timvink/mkdocs-enumerate-headings-plugin
-  pypi_id: mkdocs-enumerate-headings-plugin
-  labels: [plugin]
-  category: html-css
+  category: charts
 
 - name: pheasant
   github_id: daizutabi/pheasant
@@ -370,44 +280,10 @@ projects:
   license: Apache-2
   category: code-exec-templating
 
-- name: mkdocs-embed-external-markdown
-  github_id: fire1ce/mkdocs-embed-external-markdown
-  pypi_id: mkdocs-embed-external-markdown
-  labels: [plugin]
-  license: MIT
-  category: snippets-include
-- name: codeinclude
-  description: A plugin to include code snippets into mkdocs pages
-  github_id: rnorth/mkdocs-codeinclude-plugin
-  pypi_id: mkdocs-codeinclude-plugin
-  labels: [plugin]
-  category: snippets-include
-- name: snippet
-  github_id: mprivat/mkdocs-snippet-plugin
-  pypi_id: mkdocs-snippet-plugin
-  labels: [plugin]
-  category: snippets-include
-- name: git snippet
-  github_id: SamazoOo/mkdocs-gitsnippet-plugin
-  pypi_id: mkdocs-gitsnippet-plugin
-  labels: [plugin]
-  category: snippets-include
-- name: include-markdown
-  github_id: mondeja/mkdocs-include-markdown-plugin
-  pypi_id: mkdocs-include-markdown-plugin
-  labels: [plugin]
-  category: snippets-include
-- name: meta-descriptions
-  github_id: prcr/mkdocs-meta-descriptions-plugin
-  pypi_id: mkdocs-meta-descriptions-plugin
-  labels: [plugin]
-  category: snippets-include
-
 - name: branchcustomization
   github_id: effigies/mkdocs-branchcustomization-plugin
   pypi_id: mkdocs-branchcustomization-plugin
   labels: [plugin]
-  license: MIT
   category: git-info
 - name: git-revision-date-localized
   github_id: timvink/mkdocs-git-revision-date-localized-plugin
@@ -441,40 +317,280 @@ projects:
   labels: [plugin]
   category: git-info
 
-- name: automacdoc
-  github_id: AlexandreKempf/automacdoc
+- name: docstyler
+  github_id: hfagerlund/mkdocs-docstyler-plugin
   labels: [plugin]
-  category: api-docs
-- name: mkdocstrings
-  github_id: mkdocstrings/mkdocstrings
-  pypi_id: mkdocstrings
+  category: html-css
+- name: mkdocs-add-teaser
+  github_id: wilhelmer/mkdocs-add-teaser
   labels: [plugin]
-  category: api-docs
-- name: MkAutoDoc
-  github_id: tomchristie/mkautodoc
-  pypi_id: mkautodoc
+  category: html-css
+- name: mkdocs_safe_text
+  github_id: raimon49/mkdocs-safe-text-plugin
+  pypi_id: mkdocs-safe-text-plugin
   labels: [plugin]
-  license: BSD
-  category: api-docs
-- name: doxygen
-  github_id: pieterdavid/mkdocs-doxygen-plugin
+  category: html-css
+- name: minify
+  github_id: byrnereese/mkdocs-minify-plugin
+  pypi_id: mkdocs-minify-plugin
   labels: [plugin]
-  category: api-docs
-- name: inari
-  github_id: tkamenoko/inari
-  pypi_id: inari
+  category: html-css
+- name: bootstrap-tables
+  github_id: byrnereese/mkdocs-bootstrap-tables-plugin
   labels: [plugin]
-  category: api-docs
-- name: mktheapidocs
-  github_id: greenape/mktheapidocs
-  pypi_id: mktheapidocs
+  category: html-css
+- name: add-number
+  github_id: ignorantshr/mkdocs-add-number-plugin
   labels: [plugin]
-  category: api-docs
-- name: MkApi
-  github_id: daizutabi/mkapi
-  pypi_id: mkapi
+  category: html-css
+- name: enumerate-headings
+  github_id: timvink/mkdocs-enumerate-headings-plugin
+  pypi_id: mkdocs-enumerate-headings-plugin
   labels: [plugin]
-  category: api-docs
+  category: html-css
+
+- name: static-i18n
+  github_id: ultrabug/mkdocs-static-i18n
+  pypi_id: mkdocs-static-i18n
+  labels: [plugin]
+  category: i18n-l10n
+- name: mkdocs-mdpo
+  github_id: mondeja/mkdocs-mdpo-plugin
+  pypi_id: mkdocs-mdpo-plugin
+  labels: [plugin]
+  category: i18n-l10n
+- name: Mkdocs translations plugin
+  description: Internationalization plugin for mkdocs
+  pypi_id: mkdocs-translations
+  labels: [plugin]
+  category: i18n-l10n
+  
+- name: swagger
+  github_id: allevo/mkdocs-swagger-plugin
+  labels: [plugin]
+  category: integrations
+- name: factsheet
+  github_id: inuits/mkdocs-factsheet
+  labels: [plugin]
+  category: integrations
+- name: mkdocs-coverage
+  github_id: pawamoy/mkdocs-coverage
+  pypi_id: mkdocs-coverage
+  labels: [plugin]
+  category: integrations
+- name: MkDocs Backend for Foliant
+  github_id: foliant-docs/foliantcontrib.mkdocs
+  pypi_id: foliantcontrib.mkdocs
+  labels: [plugin]
+  category: integrations
+
+- name: Autolink References
+  github_id: theskumar/autolink-references-mkdocs-plugin
+  pypi_id: autolink-references-mkdocs-plugin
+  labels: [plugin]
+  category: links-refs
+- name: autorefs
+  github_id: mkdocstrings/autorefs
+  pypi_id: mkdocs-autorefs
+  labels: [plugin]
+  category: links-refs
+- name: ezlinks
+  github_id: orbikm/mkdocs-ezlinks-plugin
+  labels: [plugin]
+  category: links-refs
+- name: autoreflinks
+  github_id: pauloue/mkdocs-autoreflinks-plugin
+  labels: [plugin]
+  category: links-refs
+- name: autolinks
+  github_id: midnightprioriem/mkdocs-autolinks-plugin
+  labels: [plugin]
+  category: links-refs
+- name: roamlinks
+  github_id: Jackiexiao/mkdocs-roamlinks-plugin
+  pypi_id: mkdocs-roamlinks-plugin
+  labels: [plugin]
+  category: links-refs
+- name: abs-to-rel
+  github_id: sander76/mkdocs-abs-rel-plugin
+  labels: [plugin]
+  category: links-refs
+- name: webcontext
+  github_id: Darrelk/mkdocs-webcontext-plugin
+  pypi_id: mkdocs-webcontext-plugin
+  labels: [plugin]
+  category: links-refs
+- name: emailprotect
+  github_id: rkoe/mkdocs-emailprotect
+  labels: [plugin]
+  category: links-refs
+- name: linkpatcher-plugin
+  github_id: sekikawattt/mkdocs-linkpatcher-plugin
+  labels: [plugin]
+  category: links-refs
+- name: mkdocs-redirects
+  github_id: mkdocs/mkdocs-redirects
+  pypi_id: mkdocs-redirects
+  labels: [plugin]
+  category: links-refs
+- name: htmlproofer
+  github_id: manuzhang/mkdocs-htmlproofer-plugin
+  pypi_id: mkdocs-htmlproofer-plugin
+  labels: [plugin]
+  category: links-refs
+- name: tooltipster-links
+  github_id: midnightprioriem/mkdocs-tooltipster-links-plugin
+  pypi_id: mkdocs-tooltipster-links-plugin
+  labels: [plugin]
+  category: links-refs
+- name: alternate-link
+  github_id: cmitu/mkdocs-altlink-plugin
+  labels: [plugin]
+  category: links-refs
+- name: mkdocs-alias-plugin
+  github_id: eddyluten/mkdocs-alias-plugin
+  pypi_id: mkdocs-alias-plugin
+  labels: [plugin]
+  category: links-refs
+
+- name: exclude
+  github_id: apenwarr/mkdocs-exclude
+  labels: [plugin]
+  category: nav-pages
+- name: select-files
+  description: Filter pages for assignments
+  github_id: supcik/mkdocs-select-files
+  pypi_id: mkdocs-select-files
+  labels: [plugin]
+  category: nav-pages
+- name: awesome-pages
+  github_id: lukasgeiter/mkdocs-awesome-pages-plugin
+  pypi_id: mkdocs-awesome-pages-plugin
+  labels: [plugin]
+  category: nav-pages
+- name: mkdocs-nav-enhancements
+  github_id: Rylon/mkdocs-nav-enhancements
+  pypi_id: mkdocs-nav-enhancements
+  labels: [plugin]
+  category: nav-pages
+- name: section-index
+  github_id: oprypin/mkdocs-section-index
+  pypi_id: mkdocs-section-index
+  labels: [plugin]
+  category: nav-pages
+- name: literate-nav
+  github_id: oprypin/mkdocs-literate-nav
+  pypi_id: mkdocs-literate-nav
+  labels: [plugin]
+  category: nav-pages
+- name: encryptcontent
+  github_id: CoinK0in/mkdocs-encryptcontent-plugin
+  pypi_id: mkdocs-encryptcontent-plugin
+  labels: [plugin]
+  category: nav-pages
+- name: awesome-list
+  github_id: carlosperate/mkdocs-awesome-list-plugin
+  labels: [plugin]
+  category: nav-pages
+- name: toc-sidebar
+  github_id: midnightprioriem/mkdocs-toc-sidebar-plugin
+  pypi_id: mkdocs-toc-sidebar-plugin
+  labels: [plugin]
+  category: nav-pages
+- name: mkdocs-simple-hooks
+  github_id: aklajnert/mkdocs-simple-hooks
+  pypi_id: mkdocs-simple-hooks
+  labels: [plugin]
+  category: nav-pages
+- name: schema-reader
+  github_id: magicaljellybeans/mkdocs_schema_reader
+  pypi_id: mkdocs-schema-reader
+  labels: [plugin]
+  license: MIT
+  category: nav-pages
+- name: pagenav-generator
+  github_id: Andre601/mkdocs-pagenav-generator
+  labels: [plugin]
+  license: MIT
+  category: nav-pages
+- name: mkdocs-categories-plugin
+  github_id: eddyluten/mkdocs-categories-plugin
+  pypi_id: mkdocs-categories-plugin
+  labels: [plugin]
+  category: nav-pages
+- name: filename-title
+  github_id: mipro98/mkdocs-filename-title-plugin
+  labels: [plugin]
+  category: nav-pages
+- name: mkdocs-title-casing-plugin
+  github_id: Rusty3141/mkdocs-title-casing-plugin
+  pypi_id: mkdocs-title-casing-plugin
+  labels: [plugin]
+  category: nav-pages
+- name: MkRefs
+  github_id: DerwenAI/mkrefs
+  pypi_id: mkrefs
+  labels: [plugin]
+  category: nav-pages
+- name: mkdocs-pug
+  github_id: vzhong/mkdocs_pug
+  pypi_id: mkdocs-pug
+  labels: [plugin]
+  category: nav-pages
+- name: SWAN Gallery
+  github_id: swan-cern/mkdocs-swangallery
+  pypi_id: mkdocs-swangallery
+  labels: [plugin]
+  category: nav-pages
+- name: mkdocs-gallery
+  github_id: smarie/mkdocs-gallery
+  pypi_id: mkdocs-gallery
+  labels: [plugin]
+  category: nav-pages
+- name: mkdocs-copy
+  github_id: chikamichi/mkdocs-copy
+  pypi_id: mkdocs-copy
+  labels: [plugin]
+  category: nav-pages
+
+- name: mkdocs-spellcheck
+  github_id: pawamoy/mkdocs-spellcheck
+  pypi_id: mkdocs-spellcheck
+  labels: [plugin]
+  category: quality
+- name: mkdocs-code-validator
+  github_id: oprypin/mkdocs-code-validator
+  pypi_id: mkdocs-code-validator
+  labels: [plugin]
+  category: quality
+- name: mkdocs-codecheck
+  description: Traverses a directory tree looking for code samples, then attempts to validate each code sample found.
+  github_id: byrnereese/codechecker-mkdocs
+  pypi_id: mkdocs-codecheck
+  labels: [plugin]
+  category: quality
+- name: Link Checker
+  github_id: byrnereese/linkchecker-mkdocs
+  pypi_id: mkdocs-linkcheck
+  labels: [plugin]
+  category: quality
+
+- name: localsearch
+  github_id: wilhelmer/mkdocs-localsearch
+  pypi_id: mkdocs-localsearch
+  labels: [plugin]
+  category: search-toc
+- name: exclude-search
+  github_id: chrieke/mkdocs-exclude-search
+  pypi_id: mkdocs-exclude-search
+  labels: [plugin]
+  category: search-toc
+- name: tags
+  description: Processes tags in yaml metadata
+  github_id: jldiaz/mkdocs-plugin-tags
+  pypi_id: mkdocs-plugin-tags
+  labels: [plugin]
+  category: search-toc
 
 - name: mkdocs-with-pdf
   github_id: orzih/mkdocs-with-pdf
@@ -511,102 +627,238 @@ projects:
   pypi_id: mkdocs-helm
   labels: [plugin]
   category: site-conversion
+- name: mkdocs-pandoc
+  github_id: jgrassler/mkdocs-pandoc
+  pypi_id: mkdocs-pandoc
+  labels: [plugin]
+  category: site-conversion
+- name: mkdocs-autozip
+  github_id: martinohanlon/mkdocs_autozip
+  pypi_id: mkdocs-autozip
+  labels: [plugin]
+  category: site-conversion
 
-- name: blog
-  github_id: andyoakley/mkdocs-blog
+- name: mkdocs-multirepo-plugin
+  github_id: jdoiro3/mkdocs-multirepo-plugin
+  pypi_id: mkdocs-multirepo-plugin
   labels: [plugin]
-  category: blogging
-- name: Blogs for MkDocs
-  github_id: fmaida/mkdocs-blog-plugin
+  category: site-management
+- name: monorepo
+  github_id: backstage/mkdocs-monorepo-plugin
+  pypi_id: mkdocs-monorepo-plugin
   labels: [plugin]
-  category: blogging
-- name: rss
-  github_id: Guts/mkdocs-rss-plugin
-  pypi_id: mkdocs-rss-plugin
+  category: site-management
+- name: multirepo
+  github_id: wilhelmer/mkdocs-multirepo
+  pypi_id: mkdocs-multirepo
   labels: [plugin]
-  category: blogging
-- name: newsletter
-  github_id: lyz-code/mkdocs-newsletter
-  pypi_id: mkdocs-newsletter
+  category: site-management
+- name: multiple
+  github_id: experimaestro/mkdocs-multiple
+  pypi_id: mkdocs-multiple
   labels: [plugin]
-  category: blogging
-- name: mkdocs-blogging-plugin
-  github_id: liang2kl/mkdocs-blogging-plugin
-  pypi_id: mkdocs-blogging-plugin
+  category: site-management
+- name: simple
+  github_id: athackst/mkdocs-simple-plugin
+  pypi_id: mkdocs-simple-plugin
   labels: [plugin]
-  category: blogging
+  category: site-management
+- name: mkdocs-versioning
+  github_id: zayd62/mkdocs-versioning
+  pypi_id: mkdocs-versioning
+  labels: [plugin]
+  category: site-management
+- name: mike
+  github_id: jimporter/mike
+  pypi_id: mike
+  labels: [plugin]
+  category: site-management
+- name: mkdocs-new-features-notifier
+  github_id: kevin-411/mkdocs-new-features-notifier
+  pypi_id: mkdocs-new-features-notifier
+  labels: [plugin]
+  category: site-management
+- name: progress
+  github_id: rdilweb/mkdocs-plugin-progress
+  labels: [plugin]
+  category: site-management
+- name: octadocs-adr
+  github_id: octadocs/octadocs
+  pypi_id: octadocs-adr
+  labels: [plugin]
+  category: site-management
+- name: MkDocs Merge
+  github_id: ovasquez/mkdocs-merge
+  pypi_id: mkdocs-merge
+  labels: [plugin]
+  category: site-management
 
-- name: swagger
-  github_id: allevo/mkdocs-swagger-plugin
+- name: mkdocs-embed-external-markdown
+  github_id: fire1ce/mkdocs-embed-external-markdown
+  pypi_id: mkdocs-embed-external-markdown
   labels: [plugin]
-  category: web-services
-- name: factsheet
-  github_id: inuits/mkdocs-factsheet
+  license: MIT
+  category: snippets-include
+- name: codeinclude
+  description: A plugin to include code snippets into mkdocs pages
+  github_id: rnorth/mkdocs-codeinclude-plugin
+  pypi_id: mkdocs-codeinclude-plugin
   labels: [plugin]
-  category: web-services
+  category: snippets-include
+- name: snippet
+  github_id: mprivat/mkdocs-snippet-plugin
+  pypi_id: mkdocs-snippet-plugin
+  labels: [plugin]
+  category: snippets-include
+- name: git snippet
+  github_id: SamazoOo/mkdocs-gitsnippet-plugin
+  pypi_id: mkdocs-gitsnippet-plugin
+  labels: [plugin]
+  category: snippets-include
+- name: include-markdown
+  github_id: mondeja/mkdocs-include-markdown-plugin
+  pypi_id: mkdocs-include-markdown-plugin
+  labels: [plugin]
+  category: snippets-include
+- name: meta-descriptions
+  github_id: prcr/mkdocs-meta-descriptions-plugin
+  pypi_id: mkdocs-meta-descriptions-plugin
+  labels: [plugin]
+  category: snippets-include
 
-- name: img2fig
-  github_id: stuebersystems/mkdocs-img2fig-plugin
-  labels: [plugin]
-  category: charts
-- name: table-reader
-  github_id: timvink/mkdocs-table-reader-plugin
-  pypi_id: mkdocs-table-reader-plugin
-  labels: [plugin]
-  category: charts
-- name: charts
-  github_id: timvink/mkdocs-charts-plugin
-  pypi_id: mkdocs-charts-plugin
-  labels: [plugin]
-  category: charts
-- name: drawio-exporter
-  github_id: LukeCarrier/mkdocs-drawio-exporter
-  pypi_id: mkdocs-drawio-exporter
-  labels: [plugin]
-  category: charts
-- name: markdownmermaid
-  github_id: pugong/mkdocs-mermaid-plugin
-  pypi_id: mkdocs-mermaid-plugin
-  labels: [plugin]
-  category: charts
-- name: mermaid2
-  github_id: fralau/mkdocs-mermaid2-plugin
-  pypi_id: mkdocs-mermaid2-plugin
-  labels: [plugin]
-  category: charts
-- name: markdownwavedrom
-  github_id: kuri65536/mkdocs-wavedrom-plugin
-  pypi_id: mkdocs-wavedrom-plugin
-  labels: [plugin]
-  category: charts
-- name: build-plantuml
-  github_id: christo-ph/mkdocs_build_plantuml
-  pypi_id: mkdocs-build-plantuml-plugin
-  labels: [plugin]
-  category: charts
-- name: sequence-js
-  github_id: fcannizzaro/mkdocs-sequence-js-plugin
-  labels: [plugin]
-  category: charts
-- name: kroki
-  github_id: AVATEAM-IT-SYSTEMHAUS/mkdocs-kroki-plugin
-  pypi_id: mkdocs-kroki-plugin
-  labels: [plugin]
-  category: charts
+- name: Material for MkDocs
+  github_id: squidfunk/mkdocs-material
+  pypi_id: mkdocs-material
+  labels: [theme]
+  category: theming
+- name: Cinder
+  github_id: chrissimpkins/cinder
+  labels: [theme]
+  category: theming
+- name: Windmill
+  github_id: gristlabs/mkdocs-windmill
+  pypi_id: mkdocs-windmill
+  labels: [theme]
+  category: theming
+- name: Windmill Dark
+  github_id: noraj/mkdocs-windmill-dark
+  pypi_id: mkdocs-windmill-dark
+  labels: [theme]
+  category: theming
+- name: mkdocs-rtl
+  github_id: mberneti/mkdocs-rtl
+  labels: [theme]
+  category: theming
+- name: docSkimmer
+  github_id: hfagerlund/mkdocs-docskimmer
+  labels: [theme]
+  category: theming
+- name: mkdocs-theme-topdf
+  github_id: kuri65536/mkdocs-theme-topdf
+  pypi_id: mkdocs-theme-topdf
+  labels: [theme]
+  category: theming
+- name: KPN for MkDocs
+  github_id: kpn/mkdocs-kpn-theme
+  pypi_id: mkdocs-kpn
+  labels: [theme]
+  category: theming
+- name: CustomMill
+  github_id: Siphalor/mkdocs-custommill
+  pypi_id: mkdocs-custommill
+  labels: [theme]
+  category: theming
+- name: Bootstrap4
+  github_id: byrnereese/mkdocs-bootstrap4
+  pypi_id: mkdocs-bootstrap4
+  labels: [theme]
+  category: theming
+- name: Bootstrap 4
+  github_id: LukeCarrier/mkdocs-theme-bootstrap4
+  pypi_id: mkdocs-theme-bootstrap4
+  labels: [theme]
+  category: theming
+- name: Nature
+  github_id: waylan/mkdocs-nature
+  pypi_id: mkdocs-nature
+  labels: [theme]
+  category: theming
+- name: GitHub
+  github_id: g3xx/mkdocs-Github
+  pypi_id: mkdocs-github
+  labels: [theme]
+  category: theming
+- name: Bootswatch
+  github_id: mkdocs/mkdocs-bootswatch
+  pypi_id: mkdocs-bootswatch
+  labels: [theme]
+  category: theming
+- name: BOOTSTRAP386
+  gitlab_id: lramage/mkdocs-bootstrap386
+  pypi_id: mkdocs-bootstrap386
+  labels: [theme]
+  category: theming
+- name: GitBook
+  gitlab_id: lramage/mkdocs-gitbook-theme
+  pypi_id: mkdocs-gitbook
+  labels: [theme]
+  category: theming
+- name: Ivory
+  github_id: daizutabi/mkdocs-ivory
+  pypi_id: mkdocs-ivory
+  labels: [theme]
+  category: theming
+- name: SWAN
+  github_id: swan-cern/mkdocs-swan
+  pypi_id: mkdocs-swan
+  labels: [theme]
+  category: theming
+- name: Zettelkasten
+  github_id: buvis-net/mkdocs-zettelkasten
+  pypi_id: mkdocs-zettelkasten
+  labels: [theme]
+  category: theming
+- name: Cluster
+  description: Another bootstrap theme for MkDocs
+  gitlab_id: kaliko/mkdocs-cluster
+  pypi_id: mkdocs-cluster
+  labels: [theme]
+  category: theming
+- name: Unidata
+  github_id: mjames-upc/mkdocs-unidata
+  pypi_id: mkdocs-unidata
+  labels: [theme]
+  category: theming
+- name: Moonstone
+  github_id: byrnereese/mkdocs-moonstone
+  pypi_id: mkdocs-moonstone
+  labels: [theme]
+  category: theming
+- name: Jinks
+  github_id: anetwork/mkdocs-jinks-theme
+  pypi_id: mkdocs-jinks
+  labels: [theme]
+  category: theming
+- name: Inspired
+  github_id: rnason/mkdocs-inspired
+  pypi_id: mkdocs-inspired
+  labels: [theme]
+  category: theming
+- name: Semantic
+  description: Semantic-UI Theme for MkDocs
+  github_id: cryocaustik/mkdocs-semantic
+  pypi_id: mkdocs-semantic
+  labels: [theme]
+  category: theming
+- name: Alabaster
+  github_id: notpushkin/mkdocs-alabaster
+  pypi_id: mkdocs-alabaster
+  labels: [theme]
+  category: theming
 
 - name: bibtex
   github_id: shyamd/mkdocs-bibtex
   pypi_id: mkdocs-bibtex
-  labels: [plugin]
-  category: other
-- name: mkdocs-coverage
-  github_id: pawamoy/mkdocs-coverage
-  pypi_id: mkdocs-coverage
-  labels: [plugin]
-  category: other
-- name: mkdocs-spellcheck
-  github_id: pawamoy/mkdocs-spellcheck
-  pypi_id: mkdocs-spellcheck
   labels: [plugin]
   category: other
 - name: pico-8
