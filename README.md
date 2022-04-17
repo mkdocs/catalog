@@ -245,6 +245,7 @@ This curated list contains 120 awesome open-source projects with a total of 13K 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 <details><summary><b><a href="https://github.com/mkdocs/mkdocs-redirects">mkdocs-redirects</a></b> (🥇18 ·  ⭐ 63) - Open source plugin for Mkdocs page redirects. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://cdn.icon-icons.com/icons2/196/PNG/128/plugin_23710.png" style="display:inline;" width="13" height="13"></code></summary>
+
 - [GitHub](https://github.com/mkdocs/mkdocs-redirects) (👨‍💻 9 · 🔀 8 · 📦 700 · 📋 18 - 55% open · ⏱️ 30.03.2022):
 
 	```
