@@ -118,6 +118,7 @@ projects:
   labels: [plugin]
   category: nav-pages
 - name: select-files
+  description: Filter pages for assignments
   github_id: supcik/mkdocs-select-files
   pypi_id: mkdocs-select-files
   labels: [plugin]
@@ -170,6 +171,7 @@ projects:
 - name: pagenav-generator
   github_id: Andre601/mkdocs-pagenav-generator
   labels: [plugin]
+  license: MIT
   category: nav-pages
 - name: mkdocs-categories-plugin
   github_id: eddyluten/mkdocs-categories-plugin
@@ -188,6 +190,7 @@ projects:
   labels: [plugin]
   category: search-toc
 - name: tags
+  description: Processes tags in yaml metadata
   github_id: jldiaz/mkdocs-plugin-tags
   pypi_id: mkdocs-plugin-tags
   labels: [plugin]
@@ -355,11 +358,14 @@ projects:
   github_id: rahult/mkdocs-user-defined-values
   pypi_id: mkdocs-user-defined-values
   labels: [plugin]
+  license: MIT
   category: code-exec-templating
 - name: mkdocs_protobuf
+  description: Mkdocs plugin to render protobuf messages
   github_id: rymurr/mkdocs-protobuf
   pypi_id: mkdocs_protobuf
   labels: [plugin]
+  license: Apache-2
   category: code-exec-templating
 
 - name: mkdocs-embed-external-markdown
@@ -369,6 +375,7 @@ projects:
   license: MIT
   category: snippets-include
 - name: codeinclude
+  description: A plugin to include code snippets into mkdocs pages
   github_id: rnorth/mkdocs-codeinclude-plugin
   pypi_id: mkdocs-codeinclude-plugin
   labels: [plugin]
@@ -416,6 +423,7 @@ projects:
   labels: [plugin]
   category: git-info
 - name: git-committers-2
+  description: An MkDocs plugin to create a list of contributors on the page
   github_id: ojacques/mkdocs-git-committers-plugin-2
   pypi_id: mkdocs-git-committers-plugin-2
   labels: [plugin]
