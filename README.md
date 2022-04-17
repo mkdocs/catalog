@@ -31,7 +31,7 @@ This curated list contains 160 awesome open-source projects with a total of 14K 
 - [💬 Internationalization & localization](#-internationalization--localization) _2 projects_
 - [🔗 Links & references](#-links--references) _15 projects_
 - [🧭 Navigation & page building](#-navigation--page-building) _20 projects_
-- [Quality checks (code blocks, spelling, etc.)](#quality-checks-code-blocks-spelling-etc) _4 projects_
+- [✅ Quality checks (code blocks, spelling, etc.)](#-quality-checks-code-blocks-spelling-etc) _4 projects_
 - [🔍 Search & tables of content](#-search--tables-of-content) _3 projects_
 - [📄 Site conversion (PDF/ePUB/etc.)](#-site-conversion-pdfepubetc) _9 projects_
 - [⚙️ Site management](#-site-management) _11 projects_
@@ -606,7 +606,7 @@ This curated list contains 160 awesome open-source projects with a total of 14K 
 </details>
 <br>
 
-## Quality checks (code blocks, spelling, etc.)
+## ✅ Quality checks (code blocks, spelling, etc.)
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 

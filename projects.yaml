@@ -30,7 +30,7 @@ categories:
 - category: nav-pages
   title: 🧭 Navigation & page building
 - category: quality
-  title: Quality checks (code blocks, spelling, etc.)
+  title: ✅ Quality checks (code blocks, spelling, etc.)
 - category: search-toc
   title: 🔍 Search & tables of content
 - category: site-conversion
@@ -861,6 +861,7 @@ projects:
   github_id: shyamd/mkdocs-bibtex
   pypi_id: mkdocs-bibtex
   labels: [plugin]
+  license: BSD-3-Clause-LBNL
   category: other
 - name: pico-8
   github_id: fmaida/pico8-mkdocs-plugin
