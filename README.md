@@ -22,7 +22,7 @@ This curated list contains 130 awesome open-source projects with a total of 27K 
 ## Contents
 
 - [⚙️ Site management](#-site-management) _10 projects_
-- [Theming](#theming) _1 projects_
+- [🎨 Theming](#theming) _1 projects_
 - [💬 Internationalization & localization](#-internationalization--localization) _2 projects_
 - [🧭 Navigation & page building](#-navigation--page-building) _14 projects_
 - [🔍 Search & tables of content](#-search--tables-of-content) _6 projects_

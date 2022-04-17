@@ -5,49 +5,49 @@ configuration:
 categories:
 - category: site-management
   title: ⚙️ Site management
-  # subtitle:
 - category: theming
-  title: Theming
-- category: internationalization--localization
+  title: 🎨 Theming
+- category: i18n-l10n
   title: 💬 Internationalization & localization
-- category: navigation--page-building
+- category: nav-pages
   title: 🧭 Navigation & page building
-- category: search--tables-of-content
+- category: search-toc
   title: 🔍 Search & tables of content
-- category: links--references
+- category: links-refs
   title: 🔗 Links & references
-- category: html-processing--css-styling
+- category: html-css
   title: 🖌️ HTML processing & CSS styling
-- category: code-execution-variables--templating
+- category: code-exec-templating
   title: 📝 Code execution, variables & templating
-- category: git-repos--info
+- category: git-info
   title: ":octocat: Git repos & info"
-- category: reusing-content-snippets--includes
+- category: snippets-include
   title: 📁 Reusing content, snippets & includes
-- category: api-documentation-building
+- category: api-docs
   title: 💻 API documentation building
 - category: authoring
   title: 📜 Authoring
-- category: pdf--site-conversion
+- category: site-conversion
   title: 📄 PDF & site conversion
 - category: blogging
   title: 📖 Blogging
 - category: web-services
   title: 🌐 Web services
-- category: citations--bibliography
-  title: 📚 Citations & bibliography
-- category: images-tables-charts--graphs
+- category: charts
   title: 🖼️ Images, Tables, Charts & Graphs
 - category: other
   title: ➕ Other
 
 labels:
 - label: plugin
-  image: https://cdn.icon-icons.com/icons2/1364/PNG/512/electricplug_89099.png
-  description: Plugin
+  image: https://cdn.icon-icons.com/icons2/196/PNG/128/plugin_23710.png
+  description: MkDocs plugin
 - label: theme
-  image: https://cdn.icon-icons.com/icons2/2248/PNG/512/theme_light_dark_icon_137104.png
-  description: Theme
+  image: https://cdn.icon-icons.com/icons2/1495/PNG/512/preferencesdesktoptheme_102980.png
+  description: MkDocs theme
+- label: project
+  image: https://cdn.icon-icons.com/icons2/1450/PNG/512/scienceandfiction-finish_99238.png
+  description: Mkdocs-based project (website, templates, etc.)
 
 projects:
 - name: Material for MkDocs
@@ -99,339 +99,339 @@ projects:
 - name: static-i18n
   github_id: ultrabug/mkdocs-static-i18n
   labels: [plugin]
-  category: internationalization--localization
+  category: i18n-l10n
 - name: mkdocs-mdpo
   github_id: mondeja/mkdocs-mdpo-plugin
   labels: [plugin]
-  category: internationalization--localization
+  category: i18n-l10n
 
 - name: exclude
   github_id: apenwarr/mkdocs-exclude
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: select-files
   github_id: supcik/mkdocs-select-files
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: awesome-pages
   github_id: lukasgeiter/mkdocs-awesome-pages-plugin
   labels: [plugin]
-  category: navigation--page-building
-- name: mkdocs-nav-enhancements
-  github_id: Rylon/mkdocs-nav-enhancements
+  category: nav-pages
+- name: mkdocs-nav-pages-enhancements
+  github_id: Rylon/mkdocs-nav-pages-enhancements
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: navtitles
   github_id: andyoakley/mkdocs-navtitles
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: section-index
   github_id: oprypin/mkdocs-section-index
   labels: [plugin]
-  category: navigation--page-building
-- name: literate-nav
-  github_id: oprypin/mkdocs-literate-nav
+  category: nav-pages
+- name: literate-nav-pages
+  github_id: oprypin/mkdocs-literate-nav-pages
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: encryptcontent
   github_id: CoinK0in/mkdocs-encryptcontent-plugin
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: awesome-list
   github_id: carlosperate/mkdocs-awesome-list-plugin
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: toc-sidebar
   github_id: midnightprioriem/mkdocs-toc-sidebar-plugin
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: mkdocs-simple-hooks
   github_id: aklajnert/mkdocs-simple-hooks
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: schema-reader
   github_id: magicaljellybeans/mkdocs_schema_reader
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: pagenav-generator
   github_id: Andre601/mkdocs-pagenav-generator
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 - name: mkdocs-categories-plugin
   github_id: eddyluten/mkdocs-categories-plugin
   labels: [plugin]
-  category: navigation--page-building
+  category: nav-pages
 
 - name: search
   github_id: mkdocs/mkdocs
   labels: [plugin]
-  category: search--tables-of-content
+  category: search-toc
 - name: fastsearch
   github_id: andyoakley/mkdocs-fastsearch
   labels: [plugin]
-  category: search--tables-of-content
+  category: search-toc
 - name: localsearch
   github_id: wilhelmer/mkdocs-localsearch
   labels: [plugin]
-  category: search--tables-of-content
+  category: search-toc
 - name: exclude-search
   github_id: chrieke/mkdocs-exclude-search
   labels: [plugin]
-  category: search--tables-of-content
+  category: search-toc
 - name: tags
   github_id: jldiaz/mkdocs-plugin-tags
   labels: [plugin]
-  category: search--tables-of-content
+  category: search-toc
 - name: mdoctag
   github_id: srymh/MkdocsTagPlugin
   labels: [plugin]
-  category: search--tables-of-content
+  category: search-toc
 
 - name: Autolink References
   github_id: theskumar/autolink-references-mkdocs-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: autorefs
   github_id: mkdocstrings/autorefs
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: ezlinks
   github_id: orbikm/mkdocs-ezlinks-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: autoreflinks
   github_id: pauloue/mkdocs-autoreflinks-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: autolinks
   github_id: midnightprioriem/mkdocs-autolinks-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: roamlinks
   github_id: Jackiexiao/mkdocs-roamlinks-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: abs-to-rel
   github_id: sander76/mkdocs-abs-rel-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: webcontext
   github_id: Darrelk/mkdocs-webcontext-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: emailprotect
   github_id: rkoe/mkdocs-emailprotect
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: linkpatcher-plugin
   github_id: sekikawattt/mkdocs-linkpatcher-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: datarobot
   github_id: mkdocs/mkdocs-redirects
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: htmlproofer
   github_id: manuzhang/mkdocs-htmlproofer-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: tooltipster-links
   github_id: midnightprioriem/mkdocs-tooltipster-links-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: alternate-link
   github_id: cmitu/mkdocs-altlink-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 - name: mkdocs-alias-plugin
   github_id: eddyluten/mkdocs-alias-plugin
   labels: [plugin]
-  category: links--references
+  category: links-refs
 
 - name: docstyler
   github_id: hfagerlund/mkdocs-docstyler-plugin
   labels: [plugin]
-  category: html-processing--css-styling
+  category: html-css
 - name: mkdocs-add-teaser
   github_id: wilhelmer/mkdocs-add-teaser
   labels: [plugin]
-  category: html-processing--css-styling
+  category: html-css
 - name: mkdocs_safe_text
   github_id: raimon49/mkdocs-safe-text-plugin
   labels: [plugin]
-  category: html-processing--css-styling
+  category: html-css
 - name: minify
   github_id: byrnereese/mkdocs-minify-plugin
   labels: [plugin]
-  category: html-processing--css-styling
+  category: html-css
 - name: bootstrap-tables
   github_id: byrnereese/mkdocs-bootstrap-tables-plugin
   labels: [plugin]
-  category: html-processing--css-styling
+  category: html-css
 - name: add-number
   github_id: ignorantshr/mkdocs-add-number-plugin
   labels: [plugin]
-  category: html-processing--css-styling
+  category: html-css
 - name: enumerate-headings
   github_id: timvink/mkdocs-enumerate-headings-plugin
   labels: [plugin]
-  category: html-processing--css-styling
+  category: html-css
 
 - name: pheasant
   github_id: daizutabi/pheasant
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: macros
   github_id: fralau/mkdocs_macros_plugin
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: markdownextradata
   github_id: rosscdh/mkdocs-markdownextradata-plugin
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: jinja2sandbox
   github_id: rkoe/mkdocs-jinja2sandbox
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: jinja2
   github_id: andyoakley/mkdocs-jinja2
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: gen-files
   github_id: oprypin/mkdocs-gen-files
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: mkdocs-markmap
   github_id: neatc0der/mkdocs-markmap
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: nbconvert
   github_id: tanbro/mkdocs-nbconvert
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: mknotebooks
   github_id: greenape/mknotebooks
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: mkdocs-jupyter
   github_id: danielfrg/mkdocs-jupyter
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: codeyaml
   github_id: textileio/mkdocs-codeyaml-plugin
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: markdown-filter
   github_id: byrnereese/mkdocs-markdown-filter
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: theme-jinja2-filters
   github_id: burnedikt/mkdocs-jinja2-filters-plugin
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: mathy
   github_id: justindujardin/mathy
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: user-defined-values
   github_id: rahult/mkdocs-user-defined-values
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 - name: mkdocs_protobuf
   github_id: rymurr/mkdocs-protobuf
   labels: [plugin]
-  category: code-execution-variables--templating
+  category: code-exec-templating
 
 - name: mkdocs-embed-external-markdown
   github_id: fire1ce/mkdocs-embed-external-markdown
   labels: [plugin]
-  category: reusing-content-snippets--includes
+  category: snippets-include
 - name: codeinclude
   github_id: rnorth/mkdocs-codeinclude-plugin
   labels: [plugin]
-  category: reusing-content-snippets--includes
+  category: snippets-include
 - name: replace
   github_id: SivagiriVisakan/mkdocs-replace-plugin
   labels: [plugin]
-  category: reusing-content-snippets--includes
+  category: snippets-include
 - name: snippet
   github_id: mprivat/mkdocs-snippet-plugin
   labels: [plugin]
-  category: reusing-content-snippets--includes
+  category: snippets-include
 - name: git snippet
   github_id: SamazoOo/mkdocs-gitsnippet-plugin
   labels: [plugin]
-  category: reusing-content-snippets--includes
+  category: snippets-include
 - name: include-markdown
   github_id: mondeja/mkdocs-include-markdown-plugin
   labels: [plugin]
-  category: reusing-content-snippets--includes
+  category: snippets-include
 - name: meta-descriptions
   github_id: prcr/mkdocs-meta-descriptions-plugin
   labels: [plugin]
-  category: reusing-content-snippets--includes
+  category: snippets-include
 
 - name: branchcustomization
   github_id: effigies/mkdocs-branchcustomization-plugin
   labels: [plugin]
-  category: git-repos--info
+  category: git-info
 - name: git-revision-date-localized
   github_id: timvink/mkdocs-git-revision-date-localized-plugin
   labels: [plugin]
-  category: git-repos--info
+  category: git-info
 - name: git-revision-date
   github_id: zhaoterryy/mkdocs-git-revision-date-plugin
   labels: [plugin]
-  category: git-repos--info
+  category: git-info
 - name: git-authors
   github_id: timvink/mkdocs-git-authors-plugin
   labels: [plugin]
-  category: git-repos--info
+  category: git-info
 - name: git-committers-2
   github_id: ojacques/mkdocs-git-committers-plugin-2
   labels: [plugin]
-  category: git-repos--info
+  category: git-info
 - name: git-committers
   github_id: byrnereese/mkdocs-git-committers-plugin
   labels: [plugin]
-  category: git-repos--info
+  category: git-info
 - name: git-latest-tag
   github_id: agarthetiger/mkdocs_latest_release_plugin
   labels: [plugin]
-  category: git-repos--info
+  category: git-info
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
   labels: [plugin]
-  category: api-documentation-building
+  category: api-docs
 - name: mkdocstrings
   github_id: mkdocstrings/mkdocstrings
   labels: [plugin]
-  category: api-documentation-building
+  category: api-docs
 - name: MkAutoDoc
   github_id: tomchristie/mkautodoc
   labels: [plugin]
-  category: api-documentation-building
+  category: api-docs
 - name: doxygen
   github_id: pieterdavid/mkdocs-doxygen-plugin
   labels: [plugin]
-  category: api-documentation-building
+  category: api-docs
 - name: dodoc
   github_id: plasmatech8/Python-Mkdocs-Autodoc-Plugin
   labels: [plugin]
-  category: api-documentation-building
+  category: api-docs
 - name: inari
   github_id: tkamenoko/inari
   labels: [plugin]
-  category: api-documentation-building
+  category: api-docs
 - name: mktheapidocs
   github_id: greenape/mktheapidocs
   labels: [plugin]
-  category: api-documentation-building
+  category: api-docs
 - name: MkApi
   github_id: daizutabi/mkapi
   labels: [plugin]
-  category: api-documentation-building
+  category: api-docs
 
 - name: edit_url
   github_id: dhis2/dhis2-docs
@@ -445,31 +445,31 @@ projects:
 - name: mkdocs-with-pdf
   github_id: orzih/mkdocs-with-pdf
   labels: [plugin]
-  category: pdf--site-conversion
+  category: site-conversion
 - name: mkpdfs
   github_id: comwes/mkpdfs-mkdocs-plugin
   labels: [plugin]
-  category: pdf--site-conversion
+  category: site-conversion
 - name: pdf-export
   github_id: zhaoterryy/mkdocs-pdf-export-plugin
   labels: [plugin]
-  category: pdf--site-conversion
+  category: site-conversion
 - name: print-site
   github_id: timvink/mkdocs-print-site-plugin
   labels: [plugin]
-  category: pdf--site-conversion
+  category: site-conversion
 - name: mk2pdf-export
   github_id: HaoLiuHust/mkdocs-mk2pdf-plugin
   labels: [plugin]
-  category: pdf--site-conversion
+  category: site-conversion
 - name: pdf-with-js
   github_id: smaxtec/mkdocs-pdf-with-js-plugin
   labels: [plugin]
-  category: pdf--site-conversion
+  category: site-conversion
 - name: helm
   github_id: M00nF1sh/mkdocs-helm
   labels: [plugin]
-  category: pdf--site-conversion
+  category: site-conversion
 
 - name: blog
   github_id: andyoakley/mkdocs-blog
@@ -504,43 +504,43 @@ projects:
 - name: img2fig
   github_id: stuebersystems/mkdocs-img2fig-plugin
   labels: [plugin]
-  category: images-tables-charts--graphs
+  category: charts
 - name: table-reader
   github_id: timvink/mkdocs-table-reader-plugin
   labels: [plugin]
-  category: images-tables-charts--graphs
+  category: charts
 - name: charts
   github_id: timvink/mkdocs-charts-plugin
   labels: [plugin]
-  category: images-tables-charts--graphs
+  category: charts
 - name: drawio-exporter
   github_id: LukeCarrier/mkdocs-drawio-exporter
   labels: [plugin]
-  category: images-tables-charts--graphs
+  category: charts
 - name: markdownmermaid
   github_id: pugong/mkdocs-mermaid-plugin
   labels: [plugin]
-  category: images-tables-charts--graphs
+  category: charts
 - name: mermaid2
   github_id: fralau/mkdocs-mermaid2-plugin
   labels: [plugin]
-  category: images-tables-charts--graphs
+  category: charts
 - name: markdownwavedrom
   github_id: kuri65536/mkdocs-wavedrom-plugin
   labels: [plugin]
-  category: images-tables-charts--graphs
+  category: charts
 - name: build-plantuml
   github_id: christo-ph/mkdocs_build_plantuml
   labels: [plugin]
-  category: images-tables-charts--graphs
+  category: charts
 - name: sequence-js
   github_id: fcannizzaro/mkdocs-sequence-js-plugin
   labels: [plugin]
-  category: images-tables-charts--graphs
+  category: charts
 - name: kroki
   github_id: AVATEAM-IT-SYSTEMHAUS/mkdocs-kroki-plugin
   labels: [plugin]
-  category: images-tables-charts--graphs
+  category: charts
 
 - name: bibtex
   github_id: shyamd/mkdocs-bibtex
