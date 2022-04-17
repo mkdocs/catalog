@@ -28,8 +28,6 @@ categories:
   title: 📁 Reusing content, snippets & includes
 - category: api-docs
   title: 💻 API documentation building
-- category: authoring
-  title: 📜 Authoring
 - category: site-conversion
   title: 📄 PDF & site conversion
 - category: blogging
@@ -43,13 +41,13 @@ categories:
 
 labels:
 - label: plugin
-  image: https://cdn.icon-icons.com/icons2/196/PNG/128/plugin_23710.png
+  image: https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png
   description: MkDocs plugin
 - label: theme
   image: https://cdn.icon-icons.com/icons2/1495/PNG/512/preferencesdesktoptheme_102980.png
   description: MkDocs theme
 - label: project
-  image: https://cdn.icon-icons.com/icons2/1450/PNG/512/scienceandfiction-finish_99238.png
+  image: https://cdn.icon-icons.com/icons2/1448/PNG/512/42498factory_99134.png
   description: Mkdocs-based project (website, templates, etc.)
 
 projects:
@@ -74,12 +72,9 @@ projects:
   pypi_id: mkdocs-multirepo
   labels: [plugin]
   category: site-management
-- name: subsite
-  github_id: inuits/mkdocs-subsite
-  labels: [plugin]
-  category: site-management
 - name: multiple
   github_id: experimaestro/mkdocs-multiple
+  pypi_id: mkdocs-multiple
   labels: [plugin]
   category: site-management
 - name: simple
@@ -137,10 +132,6 @@ projects:
   pypi_id: mkdocs-nav-enhancements
   labels: [plugin]
   category: nav-pages
-- name: navtitles
-  github_id: andyoakley/mkdocs-navtitles
-  labels: [plugin]
-  category: nav-pages
 - name: section-index
   github_id: oprypin/mkdocs-section-index
   pypi_id: mkdocs-section-index
@@ -153,6 +144,7 @@ projects:
   category: nav-pages
 - name: encryptcontent
   github_id: CoinK0in/mkdocs-encryptcontent-plugin
+  pypi_id: mkdocs-encryptcontent-plugin
   labels: [plugin]
   category: nav-pages
 - name: awesome-list
@@ -173,6 +165,7 @@ projects:
   github_id: magicaljellybeans/mkdocs_schema_reader
   pypi_id: mkdocs-schema-reader
   labels: [plugin]
+  license: MIT
   category: nav-pages
 - name: pagenav-generator
   github_id: Andre601/mkdocs-pagenav-generator
@@ -184,10 +177,6 @@ projects:
   labels: [plugin]
   category: nav-pages
 
-- name: fastsearch
-  github_id: andyoakley/mkdocs-fastsearch
-  labels: [plugin]
-  category: search-toc
 - name: localsearch
   github_id: wilhelmer/mkdocs-localsearch
   pypi_id: mkdocs-localsearch
@@ -200,10 +189,7 @@ projects:
   category: search-toc
 - name: tags
   github_id: jldiaz/mkdocs-plugin-tags
-  labels: [plugin]
-  category: search-toc
-- name: mdoctag
-  github_id: srymh/MkdocsTagPlugin
+  pypi_id: mkdocs-plugin-tags
   labels: [plugin]
   category: search-toc
 
@@ -317,6 +303,7 @@ projects:
   github_id: fralau/mkdocs_macros_plugin
   pypi_id: mkdocs-macros-plugin
   labels: [plugin]
+  license: MIT
   category: code-exec-templating
 - name: markdownextradata
   github_id: rosscdh/mkdocs-markdownextradata-plugin
@@ -325,10 +312,6 @@ projects:
   category: code-exec-templating
 - name: jinja2sandbox
   github_id: rkoe/mkdocs-jinja2sandbox
-  labels: [plugin]
-  category: code-exec-templating
-- name: jinja2
-  github_id: andyoakley/mkdocs-jinja2
   labels: [plugin]
   category: code-exec-templating
 - name: gen-files
@@ -345,6 +328,7 @@ projects:
   github_id: tanbro/mkdocs-nbconvert
   pypi_id: mkdocs-nbconvert
   labels: [plugin]
+  license: MIT
   category: code-exec-templating
 - name: mknotebooks
   github_id: greenape/mknotebooks
@@ -358,19 +342,13 @@ projects:
   category: code-exec-templating
 - name: codeyaml
   github_id: textileio/mkdocs-codeyaml-plugin
+  pypi_id: mkdocs-codeyaml-plugin
   labels: [plugin]
+  license: MIT
   category: code-exec-templating
 - name: markdown-filter
   github_id: byrnereese/mkdocs-markdown-filter
   pypi_id: mkdocs-markdown-filter
-  labels: [plugin]
-  category: code-exec-templating
-- name: theme-jinja2-filters
-  github_id: burnedikt/mkdocs-jinja2-filters-plugin
-  labels: [plugin]
-  category: code-exec-templating
-- name: mathy
-  github_id: justindujardin/mathy
   labels: [plugin]
   category: code-exec-templating
 - name: user-defined-values
@@ -388,13 +366,11 @@ projects:
   github_id: fire1ce/mkdocs-embed-external-markdown
   pypi_id: mkdocs-embed-external-markdown
   labels: [plugin]
+  license: MIT
   category: snippets-include
 - name: codeinclude
   github_id: rnorth/mkdocs-codeinclude-plugin
-  labels: [plugin]
-  category: snippets-include
-- name: replace
-  github_id: SivagiriVisakan/mkdocs-replace-plugin
+  pypi_id: mkdocs-codeinclude-plugin
   labels: [plugin]
   category: snippets-include
 - name: snippet
@@ -420,7 +396,9 @@ projects:
 
 - name: branchcustomization
   github_id: effigies/mkdocs-branchcustomization-plugin
+  pypi_id: mkdocs-branchcustomization-plugin
   labels: [plugin]
+  license: MIT
   category: git-info
 - name: git-revision-date-localized
   github_id: timvink/mkdocs-git-revision-date-localized-plugin
@@ -466,13 +444,10 @@ projects:
   github_id: tomchristie/mkautodoc
   pypi_id: mkautodoc
   labels: [plugin]
+  license: BSD
   category: api-docs
 - name: doxygen
   github_id: pieterdavid/mkdocs-doxygen-plugin
-  labels: [plugin]
-  category: api-docs
-- name: dodoc
-  github_id: plasmatech8/Python-Mkdocs-Autodoc-Plugin
   labels: [plugin]
   category: api-docs
 - name: inari
@@ -490,16 +465,6 @@ projects:
   pypi_id: mkapi
   labels: [plugin]
   category: api-docs
-
-- name: edit_url
-  github_id: dhis2/dhis2-docs
-  labels: [plugin]
-  category: authoring
-- name: vim-md-tags
-  github_id: midnightprioriem/mkdocs-vim-md-tags-plugin
-  pypi_id: mkdocs-vim-md-tags-plugin
-  labels: [plugin]
-  category: authoring
 
 - name: mkdocs-with-pdf
   github_id: orzih/mkdocs-with-pdf
@@ -621,6 +586,7 @@ projects:
 
 - name: bibtex
   github_id: shyamd/mkdocs-bibtex
+  pypi_id: mkdocs-bibtex
   labels: [plugin]
   category: other
 - name: mkdocs-coverage
@@ -631,10 +597,6 @@ projects:
 - name: mkdocs-spellcheck
   github_id: pawamoy/mkdocs-spellcheck
   pypi_id: mkdocs-spellcheck
-  labels: [plugin]
-  category: other
-- name: webmsx
-  github_id: fmaida/webmsx-mkdocs-plugin
   labels: [plugin]
   category: other
 - name: pico-8
@@ -650,5 +612,10 @@ projects:
 - name: thumbnails
   github_id: normanlorrain/mkdocs-thumbnails
   pypi_id: mkdocs-thumbnails
+  labels: [plugin]
+  category: other
+- name: vim-md-tags
+  github_id: midnightprioriem/mkdocs-vim-md-tags-plugin
+  pypi_id: mkdocs-vim-md-tags-plugin
   labels: [plugin]
   category: other
