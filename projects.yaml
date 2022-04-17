@@ -251,7 +251,7 @@ projects:
   github_id: sekikawattt/mkdocs-linkpatcher-plugin
   labels: [plugin]
   category: links-refs
-- name: datarobot
+- name: mkdocs-redirects
   github_id: mkdocs/mkdocs-redirects
   pypi_id: mkdocs-redirects
   labels: [plugin]
