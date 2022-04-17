@@ -4,6 +4,8 @@ configuration:
   min_stars: 20
   min_projectrank: 5
   require_license: false
+  project_inactive_months: 12
+  project_dead_months: 99999  # "dead" is a somewhat strong assumption, so we avoid making it
 
 categories:
 - category: site-management
