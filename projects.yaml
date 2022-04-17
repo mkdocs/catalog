@@ -1,6 +1,7 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  max_description_length: 1000  # don't truncate descriptions
   min_stars: 20
   min_projectrank: 5
   require_license: false
