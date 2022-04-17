@@ -6,6 +6,8 @@ categories:
 - category: site-management
   title: ⚙️ Site management
   # subtitle:
+- category: theming
+  title: Theming
 - category: internationalization--localization
   title: 💬 Internationalization & localization
 - category: navigation--page-building
@@ -41,16 +43,24 @@ categories:
 
 labels:
 - label: plugin
-  image: 🔌
+  image: https://cdn.icon-icons.com/icons2/1364/PNG/512/electricplug_89099.png
   description: Plugin
+- label: theme
+  image: https://cdn.icon-icons.com/icons2/2248/PNG/512/theme_light_dark_icon_137104.png
+  description: Theme
 
 projects:
+- name: Material for MkDocs
+  github_id: squidfunk/mkdocs-material
+  labels: [theme]
+  category: theming
+
 - name: mkdocs-multirepo-plugin
   github_id: jdoiro3/mkdocs-multirepo-plugin
   labels: [plugin]
   category: site-management
 - name: monorepo
-  github_id: spotify/mkdocs-monorepo-plugin
+  github_id: backstage/mkdocs-monorepo-plugin
   labels: [plugin]
   category: site-management
 - name: multirepo
@@ -78,7 +88,7 @@ projects:
   labels: [plugin]
   category: site-management
 - name: mkdocs-new-features-notifier
-  github_id: obuya/mkdocs-new-features-notifier
+  github_id: kevin-411/mkdocs-new-features-notifier
   labels: [plugin]
   category: site-management
 - name: progress
@@ -176,10 +186,6 @@ projects:
   github_id: srymh/MkdocsTagPlugin
   labels: [plugin]
   category: search--tables-of-content
-- name: Material for MkDocs
-  github_id: squidfunk/mkdocs-material
-  labels: [plugin]
-  category: search--tables-of-content
 
 - name: Autolink References
   github_id: theskumar/autolink-references-mkdocs-plugin
@@ -222,7 +228,7 @@ projects:
   labels: [plugin]
   category: links--references
 - name: datarobot
-  github_id: datarobot/mkdocs-redirects
+  github_id: mkdocs/mkdocs-redirects
   labels: [plugin]
   category: links--references
 - name: htmlproofer
@@ -303,10 +309,6 @@ projects:
   github_id: tanbro/mkdocs-nbconvert
   labels: [plugin]
   category: code-execution-variables--templating
-- name: nbconvert
-  github_id: andyoakley/mkdocs-nbconvert
-  labels: [plugin]
-  category: code-execution-variables--templating
 - name: mknotebooks
   github_id: greenape/mknotebooks
   labels: [plugin]
@@ -385,7 +387,7 @@ projects:
   github_id: timvink/mkdocs-git-authors-plugin
   labels: [plugin]
   category: git-repos--info
-- name: git-committers
+- name: git-committers-2
   github_id: ojacques/mkdocs-git-committers-plugin-2
   labels: [plugin]
   category: git-repos--info
@@ -397,17 +399,13 @@ projects:
   github_id: agarthetiger/mkdocs_latest_release_plugin
   labels: [plugin]
   category: git-repos--info
-- name: macros
-  github_id: fralau/mkdocs_macros_plugin
-  labels: [plugin]
-  category: git-repos--info
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
   labels: [plugin]
   category: api-documentation-building
 - name: mkdocstrings
-  github_id: pawamoy/mkdocstrings
+  github_id: mkdocstrings/mkdocstrings
   labels: [plugin]
   category: api-documentation-building
 - name: MkAutoDoc
@@ -493,10 +491,6 @@ projects:
   github_id: liang2kl/mkdocs-blogging-plugin
   labels: [plugin]
   category: blogging
-- name: Material for MkDocs
-  github_id: squidfunk/mkdocs-material
-  labels: [plugin]
-  category: blogging
 
 - name: swagger
   github_id: allevo/mkdocs-swagger-plugin
@@ -506,11 +500,6 @@ projects:
   github_id: inuits/mkdocs-factsheet
   labels: [plugin]
   category: web-services
-
-- name: bibtex
-  github_id: materialsproject/mkdocs-bibtex
-  labels: [plugin]
-  category: citations--bibliography
 
 - name: img2fig
   github_id: stuebersystems/mkdocs-img2fig-plugin
@@ -553,6 +542,10 @@ projects:
   labels: [plugin]
   category: images-tables-charts--graphs
 
+- name: bibtex
+  github_id: shyamd/mkdocs-bibtex
+  labels: [plugin]
+  category: other
 - name: mkdocs-coverage
   github_id: pawamoy/mkdocs-coverage
   labels: [plugin]
