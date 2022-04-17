@@ -1,6 +1,9 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  min_stars: 20
+  min_projectrank: 5
+  require_license: false
 
 categories:
 - category: site-management
@@ -52,19 +55,23 @@ labels:
 projects:
 - name: Material for MkDocs
   github_id: squidfunk/mkdocs-material
+  pypi_id: mkdocs-material
   labels: [theme]
   category: theming
 
 - name: mkdocs-multirepo-plugin
   github_id: jdoiro3/mkdocs-multirepo-plugin
+  pypi_id: mkdocs-multirepo-plugin
   labels: [plugin]
   category: site-management
 - name: monorepo
   github_id: backstage/mkdocs-monorepo-plugin
+  pypi_id: mkdocs-monorepo-plugin
   labels: [plugin]
   category: site-management
 - name: multirepo
   github_id: wilhelmer/mkdocs-multirepo
+  pypi_id: mkdocs-multirepo
   labels: [plugin]
   category: site-management
 - name: subsite
@@ -77,18 +84,22 @@ projects:
   category: site-management
 - name: simple
   github_id: athackst/mkdocs-simple-plugin
+  pypi_id: mkdocs-simple-plugin
   labels: [plugin]
   category: site-management
 - name: mkdocs-versioning
   github_id: zayd62/mkdocs-versioning
+  pypi_id: mkdocs-versioning
   labels: [plugin]
   category: site-management
 - name: mike
   github_id: jimporter/mike
+  pypi_id: mike
   labels: [plugin]
   category: site-management
 - name: mkdocs-new-features-notifier
   github_id: kevin-411/mkdocs-new-features-notifier
+  pypi_id: mkdocs-new-features-notifier
   labels: [plugin]
   category: site-management
 - name: progress
@@ -98,10 +109,12 @@ projects:
 
 - name: static-i18n
   github_id: ultrabug/mkdocs-static-i18n
+  pypi_id: mkdocs-static-i18n
   labels: [plugin]
   category: i18n-l10n
 - name: mkdocs-mdpo
   github_id: mondeja/mkdocs-mdpo-plugin
+  pypi_id: mkdocs-mdpo-plugin
   labels: [plugin]
   category: i18n-l10n
 
@@ -111,14 +124,17 @@ projects:
   category: nav-pages
 - name: select-files
   github_id: supcik/mkdocs-select-files
+  pypi_id: mkdocs-select-files
   labels: [plugin]
   category: nav-pages
 - name: awesome-pages
   github_id: lukasgeiter/mkdocs-awesome-pages-plugin
+  pypi_id: mkdocs-awesome-pages-plugin
   labels: [plugin]
   category: nav-pages
-- name: mkdocs-nav-pages-enhancements
-  github_id: Rylon/mkdocs-nav-pages-enhancements
+- name: mkdocs-nav-enhancements
+  github_id: Rylon/mkdocs-nav-enhancements
+  pypi_id: mkdocs-nav-enhancements
   labels: [plugin]
   category: nav-pages
 - name: navtitles
@@ -127,10 +143,12 @@ projects:
   category: nav-pages
 - name: section-index
   github_id: oprypin/mkdocs-section-index
+  pypi_id: mkdocs-section-index
   labels: [plugin]
   category: nav-pages
-- name: literate-nav-pages
-  github_id: oprypin/mkdocs-literate-nav-pages
+- name: literate-nav
+  github_id: oprypin/mkdocs-literate-nav
+  pypi_id: mkdocs-literate-nav
   labels: [plugin]
   category: nav-pages
 - name: encryptcontent
@@ -143,14 +161,17 @@ projects:
   category: nav-pages
 - name: toc-sidebar
   github_id: midnightprioriem/mkdocs-toc-sidebar-plugin
+  pypi_id: mkdocs-toc-sidebar-plugin
   labels: [plugin]
   category: nav-pages
 - name: mkdocs-simple-hooks
   github_id: aklajnert/mkdocs-simple-hooks
+  pypi_id: mkdocs-simple-hooks
   labels: [plugin]
   category: nav-pages
 - name: schema-reader
   github_id: magicaljellybeans/mkdocs_schema_reader
+  pypi_id: mkdocs-schema-reader
   labels: [plugin]
   category: nav-pages
 - name: pagenav-generator
@@ -159,23 +180,22 @@ projects:
   category: nav-pages
 - name: mkdocs-categories-plugin
   github_id: eddyluten/mkdocs-categories-plugin
+  pypi_id: mkdocs-categories-plugin
   labels: [plugin]
   category: nav-pages
 
-- name: search
-  github_id: mkdocs/mkdocs
-  labels: [plugin]
-  category: search-toc
 - name: fastsearch
   github_id: andyoakley/mkdocs-fastsearch
   labels: [plugin]
   category: search-toc
 - name: localsearch
   github_id: wilhelmer/mkdocs-localsearch
+  pypi_id: mkdocs-localsearch
   labels: [plugin]
   category: search-toc
 - name: exclude-search
   github_id: chrieke/mkdocs-exclude-search
+  pypi_id: mkdocs-exclude-search
   labels: [plugin]
   category: search-toc
 - name: tags
@@ -189,10 +209,12 @@ projects:
 
 - name: Autolink References
   github_id: theskumar/autolink-references-mkdocs-plugin
+  pypi_id: autolink-references-mkdocs-plugin
   labels: [plugin]
   category: links-refs
 - name: autorefs
   github_id: mkdocstrings/autorefs
+  pypi_id: mkdocs-autorefs
   labels: [plugin]
   category: links-refs
 - name: ezlinks
@@ -209,6 +231,7 @@ projects:
   category: links-refs
 - name: roamlinks
   github_id: Jackiexiao/mkdocs-roamlinks-plugin
+  pypi_id: mkdocs-roamlinks-plugin
   labels: [plugin]
   category: links-refs
 - name: abs-to-rel
@@ -217,6 +240,7 @@ projects:
   category: links-refs
 - name: webcontext
   github_id: Darrelk/mkdocs-webcontext-plugin
+  pypi_id: mkdocs-webcontext-plugin
   labels: [plugin]
   category: links-refs
 - name: emailprotect
@@ -229,14 +253,17 @@ projects:
   category: links-refs
 - name: datarobot
   github_id: mkdocs/mkdocs-redirects
+  pypi_id: mkdocs-redirects
   labels: [plugin]
   category: links-refs
 - name: htmlproofer
   github_id: manuzhang/mkdocs-htmlproofer-plugin
+  pypi_id: mkdocs-htmlproofer-plugin
   labels: [plugin]
   category: links-refs
 - name: tooltipster-links
   github_id: midnightprioriem/mkdocs-tooltipster-links-plugin
+  pypi_id: mkdocs-tooltipster-links-plugin
   labels: [plugin]
   category: links-refs
 - name: alternate-link
@@ -245,6 +272,7 @@ projects:
   category: links-refs
 - name: mkdocs-alias-plugin
   github_id: eddyluten/mkdocs-alias-plugin
+  pypi_id: mkdocs-alias-plugin
   labels: [plugin]
   category: links-refs
 
@@ -258,10 +286,12 @@ projects:
   category: html-css
 - name: mkdocs_safe_text
   github_id: raimon49/mkdocs-safe-text-plugin
+  pypi_id: mkdocs-safe-text-plugin
   labels: [plugin]
   category: html-css
 - name: minify
   github_id: byrnereese/mkdocs-minify-plugin
+  pypi_id: mkdocs-minify-plugin
   labels: [plugin]
   category: html-css
 - name: bootstrap-tables
@@ -274,19 +304,23 @@ projects:
   category: html-css
 - name: enumerate-headings
   github_id: timvink/mkdocs-enumerate-headings-plugin
+  pypi_id: mkdocs-enumerate-headings-plugin
   labels: [plugin]
   category: html-css
 
 - name: pheasant
   github_id: daizutabi/pheasant
+  pypi_id: pheasant
   labels: [plugin]
   category: code-exec-templating
 - name: macros
   github_id: fralau/mkdocs_macros_plugin
+  pypi_id: mkdocs-macros-plugin
   labels: [plugin]
   category: code-exec-templating
 - name: markdownextradata
   github_id: rosscdh/mkdocs-markdownextradata-plugin
+  pypi_id: mkdocs-markdownextradata-plugin
   labels: [plugin]
   category: code-exec-templating
 - name: jinja2sandbox
@@ -299,22 +333,27 @@ projects:
   category: code-exec-templating
 - name: gen-files
   github_id: oprypin/mkdocs-gen-files
+  pypi_id: mkdocs-gen-files
   labels: [plugin]
   category: code-exec-templating
 - name: mkdocs-markmap
   github_id: neatc0der/mkdocs-markmap
+  pypi_id: mkdocs-markmap
   labels: [plugin]
   category: code-exec-templating
 - name: nbconvert
   github_id: tanbro/mkdocs-nbconvert
+  pypi_id: mkdocs-nbconvert
   labels: [plugin]
   category: code-exec-templating
 - name: mknotebooks
   github_id: greenape/mknotebooks
+  pypi_id: mknotebooks
   labels: [plugin]
   category: code-exec-templating
 - name: mkdocs-jupyter
   github_id: danielfrg/mkdocs-jupyter
+  pypi_id: mkdocs-jupyter
   labels: [plugin]
   category: code-exec-templating
 - name: codeyaml
@@ -323,6 +362,7 @@ projects:
   category: code-exec-templating
 - name: markdown-filter
   github_id: byrnereese/mkdocs-markdown-filter
+  pypi_id: mkdocs-markdown-filter
   labels: [plugin]
   category: code-exec-templating
 - name: theme-jinja2-filters
@@ -335,15 +375,18 @@ projects:
   category: code-exec-templating
 - name: user-defined-values
   github_id: rahult/mkdocs-user-defined-values
+  pypi_id: mkdocs-user-defined-values
   labels: [plugin]
   category: code-exec-templating
 - name: mkdocs_protobuf
   github_id: rymurr/mkdocs-protobuf
+  pypi_id: mkdocs_protobuf
   labels: [plugin]
   category: code-exec-templating
 
 - name: mkdocs-embed-external-markdown
   github_id: fire1ce/mkdocs-embed-external-markdown
+  pypi_id: mkdocs-embed-external-markdown
   labels: [plugin]
   category: snippets-include
 - name: codeinclude
@@ -356,18 +399,22 @@ projects:
   category: snippets-include
 - name: snippet
   github_id: mprivat/mkdocs-snippet-plugin
+  pypi_id: mkdocs-snippet-plugin
   labels: [plugin]
   category: snippets-include
 - name: git snippet
   github_id: SamazoOo/mkdocs-gitsnippet-plugin
+  pypi_id: mkdocs-gitsnippet-plugin
   labels: [plugin]
   category: snippets-include
 - name: include-markdown
   github_id: mondeja/mkdocs-include-markdown-plugin
+  pypi_id: mkdocs-include-markdown-plugin
   labels: [plugin]
   category: snippets-include
 - name: meta-descriptions
   github_id: prcr/mkdocs-meta-descriptions-plugin
+  pypi_id: mkdocs-meta-descriptions-plugin
   labels: [plugin]
   category: snippets-include
 
@@ -377,26 +424,32 @@ projects:
   category: git-info
 - name: git-revision-date-localized
   github_id: timvink/mkdocs-git-revision-date-localized-plugin
+  pypi_id: mkdocs-git-revision-date-localized-plugin
   labels: [plugin]
   category: git-info
 - name: git-revision-date
   github_id: zhaoterryy/mkdocs-git-revision-date-plugin
+  pypi_id: mkdocs-git-revision-date-plugin
   labels: [plugin]
   category: git-info
 - name: git-authors
   github_id: timvink/mkdocs-git-authors-plugin
+  pypi_id: mkdocs-git-authors-plugin
   labels: [plugin]
   category: git-info
 - name: git-committers-2
   github_id: ojacques/mkdocs-git-committers-plugin-2
+  pypi_id: mkdocs-git-committers-plugin-2
   labels: [plugin]
   category: git-info
 - name: git-committers
   github_id: byrnereese/mkdocs-git-committers-plugin
+  pypi_id: mkdocs-git-committers-plugin
   labels: [plugin]
   category: git-info
-- name: git-latest-tag
+- name: git-latest-release
   github_id: agarthetiger/mkdocs_latest_release_plugin
+  pypi_id: mkdocs-latest-release-plugin
   labels: [plugin]
   category: git-info
 
@@ -406,10 +459,12 @@ projects:
   category: api-docs
 - name: mkdocstrings
   github_id: mkdocstrings/mkdocstrings
+  pypi_id: mkdocstrings
   labels: [plugin]
   category: api-docs
 - name: MkAutoDoc
   github_id: tomchristie/mkautodoc
+  pypi_id: mkautodoc
   labels: [plugin]
   category: api-docs
 - name: doxygen
@@ -422,14 +477,17 @@ projects:
   category: api-docs
 - name: inari
   github_id: tkamenoko/inari
+  pypi_id: inari
   labels: [plugin]
   category: api-docs
 - name: mktheapidocs
   github_id: greenape/mktheapidocs
+  pypi_id: mktheapidocs
   labels: [plugin]
   category: api-docs
 - name: MkApi
   github_id: daizutabi/mkapi
+  pypi_id: mkapi
   labels: [plugin]
   category: api-docs
 
@@ -439,35 +497,43 @@ projects:
   category: authoring
 - name: vim-md-tags
   github_id: midnightprioriem/mkdocs-vim-md-tags-plugin
+  pypi_id: mkdocs-vim-md-tags-plugin
   labels: [plugin]
   category: authoring
 
 - name: mkdocs-with-pdf
   github_id: orzih/mkdocs-with-pdf
+  pypi_id: mkdocs-with-pdf
   labels: [plugin]
   category: site-conversion
 - name: mkpdfs
   github_id: comwes/mkpdfs-mkdocs-plugin
+  pypi_id: mkpdfs-mkdocs
   labels: [plugin]
   category: site-conversion
 - name: pdf-export
   github_id: zhaoterryy/mkdocs-pdf-export-plugin
+  pypi_id: mkdocs-pdf-export-plugin
   labels: [plugin]
   category: site-conversion
 - name: print-site
   github_id: timvink/mkdocs-print-site-plugin
+  pypi_id: mkdocs-print-site-plugin
   labels: [plugin]
   category: site-conversion
 - name: mk2pdf-export
   github_id: HaoLiuHust/mkdocs-mk2pdf-plugin
+  pypi_id: mkdocs-mk2pdf-plugin
   labels: [plugin]
   category: site-conversion
 - name: pdf-with-js
   github_id: smaxtec/mkdocs-pdf-with-js-plugin
+  pypi_id: mkdocs-pdf-with-js-plugin
   labels: [plugin]
   category: site-conversion
 - name: helm
   github_id: M00nF1sh/mkdocs-helm
+  pypi_id: mkdocs-helm
   labels: [plugin]
   category: site-conversion
 
@@ -481,14 +547,17 @@ projects:
   category: blogging
 - name: rss
   github_id: Guts/mkdocs-rss-plugin
+  pypi_id: mkdocs-rss-plugin
   labels: [plugin]
   category: blogging
 - name: newsletter
   github_id: lyz-code/mkdocs-newsletter
+  pypi_id: mkdocs-newsletter
   labels: [plugin]
   category: blogging
 - name: mkdocs-blogging-plugin
   github_id: liang2kl/mkdocs-blogging-plugin
+  pypi_id: mkdocs-blogging-plugin
   labels: [plugin]
   category: blogging
 
@@ -507,30 +576,37 @@ projects:
   category: charts
 - name: table-reader
   github_id: timvink/mkdocs-table-reader-plugin
+  pypi_id: mkdocs-table-reader-plugin
   labels: [plugin]
   category: charts
 - name: charts
   github_id: timvink/mkdocs-charts-plugin
+  pypi_id: mkdocs-charts-plugin
   labels: [plugin]
   category: charts
 - name: drawio-exporter
   github_id: LukeCarrier/mkdocs-drawio-exporter
+  pypi_id: mkdocs-drawio-exporter
   labels: [plugin]
   category: charts
 - name: markdownmermaid
   github_id: pugong/mkdocs-mermaid-plugin
+  pypi_id: mkdocs-mermaid-plugin
   labels: [plugin]
   category: charts
 - name: mermaid2
   github_id: fralau/mkdocs-mermaid2-plugin
+  pypi_id: mkdocs-mermaid2-plugin
   labels: [plugin]
   category: charts
 - name: markdownwavedrom
   github_id: kuri65536/mkdocs-wavedrom-plugin
+  pypi_id: mkdocs-wavedrom-plugin
   labels: [plugin]
   category: charts
 - name: build-plantuml
   github_id: christo-ph/mkdocs_build_plantuml
+  pypi_id: mkdocs-build-plantuml-plugin
   labels: [plugin]
   category: charts
 - name: sequence-js
@@ -539,6 +615,7 @@ projects:
   category: charts
 - name: kroki
   github_id: AVATEAM-IT-SYSTEMHAUS/mkdocs-kroki-plugin
+  pypi_id: mkdocs-kroki-plugin
   labels: [plugin]
   category: charts
 
@@ -548,10 +625,12 @@ projects:
   category: other
 - name: mkdocs-coverage
   github_id: pawamoy/mkdocs-coverage
+  pypi_id: mkdocs-coverage
   labels: [plugin]
   category: other
 - name: mkdocs-spellcheck
   github_id: pawamoy/mkdocs-spellcheck
+  pypi_id: mkdocs-spellcheck
   labels: [plugin]
   category: other
 - name: webmsx
@@ -560,13 +639,16 @@ projects:
   category: other
 - name: pico-8
   github_id: fmaida/pico8-mkdocs-plugin
+  pypi_id: pico8-mkdocs-plugin
   labels: [plugin]
   category: other
 - name: same-dir
   github_id: oprypin/mkdocs-same-dir
+  pypi_id: mkdocs-same-dir
   labels: [plugin]
   category: other
 - name: thumbnails
   github_id: normanlorrain/mkdocs-thumbnails
+  pypi_id: mkdocs-thumbnails
   labels: [plugin]
   category: other
