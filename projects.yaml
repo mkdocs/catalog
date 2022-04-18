@@ -27,6 +27,8 @@ categories:
   title: 💬 Internationalization & localization
 - category: links-refs
   title: 🔗 Links & references
+- category: markdown
+  title: 🧩 Markdown extensions
 - category: nav-pages
   title: 🧭 Navigation & page building
 - category: quality
@@ -54,6 +56,9 @@ labels:
 - label: project
   image: https://cdn.icon-icons.com/icons2/1448/PNG/512/42498factory_99134.png
   description: Mkdocs-based project (website, templates, etc.)
+- label: markdown
+  image: https://cdn.icon-icons.com/icons2/1459/PNG/512/2799201-jigsaw-processing_99781.png
+  description: Markdown extension(s)
 
 projects:
 - name: automacdoc
@@ -63,12 +68,12 @@ projects:
 - name: mkdocstrings
   github_id: mkdocstrings/mkdocstrings
   pypi_id: mkdocstrings
-  labels: [plugin]
+  labels: [plugin, markdown]
   category: api-docs
 - name: MkAutoDoc
   github_id: tomchristie/mkautodoc
   pypi_id: mkautodoc
-  labels: [plugin]
+  labels: [markdown]
   license: BSD
   category: api-docs
 - name: doxygen
@@ -209,6 +214,11 @@ projects:
   pypi_id: docutools
   labels: [plugin]
   category: charts
+- name: markdown-figcap
+  github_id: funk1d/markdown-figcap
+  pypi_id: markdown-figcap
+  labels: [markdown]
+  category: markdown
 
 - name: pheasant
   github_id: daizutabi/pheasant
@@ -279,6 +289,11 @@ projects:
   labels: [plugin]
   license: Apache-2
   category: code-exec-templating
+- name: markdown-exec
+  github_id: pawamoy/markdown-exec
+  pypi_id: markdown-exec
+  labels: [markdown]
+  category: markdown
 
 - name: branchcustomization
   github_id: effigies/mkdocs-branchcustomization-plugin
@@ -452,6 +467,47 @@ projects:
   pypi_id: mkdocs-alias-plugin
   labels: [plugin]
   category: links-refs
+- name: Wikilink Plus
+  github_id: neurobin/mdx_wikilink_plus
+  pypi_id: mdx_wikilink_plus
+  labels: [markdown]
+  category: markdown
+
+- name: markdown-callouts
+  github_id: oprypin/markdown-callouts
+  pypi_id: markdown-callouts
+  labels: [markdown]
+  category: markdown
+- name: PyMdown Extensions
+  github_id: facelessuser/pymdown-extensions
+  pypi_id: pymdown-extensions
+  labels: [markdown]
+  category: markdown
+- name: Math extension
+  github_id: mitya57/python-markdown-math
+  pypi_id: python-markdown-math
+  labels: [markdown]
+  category: markdown
+- name: Mdx Truly Sane Lists
+  github_id: radude/mdx_truly_sane_lists
+  pypi_id: mdx_truly_sane_lists
+  labels: [markdown]
+  category: markdown
+- name: Tweetable quotes
+  github_id: max-arnold/markdown-tweetable
+  pypi_id: markdown-tweetable
+  labels: [markdown]
+  category: markdown
+- name: markdown-del-ins
+  github_id: honzajavorek/markdown-del-ins
+  pypi_id: markdown-del-ins
+  labels: [markdown]
+  category: markdown
+- name: mkpatcher
+  github_id: ofek/mkpatcher
+  pypi_id: mkpatcher
+  labels: [markdown]
+  category: markdown
 
 - name: exclude
   github_id: apenwarr/mkdocs-exclude
@@ -725,11 +781,16 @@ projects:
   pypi_id: mkdocs-meta-descriptions-plugin
   labels: [plugin]
   category: snippets-include
+- name: Mdx Include
+  github_id: neurobin/mdx_include
+  pypi_id: mdx_include
+  labels: [markdown]
+  category: markdown
 
 - name: Material for MkDocs
   github_id: squidfunk/mkdocs-material
   pypi_id: mkdocs-material
-  labels: [theme]
+  labels: [theme, markdown]
   category: theming
 - name: Cinder
   github_id: chrissimpkins/cinder
