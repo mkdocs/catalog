@@ -244,7 +244,6 @@ projects:
   github_id: tanbro/mkdocs-nbconvert
   pypi_id: mkdocs-nbconvert
   labels: [plugin]
-  license: MIT
   category: code-exec-templating
 - name: mknotebooks
   github_id: greenape/mknotebooks
