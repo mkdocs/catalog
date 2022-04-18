@@ -48,6 +48,8 @@ jobs:
         with:
           libraries_key: ${{ secrets.LIBRARIES_KEY }}
           github_key: ${{ secrets.GITHUB_TOKEN }}
+      - name: restyle-readme
+        run: python reformat.py
       - name: push-update
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
