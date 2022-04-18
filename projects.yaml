@@ -218,7 +218,7 @@ projects:
   github_id: funk1d/markdown-figcap
   pypi_id: markdown-figcap
   labels: [markdown]
-  category: markdown
+  category: charts
 
 - name: pheasant
   github_id: daizutabi/pheasant
@@ -293,7 +293,7 @@ projects:
   github_id: pawamoy/markdown-exec
   pypi_id: markdown-exec
   labels: [markdown]
-  category: markdown
+  category: code-exec-templating
 
 - name: branchcustomization
   github_id: effigies/mkdocs-branchcustomization-plugin
@@ -471,7 +471,7 @@ projects:
   github_id: neurobin/mdx_wikilink_plus
   pypi_id: mdx_wikilink_plus
   labels: [markdown]
-  category: markdown
+  category: links-refs
 
 - name: markdown-callouts
   github_id: oprypin/markdown-callouts
@@ -785,7 +785,7 @@ projects:
   github_id: neurobin/mdx_include
   pypi_id: mdx_include
   labels: [markdown]
-  category: markdown
+  category: snippets-include
 
 - name: Material for MkDocs
   github_id: squidfunk/mkdocs-material
