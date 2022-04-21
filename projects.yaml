@@ -110,6 +110,12 @@ projects:
   pypi_id: ansible-mkdocs
   labels: [plugin]
   category: api-docs
+- name: MkDocsOAD
+  description: Plugin for MkDocs to generate human readable documentation from OpenAPI Documentation Version 3 (also known as Swagger documentation).
+  github_id: Neoteroi/mkdocs-plugins
+  pypi_id: neoteroi-mkdocs
+  labels: [plugin]
+  category: api-docs
 
 - name: blog
   github_id: andyoakley/mkdocs-blog
@@ -396,12 +402,6 @@ projects:
 - name: MkDocs Backend for Foliant
   github_id: foliant-docs/foliantcontrib.mkdocs
   pypi_id: foliantcontrib.mkdocs
-  labels: [plugin]
-  category: integrations
-- name: MkDocsOAD
-  description: Plugin for MkDocs to generate human readable documentation from OpenAPI Documentation Version 3 (also known as Swagger documentation).
-  github_id: Neoteroi/mkdocs-plugins
-  pypi_id: neoteroi-mkdocs
   labels: [plugin]
   category: integrations
 
