@@ -225,6 +225,12 @@ projects:
   pypi_id: markdown-figcap
   labels: [markdown]
   category: charts
+- name: MkHack3rs
+  description: Hacks & Integrations for Mkdocs / Material Theme
+  homepage: https://eskool.gitlab.io/mkhack3rs/
+  gitlab_id: eskool/mkhack3rs
+  labels: [project]
+  category: charts
 
 - name: pheasant
   github_id: daizutabi/pheasant
@@ -298,7 +304,7 @@ projects:
 - name: markdown-exec
   github_id: pawamoy/markdown-exec
   pypi_id: markdown-exec
-  labels: [markdown]
+  labels: [markdown, plugin]
   category: code-exec-templating
 
 - name: branchcustomization
