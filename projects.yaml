@@ -647,6 +647,11 @@ projects:
   pypi_id: mkdocs-linkcheck
   labels: [plugin]
   category: quality
+- name: mktestdocs
+  github_id: koaning/mktestdocs
+  pypi_id: mktestdocs
+  labels: []
+  category: quality
 
 - name: localsearch
   github_id: wilhelmer/mkdocs-localsearch
