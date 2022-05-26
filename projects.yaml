@@ -231,6 +231,11 @@ projects:
   gitlab_id: eskool/mkhack3rs
   labels: [project]
   category: charts
+- name: Termage
+  github_id: bczsalba/mkdocs-termage-plugin
+  pypi_id: mkdocs-termage-plugin
+  labels: [plugin, markdown]
+  category: charts
 
 - name: pheasant
   github_id: daizutabi/pheasant
