@@ -36,9 +36,9 @@ categories:
 - category: search-toc
   title: 🔍 Search & tables of content
 - category: site-conversion
-  title: ♻️ Site conversion (PDF/ePUB/etc.)
+  title: 🍱 Site conversion (PDF/ePUB/etc.)
 - category: site-management
-  title: ⚙️ Site management
+  title: 🔧 Site management
 - category: snippets-include
   title: 📁 Snippets & includes (reusing contents)
 - category: theming
@@ -182,7 +182,7 @@ projects:
   labels: [plugin]
   category: charts
 - name: build-plantuml
-  github_id: christo-ph/mkdocs_build_plantuml
+  github_id: quantorconsulting/mkdocs_build_plantuml
   pypi_id: mkdocs-build-plantuml-plugin
   labels: [plugin]
   category: charts
@@ -232,7 +232,7 @@ projects:
   labels: [project]
   category: charts
 - name: Termage
-  github_id: bczsalba/mkdocs-termage-plugin
+  github_id: bczsalba/Termage
   pypi_id: mkdocs-termage-plugin
   labels: [plugin, markdown]
   category: charts
