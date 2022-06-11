@@ -34,8 +34,8 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 - [🧭 Navigation & page building](#-navigation--page-building) _20 projects_
 - [✅ Quality checks (code blocks, spelling, etc.)](#-quality-checks-code-blocks-spelling-etc) _5 projects_
 - [🔍 Search & tables of content](#-search--tables-of-content) _3 projects_
-- [♻️ Site conversion (PDF/ePUB/etc.)](#-site-conversion-pdfepubetc) _9 projects_
-- [⚙️ Site management](#-site-management) _11 projects_
+- [🍱 Site conversion (PDF/ePUB/etc.)](#-site-conversion-pdfepubetc) _9 projects_
+- [🔧 Site management](#-site-management) _11 projects_
 - [📁 Snippets & includes (reusing contents)](#-snippets--includes-reusing-contents) _7 projects_
 - [🎨 Theming](#-theming) _26 projects_
 - [👽 Other](#-other) _5 projects_
@@ -192,7 +192,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 - [GitHub](https://github.com/quantorconsulting/mkdocs_build_plantuml) (👨‍💻 5 · 🔀 7 · 📦 24 · 📋 15 - 13% open · ⏱️ 31.03.2022):
 
 	```
-	git clone https://github.com/christo-ph/mkdocs_build_plantuml
+	git clone https://github.com/quantorconsulting/mkdocs_build_plantuml
 	```
 - [PyPi](https://pypi.org/project/mkdocs-build-plantuml-plugin) (📥 6.5K / month):
 	```
@@ -213,7 +213,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <details><summary><b><a href="https://github.com/blueswen/mkdocs-glightbox">MkDocs GLightbox</a></b>  - 🥉7 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin supports image lightbox (zoom effect) with GLightbox.</summary>
 
-- [GitHub](https://github.com/blueswen/mkdocs-glightbox) (⏱️ 10.06.2022):
+- [GitHub](https://github.com/blueswen/mkdocs-glightbox) (📦 1 · ⏱️ 10.06.2022):
 
 	```
 	git clone https://github.com/Blueswen/mkdocs-glightbox
@@ -756,7 +756,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## ♻️ Site conversion (PDF/ePUB/etc.)
+## 🍱 Site conversion (PDF/ePUB/etc.)
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
@@ -829,7 +829,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## ⚙️ Site management
+## 🔧 Site management
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
