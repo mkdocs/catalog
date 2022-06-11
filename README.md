@@ -22,23 +22,23 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 ## Contents
 
 - [💻 API documentation building](#-api-documentation-building) _10 projects_
-- [📖 Blogging](#-blogging) _6 projects_
-- [📈 Charts, Images, Tables & Graphs](#-charts-images-tables--graphs) _19 projects_
-- [📝 Code execution, variables & templating](#-code-execution-variables--templating) _14 projects_
-- [:octocat: Git repos & info](#octocat-git-repos--info) _7 projects_
-- [🖌️ HTML processing & CSS styling](#-html-processing--css-styling) _7 projects_
-- [🌐 Integrations with other tools](#-integrations-with-other-tools) _4 projects_
-- [💬 Internationalization & localization](#-internationalization--localization) _2 projects_
+- [💬 Blogging](#-blogging) _6 projects_
+- [📊 Charts, Images, Tables & Graphs](#-charts-images-tables--graphs) _19 projects_
+- [🤖 Code execution, variables & templating](#-code-execution-variables--templating) _14 projects_
+- [🌲 Git repos & info](#-git-repos--info) _7 projects_
+- [🌈 HTML processing & CSS styling](#-html-processing--css-styling) _7 projects_
+- [📎 Integrations with other tools](#-integrations-with-other-tools) _4 projects_
+- [🌍 Internationalization & localization](#-internationalization--localization) _2 projects_
 - [🔗 Links & references](#-links--references) _16 projects_
 - [🧩 Markdown extensions](#-markdown-extensions) _7 projects_
 - [🧭 Navigation & page building](#-navigation--page-building) _20 projects_
 - [✅ Quality checks (code blocks, spelling, etc.)](#-quality-checks-code-blocks-spelling-etc) _5 projects_
 - [🔍 Search & tables of content](#-search--tables-of-content) _3 projects_
-- [📄 Site conversion (PDF/ePUB/etc.)](#-site-conversion-pdfepubetc) _9 projects_
+- [♻️ Site conversion (PDF/ePUB/etc.)](#-site-conversion-pdfepubetc) _9 projects_
 - [⚙️ Site management](#-site-management) _11 projects_
 - [📁 Snippets & includes (reusing contents)](#-snippets--includes-reusing-contents) _7 projects_
 - [🎨 Theming](#-theming) _26 projects_
-- [➕ Other](#-other) _5 projects_
+- [👽 Other](#-other) _5 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -113,7 +113,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 <details><summary>Show 6 hidden projects...</summary>
 
 - <b><a href="https://github.com/tomchristie/mkautodoc">MkAutoDoc</a></b>  - 🥈16 ·  ⭐ 160 · 💤 · <code><a href="https://tldrlegal.com/search?q=BSD">❗️BSD</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1459/PNG/512/2799201-jigsaw-processing_99781.png" style="display:inline;" width="13" height="13"></code><br>Auto documentation for MkDocs.
-- <b><a href="https://github.com/greenape/mktheapidocs">mktheapidocs</a></b>  - 🥉14 ·  ⭐ 10 · 📈 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Numpydocs - mkdocs friendly markdown.
+- <b><a href="https://github.com/greenape/mktheapidocs">mktheapidocs</a></b>  - 🥉14 ·  ⭐ 10 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Numpydocs - mkdocs friendly markdown.
 - <b><a href="https://github.com/Neoteroi/mkdocs-plugins">MkDocsOAD</a></b>  - 🥉8 ·  ⭐ 14 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Plugin for MkDocs to generate human readable documentation from OpenAPI Documentation Version 3 (also known as Swagger..
 - <b><a href="https://github.com/tkamenoko/inari">inari</a></b>  - 🥉6 ·  ⭐ 6 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Write docstrings in markdown!.
 - <b><a href="https://github.com/pieterdavid/mkdocs-doxygen-plugin">doxygen</a></b>  - 🥉5 ·  ⭐ 8 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>A Doxygen plugin for MkDocs.
@@ -121,7 +121,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## 📖 Blogging
+## 💬 Blogging
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
@@ -147,7 +147,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## 📈 Charts, Images, Tables & Graphs
+## 📊 Charts, Images, Tables & Graphs
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
@@ -211,7 +211,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 	pip install mkdocs-mermaid-plugin
 	```
 </details>
-<details><summary><b><a href="https://github.com/blueswen/mkdocs-glightbox">MkDocs GLightbox</a></b>  - 🥉7 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin supports image lightbox (zoom effect) with GLightbox.</summary>
+<details><summary><b><a href="https://github.com/blueswen/mkdocs-glightbox">MkDocs GLightbox</a></b>  - 🥉7 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin supports image lightbox (zoom effect) with GLightbox.</summary>
 
 - [GitHub](https://github.com/blueswen/mkdocs-glightbox) (⏱️ 10.06.2022):
 
@@ -241,11 +241,11 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## 📝 Code execution, variables & templating
+## 🤖 Code execution, variables & templating
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/fralau/mkdocs_macros_plugin">macros</a></b>  - 🥇25 ·  ⭐ 140 · 📉 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Create richer and more beautiful pages in MkDocs, by using variables and calls to macros in the markdown code.</summary>
+<details><summary><b><a href="https://github.com/fralau/mkdocs_macros_plugin">macros</a></b>  - 🥇25 ·  ⭐ 140 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Create richer and more beautiful pages in MkDocs, by using variables and calls to macros in the markdown code.</summary>
 
 - [GitHub](https://github.com/fralau/mkdocs_macros_plugin) (👨‍💻 24 · 🔀 32 · 📦 930 · 📋 77 - 3% open · ⏱️ 15.05.2022):
 
@@ -330,7 +330,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## :octocat: Git repos & info
+## 🌲 Git repos & info
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
@@ -401,7 +401,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## 🖌️ HTML processing & CSS styling
+## 🌈 HTML processing & CSS styling
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
@@ -439,7 +439,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## 🌐 Integrations with other tools
+## 📎 Integrations with other tools
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
@@ -459,7 +459,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## 💬 Internationalization & localization
+## 🌍 Internationalization & localization
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
@@ -477,7 +477,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <details><summary>Show 1 hidden projects...</summary>
 
-- <b><a href="https://github.com/mondeja/mkdocs-mdpo-plugin">mkdocs-mdpo</a></b>  - 🥉12 ·  ⭐ 3 · 📈 · <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Mkdocs translation plugin using PO files.
+- <b><a href="https://github.com/mondeja/mkdocs-mdpo-plugin">mkdocs-mdpo</a></b>  - 🥉12 ·  ⭐ 3 · <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Mkdocs translation plugin using PO files.
 </details>
 <br>
 
@@ -756,7 +756,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## 📄 Site conversion (PDF/ePUB/etc.)
+## ♻️ Site conversion (PDF/ePUB/etc.)
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
@@ -1073,7 +1073,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 	git clone https://gitlab.com/lramage/mkdocs-bootstrap386
 	```
 </details>
-<details><summary><b><a href="https://github.com/buvis/mkdocs-zettelkasten">Zettelkasten</a></b>  - 🥉6 · 📉 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1495/PNG/512/preferencesdesktoptheme_102980.png" style="display:inline;" width="13" height="13"></code><br>This is a Zettelkasten theme and plugin for MkDocs. It renders the MkDocs pages as cards (zettels).</summary>
+<details><summary><b><a href="https://github.com/buvis/mkdocs-zettelkasten">Zettelkasten</a></b>  - 🥉6 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1495/PNG/512/preferencesdesktoptheme_102980.png" style="display:inline;" width="13" height="13"></code><br>This is a Zettelkasten theme and plugin for MkDocs. It renders the MkDocs pages as cards (zettels).</summary>
 
 - [GitHub](https://github.com/buvis/mkdocs-zettelkasten) (👨‍💻 2 · 📥 2 · 📦 2 · 📋 9 - 66% open · ⏱️ 12.04.2022):
 
@@ -1105,7 +1105,7 @@ This curated list contains 180 awesome open-source projects with a total of 16K 
 </details>
 <br>
 
-## ➕ Other
+## 👽 Other
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
