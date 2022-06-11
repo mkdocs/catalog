@@ -236,6 +236,11 @@ projects:
   pypi_id: mkdocs-termage-plugin
   labels: [plugin, markdown]
   category: charts
+- name: MkDocs GLightbox
+  github_id: Blueswen/mkdocs-glightbox
+  pypi_id: mkdocs-glightbox
+  labels: [plugin]
+  category: charts
 
 - name: pheasant
   github_id: daizutabi/pheasant
