@@ -12,19 +12,19 @@ categories:
 - category: api-docs
   title: 💻 API documentation building
 - category: blogging
-  title: 📖 Blogging
+  title: 💬 Blogging
 - category: charts
-  title: 📈 Charts, Images, Tables & Graphs
+  title: 📊 Charts, Images, Tables & Graphs
 - category: code-exec-templating
-  title: 📝 Code execution, variables & templating
+  title: 🤖 Code execution, variables & templating
 - category: git-info
-  title: ":octocat: Git repos & info"
+  title: 🌲 Git repos & info
 - category: html-css
-  title: 🖌️ HTML processing & CSS styling
+  title: 🌈 HTML processing & CSS styling
 - category: integrations
-  title: 🌐 Integrations with other tools
+  title: 📎 Integrations with other tools
 - category: i18n-l10n
-  title: 💬 Internationalization & localization
+  title: 🌍 Internationalization & localization
 - category: links-refs
   title: 🔗 Links & references
 - category: markdown
@@ -36,7 +36,7 @@ categories:
 - category: search-toc
   title: 🔍 Search & tables of content
 - category: site-conversion
-  title: 📄 Site conversion (PDF/ePUB/etc.)
+  title: ♻️ Site conversion (PDF/ePUB/etc.)
 - category: site-management
   title: ⚙️ Site management
 - category: snippets-include
@@ -44,7 +44,7 @@ categories:
 - category: theming
   title: 🎨 Theming
 - category: other
-  title: ➕ Other
+  title: 👽 Other
 
 labels:
 - label: plugin
