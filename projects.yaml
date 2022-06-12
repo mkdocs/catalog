@@ -237,7 +237,7 @@ projects:
   labels: [plugin, markdown]
   category: charts
 - name: MkDocs GLightbox
-  github_id: Blueswen/mkdocs-glightbox
+  github_id: blueswen/mkdocs-glightbox
   pypi_id: mkdocs-glightbox
   labels: [plugin]
   category: charts
@@ -418,6 +418,11 @@ projects:
 - name: MkDocs Backend for Foliant
   github_id: foliant-docs/foliantcontrib.mkdocs
   pypi_id: foliantcontrib.mkdocs
+  labels: [plugin]
+  category: integrations
+- name: MkDocs Swagger UI Tag
+  github_id: blueswen/mkdocs-swagger-ui-tag
+  pypi_id: mkdocs-swagger-ui-tag
   labels: [plugin]
   category: integrations
 
