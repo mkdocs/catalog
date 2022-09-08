@@ -116,6 +116,11 @@ projects:
   pypi_id: neoteroi-mkdocs
   labels: [plugin]
   category: api-docs
+- name: mkdocs-typer
+  github_id: bruce-szalwinski/mkdocs-typer
+  pypi_id: mkdocs-typer
+  labels: [plugin]
+  category: api-docs
 
 - name: blog
   github_id: andyoakley/mkdocs-blog
