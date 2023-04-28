@@ -266,7 +266,6 @@ projects:
 - name: Termage
   mkdocs_plugin: termage
   github_id: bczsalba/Termage
-  pypi_id: mkdocs-termage-plugin
   labels: [plugin]
   category: charts
 - name: MkDocs GLightbox
