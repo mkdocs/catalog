@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download source
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Install Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.11'
           cache: 'pip'
           cache-dependency-path: 'projects.yaml'
       - name: Install dependencies
