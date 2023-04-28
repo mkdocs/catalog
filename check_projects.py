@@ -9,7 +9,14 @@ from pathlib import Path
 import yaml
 
 
-def check_project(project):
+def _get_as_list(mapping, key):
+    names = mapping.get(key, ())
+    if isinstance(names, str):
+        names = (names,)
+    return names
+
+
+def _check_project(project):
     key_to_label = {
         "mkdocs_plugin": "plugin",
         "mkdocs_theme": "theme",
@@ -19,21 +26,31 @@ def check_project(project):
     if not any(key in project for key in key_to_label):
         return
 
+    for key, label in key_to_label.items():
+        if (label in project.get("labels", ())) != (key in project):
+            yield f"'{label}' label should be present if and only if '{key}:' is present"
+
     if "pypi_id" in project:
         install_name = project["pypi_id"]
     elif "github_id" in project:
         install_name = f"git+https://github.com/{project['github_id']}"
     else:
-        return "Missing 'pypi_id:'"
+        yield "Missing 'pypi_id:'"
+        return
 
     with tempfile.TemporaryDirectory(prefix="best-of-mkdocs-") as directory:
-        result = subprocess.run(
-            ["pip", "install", "-U", "--ignore-requires-python", "--no-deps", "--target", directory, install_name],
-            capture_output=True,
-            text=True,
-        )
-        if result.returncode:
-            return f"Failed {result.args}:\n{result.stderr}"
+        try:
+            result = subprocess.run(
+                ["pip", "install", "-U", "--ignore-requires-python", "--no-deps", "--target", directory, install_name],
+                stdin=subprocess.DEVNULL,
+                capture_output=True,
+                text=True,
+                check=True,
+                timeout=30,
+            )
+        except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
+            yield f"Failed {e.cmd}:\n{e.stderr}"
+            return
 
         entry_points = configparser.ConfigParser()
         try:
@@ -43,31 +60,31 @@ def check_project(project):
             pass
         entry_points = {sect: list(entry_points[sect]) for sect in entry_points.sections()}
 
-        if "mkdocs_plugin" in project:
-            if project["mkdocs_plugin"] not in entry_points.get("mkdocs.plugins", ()):
-                return f"Missing entry point [mkdocs.plugins] '{project['mkdocs_plugin']}'.\nInstead got {entry_points}"
+        for item in _get_as_list(project, "mkdocs_plugin"):
+            if item not in entry_points.get("mkdocs.plugins", ()):
+                yield f"Missing entry point [mkdocs.plugins] '{item}'.\nInstead got {entry_points}"
 
-        if "mkdocs_theme" in project:
-            if project["mkdocs_theme"] not in entry_points.get("mkdocs.themes", ()):
-                return f"Missing entry point [mkdocs.themes] '{project['mkdocs_theme']}'.\nInstead got {entry_points}"
+        for item in _get_as_list(project, "mkdocs_theme"):
+            if item not in entry_points.get("mkdocs.themes", ()):
+                yield f"Missing entry point [mkdocs.themes] '{item}'.\nInstead got {entry_points}"
 
-        if "markdown_extension" in project:
-            if project["markdown_extension"] not in entry_points.get("markdown.extensions", ()):
-                base_path = project["markdown_extension"].replace(".", "/")
+        for item in _get_as_list(project, "markdown_extension"):
+            if item not in entry_points.get("markdown.extensions", ()):
+                base_path = item.replace(".", "/")
                 for pattern in base_path + ".py", base_path + "/__init__.py":
                     path = Path(directory, pattern)
                     if path.is_file() and "makeExtension" in path.read_text():
                         break
                 else:
-                    return (
-                        f"Missing entry point [markdown.extensions] '{project['markdown_extension']}'.\n"
+                    yield (
+                        f"Missing entry point [markdown.extensions] '{item}'.\n"
                         f"Instead got {entry_points}.\n"
                         f"Also not found as a direct import."
                     )
 
-    for key, label in key_to_label.items():
-        if (label in project.get("labels", ())) != (key in project):
-            return f"'{label}' label should be present if and only if '{key}:' is present"
+
+def check_project(project):
+    return list(_check_project(project))
 
 
 projects = yaml.safe_load(Path("projects.yaml").read_text())["projects"]
@@ -81,7 +98,9 @@ with concurrent.futures.ThreadPoolExecutor(4) as pool:
             error_count += 1
             print()
             print(f"{project['name']}:")
-            print(textwrap.indent(result, "     "))
+            for error in result:
+                print(textwrap.indent(error.rstrip(), "     "))
+                print()
         else:
             print(".", end="")
             sys.stdout.flush()

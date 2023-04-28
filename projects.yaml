@@ -246,7 +246,7 @@ projects:
   labels: [plugin]
   category: charts
 - name: docutools
-  mkdocs_plugin: lcd-find-pages # and others
+  mkdocs_plugin: [lcd-find-pages, lcd-custom-dir, lcd-blacklist, lcd-lp, lcd-md-replace, lcd-page-tree, lcd-stats]
   github_id: axiros/docutools
   pypi_id: docutools
   labels: [plugin]
@@ -592,7 +592,7 @@ projects:
   labels: [markdown]
   category: markdown
 - name: PyMdown Extensions
-  markdown_extension: pymdownx.superfences # and others
+  markdown_extension: [pymdownx.arithmatex, pymdownx.b64, pymdownx.betterem, pymdownx.caret, pymdownx.critic, pymdownx.details, pymdownx.emoji, pymdownx.escapeall, pymdownx.extra, pymdownx.highlight, pymdownx.inlinehilite, pymdownx.keys, pymdownx.magiclink, pymdownx.mark, pymdownx.pathconverter, pymdownx.progressbar, pymdownx.saneheaders, pymdownx.smartsymbols, pymdownx.snippets, pymdownx.striphtml, pymdownx.superfences, pymdownx.tabbed, pymdownx.tasklist, pymdownx.tilde]
   github_id: facelessuser/pymdown-extensions
   pypi_id: pymdown-extensions
   labels: [markdown]
@@ -970,7 +970,7 @@ projects:
 
 - name: Material for MkDocs
   mkdocs_theme: material
-  mkdocs_plugin: material/tags # and others
+  mkdocs_plugin: [material/info, material/offline, material/search, material/social, material/tags]
   github_id: squidfunk/mkdocs-material
   pypi_id: mkdocs-material
   labels: [theme, plugin]
@@ -1045,7 +1045,7 @@ projects:
   labels: [theme]
   category: theming
 - name: Bootswatch
-  mkdocs_theme: cerulean # and others
+  mkdocs_theme: [cerulean, cosmo, cyborg, darkly, flatly, journal, litera, lumen, lux, materia, minty, pulse, sandstone, simplex, slate, solar, spacelab, superhero, united, yeti]
   github_id: mkdocs/mkdocs-bootswatch
   pypi_id: mkdocs-bootswatch
   labels: [theme]
