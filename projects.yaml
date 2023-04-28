@@ -550,11 +550,6 @@ projects:
   github_id: rkoe/mkdocs-emailprotect
   labels: [plugin]
   category: links-refs
-- name: linkpatcher-plugin
-  mkdocs_plugin: linkpatcher-plugin
-  github_id: sekikawattt/mkdocs-linkpatcher-plugin
-  labels: [plugin]
-  category: links-refs
 - name: mkdocs-redirects
   mkdocs_plugin: redirects
   github_id: mkdocs/mkdocs-redirects
@@ -976,7 +971,7 @@ projects:
 
 - name: Material for MkDocs
   mkdocs_theme: material
-  mkdocs_plugin: tags # and others
+  mkdocs_plugin: material/tags # and others
   github_id: squidfunk/mkdocs-material
   pypi_id: mkdocs-material
   labels: [theme, plugin]
