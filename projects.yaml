@@ -1123,6 +1123,12 @@ projects:
   pypi_id: mkdocs-bootswatch
   labels: [theme]
   category: theming
+- name: Bootstrap
+  mkdocs_theme: bootstrap
+  github_id: mkdocs/mkdocs-bootstrap
+  pypi_id: mkdocs-bootstrap
+  labels: [theme]
+  category: theming
 - name: BOOTSTRAP386
   mkdocs_theme: bootstrap386
   gitlab_id: lramage/mkdocs-bootstrap386
@@ -1195,6 +1201,30 @@ projects:
   mkdocs_theme: alabaster
   github_id: notpushkin/mkdocs-alabaster
   pypi_id: mkdocs-alabaster
+  labels: [theme]
+  category: theming
+- name: Lantana
+  mkdocs_theme: lantana
+  github_id: WSOFT-Project/lantana
+  pypi_id: lantana
+  labels: [theme]
+  category: theming
+- name: Simple Blog
+  mkdocs_theme: simple-blog
+  github_id: FernandoCelmer/mkdocs-simple-blog
+  pypi_id: mkdocs-simple-blog
+  labels: [theme]
+  category: theming
+- name: Terminal for MkDocs
+  mkdocs_theme: terminal
+  github_id: ntno/mkdocs-terminal
+  pypi_id: mkdocs-terminal
+  labels: [theme]
+  category: theming
+- name: Dracula
+  mkdocs_theme: dracula
+  github_id: dracula/mkdocs
+  pypi_id: mkdocs-dracula-theme
   labels: [theme]
   category: theming
 
