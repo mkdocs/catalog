@@ -119,17 +119,24 @@ projects:
   labels: []
   category: api-docs
 - name: MkDocsOAD
-  mkdocs_plugin: neoteroi.mkdocsoad
+  mkdocs_plugin: [neoteroi.mkdocsoad, neoteroi.contribs]
+  markdown_extension: [neoteroi.cards, neoteroi.timeline, neoteroi.projects, neoteroi.spantable]
   description: Plugin for MkDocs to generate human readable documentation from OpenAPI Documentation Version 3 (also known as Swagger documentation).
   github_id: Neoteroi/mkdocs-plugins
   pypi_id: neoteroi-mkdocs
-  labels: [plugin]
+  labels: [plugin, markdown]
   category: api-docs
 - name: mkdocs-typer
   markdown_extension: mkdocs-typer
   github_id: bruce-szalwinski/mkdocs-typer
   pypi_id: mkdocs-typer
   labels: [markdown]
+  category: api-docs
+- name: mkdoxy
+  mkdocs_plugin: mkdoxy
+  github_id: JakubAndrysek/MkDoxy
+  pypi_id: mkdoxy
+  labels: [plugin]
   category: api-docs
 
 - name: blog
@@ -274,6 +281,18 @@ projects:
   pypi_id: mkdocs-glightbox
   labels: [plugin]
   category: charts
+- name: import-statement
+  mkdocs_plugin: import-statement
+  github_id: Rj40x40/mkdocs-import-statement-plugin
+  pypi_id: mkdocs-import-statement-plugin
+  labels: [plugin]
+  category: charts
+- name: plotly charts
+  mkdocs_plugin: plotly
+  github_id: haoda-li/mkdocs-plotly-plugin
+  pypi_id: mkdocs-plotly-plugin
+  labels: [plugin]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
@@ -307,7 +326,7 @@ projects:
   category: code-exec-templating
 - name: mkdocs-markmap
   mkdocs_plugin: markmap
-  github_id: neatc0der/mkdocs-markmap
+  github_id: markmap/mkdocs-markmap
   pypi_id: mkdocs-markmap
   labels: [plugin]
   category: code-exec-templating
@@ -363,6 +382,18 @@ projects:
   pypi_id: markdown-exec
   labels: [plugin]
   category: code-exec-templating
+- name: mkjsfiddle
+  mkdocs_plugin: jsfiddle
+  github_id: stadiamaps/mkjsfiddle
+  pypi_id: mkjsfiddle
+  labels: [plugin]
+  category: code-exec-templating
+- name: meta-manager
+  mkdocs_plugin: meta-manager
+  github_id: timmeinerzhagen/mkdocs-meta-manager
+  pypi_id: mkdocs-meta-manager
+  labels: [plugin]
+  category: code-exec-templating
 
 - name: branchcustomization
   mkdocs_plugin: branchcustomization
@@ -406,6 +437,12 @@ projects:
   github_id: agarthetiger/mkdocs_latest_release_plugin
   pypi_id: mkdocs-latest-release-plugin
   labels: [plugin]
+  category: git-info
+- name: Github-Links
+  markdown_extension: mdx_gh_links
+  github_id: Python-Markdown/github-links
+  pypi_id: mdx-gh-links
+  labels: [markdown]
   category: git-info
 
 - name: docstyler
@@ -584,6 +621,18 @@ projects:
   pypi_id: mdx_wikilink_plus
   labels: [markdown]
   category: links-refs
+- name: unused-files
+  mkdocs_plugin: unused_files
+  github_id: wilhelmer/mkdocs-unused-files
+  pypi_id: mkdocs-unused-files
+  labels: [plugin]
+  category: links-refs
+- name: link-marker
+  mkdocs_plugin: link-marker
+  github_id: timmeinerzhagen/mkdocs-link-marker
+  pypi_id: mkdocs-link-marker
+  labels: [plugin]
+  category: links-refs
 
 - name: markdown-callouts
   markdown_extension: callouts
@@ -749,6 +798,12 @@ projects:
   pypi_id: mkdocs-copy
   labels: [plugin]
   category: nav-pages
+- name: file-filter
+  mkdocs_plugin: file-filter
+  github_id: DariuszPorowski/mkdocs-file-filter-plugin
+  pypi_id: mkdocs-file-filter-plugin
+  labels: [plugin]
+  category: nav-pages
 
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
@@ -796,6 +851,12 @@ projects:
   description: Processes tags in yaml metadata
   github_id: jldiaz/mkdocs-plugin-tags
   pypi_id: mkdocs-plugin-tags
+  labels: [plugin]
+  category: search-toc
+- name: tags
+  mkdocs_plugin: autotag
+  github_id: six-two/mkdocs-auto-tag-plugin
+  pypi_id: mkdocs-auto-tag-plugin
   labels: [plugin]
   category: search-toc
 
@@ -916,6 +977,12 @@ projects:
   pypi_id: mkdocs-merge
   labels: []
   category: site-management
+- name: mkdocs-yamp
+  mkdocs_plugin: yamp
+  github_id: boozallen/mkdocs-yamp-plugin
+  pypi_id: mkdocs-yamp
+  labels: [plugin]
+  category: site-management
 
 - name: mkdocs-embed-external-markdown
   mkdocs_plugin: external-markdown
@@ -966,6 +1033,12 @@ projects:
   github_id: neurobin/mdx_include
   pypi_id: mdx_include
   labels: [markdown]
+  category: snippets-include
+- name: mkdocs-version-annotations
+  mkdocs_plugins: mkdocs-version-annotations
+  github_id: glennmatthews/mkdocs-version-annotations
+  pypi_id: mkdocs-version-annotations
+  labels: [plugin]
   category: snippets-include
 
 - name: Material for MkDocs
@@ -1154,5 +1227,17 @@ projects:
   mkdocs_plugin: vim-md-tags
   github_id: midnightprioriem/mkdocs-vim-md-tags-plugin
   pypi_id: mkdocs-vim-md-tags-plugin
+  labels: [plugin]
+  category: other
+- name: badges
+  mkdocs_plugin: badges
+  github_id: six-two/mkdocs-badges
+  pypi_id: mkdocs-badges
+  labels: [plugin]
+  category: other
+- name: placeholder
+  mkdocs_plugin: placeholder
+  github_id: six-two/mkdocs-placeholder-plugin
+  pypi_id: mkdocs-placeholder-plugin
   labels: [plugin]
   category: other
