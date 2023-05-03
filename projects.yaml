@@ -1271,3 +1271,9 @@ projects:
   pypi_id: mkdocs-placeholder-plugin
   labels: [plugin]
   category: other
+- name: no-sitemap
+  mkdocs_plugin: no-sitemap
+  github_id: leonardehrenfried/mkdocs-no-sitemap-plugin
+  pypi_id: mkdocs-no-sitemap-plugin
+  labels: [plugin]
+  category: other  
