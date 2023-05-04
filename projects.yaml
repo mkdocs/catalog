@@ -804,6 +804,12 @@ projects:
   pypi_id: mkdocs-file-filter-plugin
   labels: [plugin]
   category: nav-pages
+- name: mkdocs-nav-weight
+  mkdocs_plugin: mkdocs-nav-weight
+  github_id: shu307/mkdocs-nav-weight
+  pypi_id: mkdocs-nav-weight
+  labels: [plugin]
+  category: nav-pages
 
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
