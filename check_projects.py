@@ -16,27 +16,18 @@ def _get_as_list(mapping, key):
     return names
 
 
-def _check_project(project):
-    key_to_label = {
-        "mkdocs_plugin": "plugin",
-        "mkdocs_theme": "theme",
-        "markdown_extension": "markdown",
-    }
+_kind_to_label = {
+    "mkdocs_plugin": "plugin",
+    "mkdocs_theme": "theme",
+    "markdown_extension": "markdown",
+}
 
-    if not any(key in project for key in key_to_label):
-        return
+projects = yaml.safe_load(Path("projects.yaml").read_text())["projects"]
 
-    for key, label in key_to_label.items():
-        if (label in project.get("labels", ())) != (key in project):
-            yield f"'{label}' label should be present if and only if '{key}:' is present"
 
-    if "pypi_id" in project:
-        install_name = project["pypi_id"]
-    elif "github_id" in project:
-        install_name = f"git+https://github.com/{project['github_id']}"
-    else:
-        yield "Missing 'pypi_id:'"
-        return
+def check_install_project(project, install_name, errors=None):
+    if errors is None:
+        errors = []
 
     with tempfile.TemporaryDirectory(prefix="best-of-mkdocs-") as directory:
         try:
@@ -49,7 +40,7 @@ def _check_project(project):
                 timeout=30,
             )
         except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
-            yield f"Failed {e.cmd}:\n{e.stderr}"
+            errors.append(f"Failed {e.cmd}:\n{e.stderr}")
             return
 
         entry_points = configparser.ConfigParser()
@@ -62,11 +53,11 @@ def _check_project(project):
 
         for item in _get_as_list(project, "mkdocs_plugin"):
             if item not in entry_points.get("mkdocs.plugins", ()):
-                yield f"Missing entry point [mkdocs.plugins] '{item}'.\nInstead got {entry_points}"
+                errors.append(f"Missing entry point [mkdocs.plugins] '{item}'.\nInstead got {entry_points}")
 
         for item in _get_as_list(project, "mkdocs_theme"):
             if item not in entry_points.get("mkdocs.themes", ()):
-                yield f"Missing entry point [mkdocs.themes] '{item}'.\nInstead got {entry_points}"
+                errors.append(f"Missing entry point [mkdocs.themes] '{item}'.\nInstead got {entry_points}")
 
         for item in _get_as_list(project, "markdown_extension"):
             if item not in entry_points.get("markdown.extensions", ()):
@@ -76,34 +67,83 @@ def _check_project(project):
                     if path.is_file() and "makeExtension" in path.read_text():
                         break
                 else:
-                    yield (
+                    errors.append(
                         f"Missing entry point [markdown.extensions] '{item}'.\n"
                         f"Instead got {entry_points}.\n"
                         f"Also not found as a direct import."
                     )
 
-
-def check_project(project):
-    return list(_check_project(project))
+    return errors
 
 
-projects = yaml.safe_load(Path("projects.yaml").read_text())["projects"]
+pool = concurrent.futures.ThreadPoolExecutor(4)
+
+# Tracks shadowing: projects earlier in the list take precedence.
+available = {k: {} for k in _kind_to_label}
+
+futures = []
+
+for project in projects:
+    errors = []
+
+    if not project.get("name"):
+        errors.append("Project must have a 'name:'")
+        continue
+    if not project.get("category"):
+        errors.append("Project must have a 'category:'")
+
+    for kind, label in _kind_to_label.items():
+        items = _get_as_list(project, kind)
+
+        if (label in project.get("labels", ())) != bool(items):
+            errors.append(f"'{label}' label should be present if and only if '{kind}:' is present")
+
+        for item in items:
+            already_available = available[kind].get(item) or (
+                kind == "mkdocs_plugin" and available[kind].get(item.split("/")[-1])
+            )
+            if already_available:
+                if kind not in project.get("shadowed", ()):
+                    errors.append(
+                        f"{kind} '{item.split('/')[-1]}' is present in both project '{already_available}' and '{project['name']}'.\n"
+                        f"If that is expected, the later of the two projects will be ignored, "
+                        f"and to indicate this, it should contain 'shadowed: [{kind}]'"
+                    )
+            else:
+                available[kind][item] = project["name"]
+
+    install_name = None
+    if any(key in project for key in _kind_to_label):
+        if "pypi_id" in project:
+            install_name = project["pypi_id"]
+        elif "github_id" in project:
+            install_name = f"git+https://github.com/{project['github_id']}"
+        else:
+            errors.append("Missing 'pypi_id:'")
+
+    if install_name:
+        fut = pool.submit(check_install_project, project, install_name, errors)
+    else:
+        fut = concurrent.futures.Future()
+        fut.set_result(errors)
+    futures.append((project["name"], fut))
 
 
 error_count = 0
 
-with concurrent.futures.ThreadPoolExecutor(4) as pool:
-    for project, result in zip(projects, pool.map(check_project, projects)):
-        if result:
-            error_count += 1
+for project_name, fut in futures:
+    result = fut.result()
+    if result:
+        error_count += len(result)
+        print()
+        print(f"{project_name}:")
+        for error in result:
+            print(textwrap.indent(error.rstrip(), "     "))
             print()
-            print(f"{project['name']}:")
-            for error in result:
-                print(textwrap.indent(error.rstrip(), "     "))
-                print()
-        else:
-            print(".", end="")
-            sys.stdout.flush()
+    else:
+        print(".", end="")
+        sys.stdout.flush()
 
 if error_count:
+    print()
     sys.exit(f"Exited with {error_count} errors")
