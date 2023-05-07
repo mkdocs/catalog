@@ -9,6 +9,8 @@ configuration:
   project_dead_months: 99999  # "dead" is a somewhat strong assumption, so we avoid making it
 
 categories:
+- category: theming
+  title: 🎨 Theming
 - category: api-docs
   title: 💻 API documentation building
 - category: blogging
@@ -41,8 +43,6 @@ categories:
   title: 🔧 Site management
 - category: snippets-include
   title: 📁 Snippets & includes (reusing contents)
-- category: theming
-  title: 🎨 Theming
 - category: other
   title: 👽 Other
 
@@ -61,6 +61,194 @@ labels:
   description: Markdown extension(s)
 
 projects:
+- name: Material for MkDocs
+  mkdocs_theme: material
+  mkdocs_plugin: [material/info, material/offline, material/search, material/social, material/tags]
+  github_id: squidfunk/mkdocs-material
+  pypi_id: mkdocs-material
+  labels: [theme, plugin]
+  category: theming
+- name: Cinder
+  mkdocs_theme: cinder
+  github_id: chrissimpkins/cinder
+  pypi_id: mkdocs-cinder
+  labels: [theme]
+  category: theming
+- name: Windmill
+  mkdocs_theme: windmill
+  github_id: gristlabs/mkdocs-windmill
+  pypi_id: mkdocs-windmill
+  labels: [theme]
+  category: theming
+- name: Windmill Dark
+  mkdocs_theme: windmill-dark
+  github_id: noraj/mkdocs-windmill-dark
+  pypi_id: mkdocs-windmill-dark
+  labels: [theme]
+  category: theming
+- name: mkdocs-rtl
+  github_id: mberneti/mkdocs-rtl
+  labels: []
+  category: theming
+- name: docSkimmer
+  mkdocs_theme: docskimmer
+  github_id: hfagerlund/mkdocs-docskimmer
+  labels: [theme]
+  category: theming
+- name: mkdocs-theme-topdf
+  mkdocs_theme: topdf
+  github_id: kuri65536/mkdocs-theme-topdf
+  pypi_id: mkdocs-theme-topdf
+  labels: [theme]
+  category: theming
+- name: KPN for MkDocs
+  mkdocs_theme: kpn
+  github_id: kpn/mkdocs-kpn-theme
+  pypi_id: mkdocs-kpn
+  labels: [theme]
+  category: theming
+- name: CustomMill
+  mkdocs_theme: custommill
+  github_id: Siphalor/mkdocs-custommill
+  pypi_id: mkdocs-custommill
+  labels: [theme]
+  category: theming
+- name: Bootstrap4
+  mkdocs_theme: bootstrap4
+  github_id: byrnereese/mkdocs-bootstrap4
+  pypi_id: mkdocs-bootstrap4
+  labels: [theme]
+  category: theming
+- name: Bootstrap 4
+  mkdocs_theme: bootstrap4
+  shadowed: [mkdocs_theme]
+  github_id: LukeCarrier/mkdocs-theme-bootstrap4
+  pypi_id: mkdocs-theme-bootstrap4
+  labels: [theme]
+  category: theming
+- name: Nature
+  mkdocs_theme: nature
+  github_id: waylan/mkdocs-nature
+  pypi_id: mkdocs-nature
+  labels: [theme]
+  category: theming
+- name: GitHub
+  mkdocs_theme: github
+  github_id: g3xx/mkdocs-Github
+  pypi_id: mkdocs-github
+  labels: [theme]
+  category: theming
+- name: Bootswatch
+  mkdocs_theme: [cerulean, cosmo, cyborg, darkly, flatly, journal, litera, lumen, lux, materia, minty, pulse, sandstone, simplex, slate, solar, spacelab, superhero, united, yeti]
+  github_id: mkdocs/mkdocs-bootswatch
+  pypi_id: mkdocs-bootswatch
+  labels: [theme]
+  category: theming
+- name: Bootstrap
+  mkdocs_theme: bootstrap
+  github_id: mkdocs/mkdocs-bootstrap
+  pypi_id: mkdocs-bootstrap
+  labels: [theme]
+  category: theming
+- name: BOOTSTRAP386
+  mkdocs_theme: bootstrap386
+  gitlab_id: lramage/mkdocs-bootstrap386
+  pypi_id: mkdocs-bootstrap386
+  labels: [theme]
+  category: theming
+- name: GitBook
+  mkdocs_theme: gitbook
+  gitlab_id: lramage/mkdocs-gitbook-theme
+  pypi_id: mkdocs-gitbook
+  labels: [theme]
+  category: theming
+- name: Ivory
+  mkdocs_theme: ivory
+  github_id: daizutabi/mkdocs-ivory
+  pypi_id: mkdocs-ivory
+  labels: [theme]
+  category: theming
+- name: SWAN
+  mkdocs_theme: swan
+  github_id: swan-cern/mkdocs-swan
+  pypi_id: mkdocs-swan
+  labels: [theme]
+  category: theming
+- name: Zettelkasten
+  mkdocs_theme: zettelkasten-solarized-light
+  github_id: buvis-net/mkdocs-zettelkasten
+  pypi_id: mkdocs-zettelkasten
+  labels: [theme]
+  category: theming
+- name: Cluster
+  mkdocs_theme: cluster
+  description: Another bootstrap theme for MkDocs
+  gitlab_id: kaliko/mkdocs-cluster
+  pypi_id: mkdocs-cluster
+  labels: [theme]
+  category: theming
+- name: Unidata
+  mkdocs_theme: unidata
+  github_id: mjames-upc/mkdocs-unidata
+  pypi_id: mkdocs-unidata
+  labels: [theme]
+  category: theming
+- name: Moonstone
+  mkdocs_theme: moonstone
+  github_id: byrnereese/mkdocs-moonstone
+  pypi_id: mkdocs-moonstone
+  labels: [theme]
+  category: theming
+- name: Jinks
+  mkdocs_theme: jinks_en
+  github_id: anetwork/mkdocs-jinks-theme
+  pypi_id: mkdocs-jinks
+  labels: [theme]
+  category: theming
+- name: Inspired
+  mkdocs_theme: inspired
+  github_id: rnason/mkdocs-inspired
+  pypi_id: mkdocs-inspired
+  labels: [theme]
+  category: theming
+- name: Semantic
+  mkdocs_theme: semantic
+  description: Semantic-UI Theme for MkDocs
+  github_id: cryocaustik/mkdocs-semantic
+  pypi_id: mkdocs-semantic
+  labels: [theme]
+  category: theming
+- name: Alabaster
+  mkdocs_theme: alabaster
+  github_id: notpushkin/mkdocs-alabaster
+  pypi_id: mkdocs-alabaster
+  labels: [theme]
+  category: theming
+- name: Lantana
+  mkdocs_theme: lantana
+  github_id: WSOFT-Project/lantana
+  pypi_id: lantana
+  labels: [theme]
+  category: theming
+- name: Simple Blog
+  mkdocs_theme: simple-blog
+  github_id: FernandoCelmer/mkdocs-simple-blog
+  pypi_id: mkdocs-simple-blog
+  labels: [theme]
+  category: theming
+- name: Terminal for MkDocs
+  mkdocs_theme: terminal
+  github_id: ntno/mkdocs-terminal
+  pypi_id: mkdocs-terminal
+  labels: [theme]
+  category: theming
+- name: Dracula
+  mkdocs_theme: dracula
+  github_id: dracula/mkdocs
+  pypi_id: mkdocs-dracula-theme
+  labels: [theme]
+  category: theming
+
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
   labels: []
@@ -152,6 +340,7 @@ projects:
   github_id: fmaida/mkdocs-blog-plugin
   labels: [plugin]
   category: blogging
+  shadowed: [mkdocs_plugin]
 - name: rss
   mkdocs_plugin: rss
   github_id: Guts/mkdocs-rss-plugin
@@ -431,6 +620,7 @@ projects:
   category: git-info
 - name: git-committers
   mkdocs_plugin: git-committers
+  shadowed: [mkdocs_plugin]
   github_id: byrnereese/mkdocs-git-committers-plugin
   pypi_id: mkdocs-git-committers-plugin
   labels: [plugin]
@@ -1044,198 +1234,11 @@ projects:
   labels: [markdown]
   category: snippets-include
 - name: mkdocs-version-annotations
-  mkdocs_plugins: mkdocs-version-annotations
+  mkdocs_plugin: mkdocs-version-annotations
   github_id: glennmatthews/mkdocs-version-annotations
   pypi_id: mkdocs-version-annotations
   labels: [plugin]
   category: snippets-include
-
-- name: Material for MkDocs
-  mkdocs_theme: material
-  mkdocs_plugin: [material/info, material/offline, material/search, material/social, material/tags]
-  github_id: squidfunk/mkdocs-material
-  pypi_id: mkdocs-material
-  labels: [theme, plugin]
-  category: theming
-- name: Cinder
-  mkdocs_theme: cinder
-  github_id: chrissimpkins/cinder
-  pypi_id: mkdocs-cinder
-  labels: [theme]
-  category: theming
-- name: Windmill
-  mkdocs_theme: windmill
-  github_id: gristlabs/mkdocs-windmill
-  pypi_id: mkdocs-windmill
-  labels: [theme]
-  category: theming
-- name: Windmill Dark
-  mkdocs_theme: windmill-dark
-  github_id: noraj/mkdocs-windmill-dark
-  pypi_id: mkdocs-windmill-dark
-  labels: [theme]
-  category: theming
-- name: mkdocs-rtl
-  github_id: mberneti/mkdocs-rtl
-  labels: []
-  category: theming
-- name: docSkimmer
-  mkdocs_theme: docskimmer
-  github_id: hfagerlund/mkdocs-docskimmer
-  labels: [theme]
-  category: theming
-- name: mkdocs-theme-topdf
-  mkdocs_theme: topdf
-  github_id: kuri65536/mkdocs-theme-topdf
-  pypi_id: mkdocs-theme-topdf
-  labels: [theme]
-  category: theming
-- name: KPN for MkDocs
-  mkdocs_theme: kpn
-  github_id: kpn/mkdocs-kpn-theme
-  pypi_id: mkdocs-kpn
-  labels: [theme]
-  category: theming
-- name: CustomMill
-  mkdocs_theme: custommill
-  github_id: Siphalor/mkdocs-custommill
-  pypi_id: mkdocs-custommill
-  labels: [theme]
-  category: theming
-- name: Bootstrap4
-  mkdocs_theme: bootstrap4
-  github_id: byrnereese/mkdocs-bootstrap4
-  pypi_id: mkdocs-bootstrap4
-  labels: [theme]
-  category: theming
-- name: Bootstrap 4
-  mkdocs_theme: bootstrap4
-  github_id: LukeCarrier/mkdocs-theme-bootstrap4
-  pypi_id: mkdocs-theme-bootstrap4
-  labels: [theme]
-  category: theming
-- name: Nature
-  mkdocs_theme: nature
-  github_id: waylan/mkdocs-nature
-  pypi_id: mkdocs-nature
-  labels: [theme]
-  category: theming
-- name: GitHub
-  mkdocs_theme: github
-  github_id: g3xx/mkdocs-Github
-  pypi_id: mkdocs-github
-  labels: [theme]
-  category: theming
-- name: Bootswatch
-  mkdocs_theme: [cerulean, cosmo, cyborg, darkly, flatly, journal, litera, lumen, lux, materia, minty, pulse, sandstone, simplex, slate, solar, spacelab, superhero, united, yeti]
-  github_id: mkdocs/mkdocs-bootswatch
-  pypi_id: mkdocs-bootswatch
-  labels: [theme]
-  category: theming
-- name: Bootstrap
-  mkdocs_theme: bootstrap
-  github_id: mkdocs/mkdocs-bootstrap
-  pypi_id: mkdocs-bootstrap
-  labels: [theme]
-  category: theming
-- name: BOOTSTRAP386
-  mkdocs_theme: bootstrap386
-  gitlab_id: lramage/mkdocs-bootstrap386
-  pypi_id: mkdocs-bootstrap386
-  labels: [theme]
-  category: theming
-- name: GitBook
-  mkdocs_theme: gitbook
-  gitlab_id: lramage/mkdocs-gitbook-theme
-  pypi_id: mkdocs-gitbook
-  labels: [theme]
-  category: theming
-- name: Ivory
-  mkdocs_theme: ivory
-  github_id: daizutabi/mkdocs-ivory
-  pypi_id: mkdocs-ivory
-  labels: [theme]
-  category: theming
-- name: SWAN
-  mkdocs_theme: swan
-  github_id: swan-cern/mkdocs-swan
-  pypi_id: mkdocs-swan
-  labels: [theme]
-  category: theming
-- name: Zettelkasten
-  mkdocs_theme: zettelkasten-solarized-light
-  github_id: buvis-net/mkdocs-zettelkasten
-  pypi_id: mkdocs-zettelkasten
-  labels: [theme]
-  category: theming
-- name: Cluster
-  mkdocs_theme: cluster
-  description: Another bootstrap theme for MkDocs
-  gitlab_id: kaliko/mkdocs-cluster
-  pypi_id: mkdocs-cluster
-  labels: [theme]
-  category: theming
-- name: Unidata
-  mkdocs_theme: unidata
-  github_id: mjames-upc/mkdocs-unidata
-  pypi_id: mkdocs-unidata
-  labels: [theme]
-  category: theming
-- name: Moonstone
-  mkdocs_theme: moonstone
-  github_id: byrnereese/mkdocs-moonstone
-  pypi_id: mkdocs-moonstone
-  labels: [theme]
-  category: theming
-- name: Jinks
-  mkdocs_theme: jinks_en
-  github_id: anetwork/mkdocs-jinks-theme
-  pypi_id: mkdocs-jinks
-  labels: [theme]
-  category: theming
-- name: Inspired
-  mkdocs_theme: inspired
-  github_id: rnason/mkdocs-inspired
-  pypi_id: mkdocs-inspired
-  labels: [theme]
-  category: theming
-- name: Semantic
-  mkdocs_theme: semantic
-  description: Semantic-UI Theme for MkDocs
-  github_id: cryocaustik/mkdocs-semantic
-  pypi_id: mkdocs-semantic
-  labels: [theme]
-  category: theming
-- name: Alabaster
-  mkdocs_theme: alabaster
-  github_id: notpushkin/mkdocs-alabaster
-  pypi_id: mkdocs-alabaster
-  labels: [theme]
-  category: theming
-- name: Lantana
-  mkdocs_theme: lantana
-  github_id: WSOFT-Project/lantana
-  pypi_id: lantana
-  labels: [theme]
-  category: theming
-- name: Simple Blog
-  mkdocs_theme: simple-blog
-  github_id: FernandoCelmer/mkdocs-simple-blog
-  pypi_id: mkdocs-simple-blog
-  labels: [theme]
-  category: theming
-- name: Terminal for MkDocs
-  mkdocs_theme: terminal
-  github_id: ntno/mkdocs-terminal
-  pypi_id: mkdocs-terminal
-  labels: [theme]
-  category: theming
-- name: Dracula
-  mkdocs_theme: dracula
-  github_id: dracula/mkdocs
-  pypi_id: mkdocs-dracula-theme
-  labels: [theme]
-  category: theming
 
 - name: bibtex
   mkdocs_plugin: bibtex
@@ -1285,4 +1288,4 @@ projects:
   github_id: leonardehrenfried/mkdocs-no-sitemap-plugin
   pypi_id: mkdocs-no-sitemap-plugin
   labels: [plugin]
-  category: other  
+  category: other
