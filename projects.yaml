@@ -586,7 +586,12 @@ projects:
   pypi_id: mkdocs-meta-manager
   labels: [plugin]
   category: code-exec-templating
-
+- name: Entangled
+  github_id: entangled/mkdocs-plugin
+  pypi_id: mkdocs-entangled-plugin
+  labels: [plugin]
+  category: code-exec-templating
+  
 - name: branchcustomization
   mkdocs_plugin: branchcustomization
   github_id: effigies/mkdocs-branchcustomization-plugin
