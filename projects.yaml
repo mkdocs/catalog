@@ -587,6 +587,7 @@ projects:
   labels: [plugin]
   category: code-exec-templating
 - name: Entangled
+  mkdocs_plugin: entangled
   github_id: entangled/mkdocs-plugin
   pypi_id: mkdocs-entangled-plugin
   labels: [plugin]
