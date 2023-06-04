@@ -43,13 +43,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: install best-of-generator
+        run: pip install git+https://github.com/mkdocs/best-of-generator
       - name: update-best-of-list
-        uses: best-of-lists/best-of-update-action@v0.8.5
-        with:
-          libraries_key: ${{ secrets.LIBRARIES_KEY }}
-          github_key: ${{ secrets.GITHUB_TOKEN }}
-      - name: restyle-readme
-        run: python reformat.py
+        run: best-of generate projects.yaml --github-key=${{ secrets.GITHUB_TOKEN }} --libraries-key=${{ secrets.LIBRARIES_KEY }}
       - name: push-update
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
