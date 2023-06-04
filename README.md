@@ -68,39 +68,45 @@ This list contains 9 awesome open-source projects with a total of 14K stars grou
 
 <details><summary><b><a href="https://github.com/squidfunk/mkdocs-material">Material for MkDocs</a></b>  - 🥇42 ·  ⭐ 14K · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1495/PNG/512/preferencesdesktoptheme_102980.png" style="display:inline;" width="13" height="13"></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Documentation that simply works.</summary>
 
-- [GitHub](https://github.com/squidfunk/mkdocs-material) (👨‍💻 220 · 🔀 2.9K · 📦 33K · 📋 1.9K - 1% open · ⏱️ 02.06.2023):
-
-	```
-	git clone https://github.com/squidfunk/mkdocs-material
-	```
+- [GitHub](https://github.com/squidfunk/mkdocs-material) (👨‍💻 220 · 🔀 2.9K · 📦 33K · 📋 1.9K - 1% open · ⏱️ 02.06.2023)
 - [PyPi](https://pypi.org/project/mkdocs-material) (📥 2.5M / month):
 	```
 	pip install mkdocs-material
 	```
+- Add to [mkdocs.yml](https://www.mkdocs.org/user-guide/configuration/#theme):
+   ```yaml
+   theme: material
+   plugins:
+     - info
+     - offline
+     - search
+     - social
+     - tags
+   ```
 </details>
 <details><summary><b><a href="https://github.com/chrissimpkins/cinder">Cinder</a></b>  - 🥉20 ·  ⭐ 180 · 💤 · <code>❗Unlicensed</code> · <code><img src="https://cdn.icon-icons.com/icons2/1495/PNG/512/preferencesdesktoptheme_102980.png" style="display:inline;" width="13" height="13"></code><br>A clean, responsive MkDocs theme.</summary>
 
-- [GitHub](https://github.com/chrissimpkins/cinder) (👨‍💻 23 · 🔀 100 · 📥 960 · 📦 540 · 📋 50 - 30% open · ⏱️ 05.01.2021):
-
-	```
-	git clone https://github.com/chrissimpkins/cinder
-	```
+- [GitHub](https://github.com/chrissimpkins/cinder) (👨‍💻 23 · 🔀 100 · 📥 960 · 📦 540 · 📋 50 - 30% open · ⏱️ 05.01.2021)
 - [PyPi](https://pypi.org/project/mkdocs-cinder) (📥 5K / month):
 	```
 	pip install mkdocs-cinder
 	```
+- Add to [mkdocs.yml](https://www.mkdocs.org/user-guide/configuration/#theme):
+   ```yaml
+   theme: cinder
+   ```
 </details>
 <details><summary><b><a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a></b>  - 🥉14 ·  ⭐ 93 · 💤 · <code>❗Unlicensed</code> · <code><img src="https://cdn.icon-icons.com/icons2/1495/PNG/512/preferencesdesktoptheme_102980.png" style="display:inline;" width="13" height="13"></code><br>Outstanding mkdocs theme with a focus on navigation and usability.</summary>
 
-- [GitHub](https://github.com/gristlabs/mkdocs-windmill) (👨‍💻 8 · 🔀 43 · 📦 250 · 📋 30 - 46% open · ⏱️ 11.03.2022):
-
-	```
-	git clone https://github.com/gristlabs/mkdocs-windmill
-	```
+- [GitHub](https://github.com/gristlabs/mkdocs-windmill) (👨‍💻 8 · 🔀 43 · 📦 250 · 📋 30 - 46% open · ⏱️ 11.03.2022)
 - [PyPi](https://pypi.org/project/mkdocs-windmill) (📥 2.8K / month):
 	```
 	pip install mkdocs-windmill
 	```
+- Add to [mkdocs.yml](https://www.mkdocs.org/user-guide/configuration/#theme):
+   ```yaml
+   theme: windmill
+   ```
 </details>
 <br>
 
@@ -158,7 +164,19 @@ This list contains 9 awesome open-source projects with a total of 14K stars grou
 
 <details><summary>Show 1 hidden projects...</summary>
 
-- <b><a href="https://github.com/sander76/mkdocs-abs-rel-plugin">abs-to-rel</a></b>  - 🥇8 ·  ⭐ 3 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for converting absolute links to relative ones.
+<details><summary><b><a href="https://github.com/sander76/mkdocs-abs-rel-plugin">abs-to-rel</a></b>  - 🥇8 ·  ⭐ 3 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for converting absolute links to relative ones.</summary>
+
+- [GitHub](https://github.com/sander76/mkdocs-abs-rel-plugin) (👨‍💻 2 · 🔀 3 · 📦 19 · ⏱️ 03.03.2020)
+- [PyPi](https://pypi.org/project/mkdocs-abs-rel-plugin) (📥 960 / month):
+	```
+	pip install mkdocs-abs-rel-plugin
+	```
+- Add to [mkdocs.yml](https://www.mkdocs.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - abs-to-rel
+   ```
+</details>
 </details>
 <br>
 
@@ -204,19 +222,32 @@ This list contains 9 awesome open-source projects with a total of 14K stars grou
 
 <details><summary><b><a href="https://github.com/neurobin/mdx_include">Mdx Include</a></b>  - 🥉9 ·  ⭐ 50 · <code>❗Unlicensed</code> · <code><img src="https://cdn.icon-icons.com/icons2/1459/PNG/512/2799201-jigsaw-processing_99781.png" style="display:inline;" width="13" height="13"></code><br>Python Markdown extension to include local or remote files.</summary>
 
-- [GitHub](https://github.com/neurobin/mdx_include) (👨‍💻 3 · 🔀 2 · 📋 8 - 37% open · ⏱️ 26.07.2022):
-
-	```
-	git clone https://github.com/neurobin/mdx_include
-	```
+- [GitHub](https://github.com/neurobin/mdx_include) (👨‍💻 3 · 🔀 2 · 📋 8 - 37% open · ⏱️ 26.07.2022)
 - [PyPi](https://pypi.org/project/mdx_include) (📥 8.5K / month):
 	```
 	pip install mdx_include
 	```
+- Add to [mkdocs.yml](https://www.mkdocs.org/user-guide/configuration/#markdown_extensions):
+   ```yaml
+   markdown_extensions:
+     - mdx_include
+   ```
 </details>
 <details><summary>Show 1 hidden projects...</summary>
 
-- <b><a href="https://github.com/fire1ce/mkdocs-embed-external-markdown">mkdocs-embed-external-markdown</a></b>  - 🥇13 ·  ⭐ 4 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>MkDocs Embed External Markdown plugin that allow to inject section or all full markdown content from a given url. The..
+<details><summary><b><a href="https://github.com/fire1ce/mkdocs-embed-external-markdown">mkdocs-embed-external-markdown</a></b>  - 🥇13 ·  ⭐ 4 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>MkDocs Embed External Markdown plugin that allow to inject section or all full markdown content from a given url. The..</summary>
+
+- [GitHub](https://github.com/fire1ce/mkdocs-embed-external-markdown) (👨‍💻 4 · 🔀 5 · 📦 92 · 📋 6 - 33% open · ⏱️ 16.03.2023)
+- [PyPi](https://pypi.org/project/mkdocs-embed-external-markdown) (📥 4.8K / month):
+	```
+	pip install mkdocs-embed-external-markdown
+	```
+- Add to [mkdocs.yml](https://www.mkdocs.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - external-markdown
+   ```
+</details>
 </details>
 <br>
 
@@ -226,20 +257,45 @@ This list contains 9 awesome open-source projects with a total of 14K stars grou
 
 <details><summary><b><a href="https://github.com/oprypin/mkdocs-same-dir">same-dir</a></b>  - 🥉12 ·  ⭐ 23 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to allow placing mkdocs.yml in the same directory as documentation.</summary>
 
-- [GitHub](https://github.com/oprypin/mkdocs-same-dir) (👨‍💻 2 · 🔀 2 · 📦 180 · ⏱️ 10.04.2023):
-
-	```
-	git clone https://github.com/oprypin/mkdocs-same-dir
-	```
+- [GitHub](https://github.com/oprypin/mkdocs-same-dir) (👨‍💻 2 · 🔀 2 · 📦 180 · ⏱️ 10.04.2023)
 - [PyPi](https://pypi.org/project/mkdocs-same-dir) (📥 8.7K / month):
 	```
 	pip install mkdocs-same-dir
 	```
+- Add to [mkdocs.yml](https://www.mkdocs.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - same-dir
+   ```
 </details>
 <details><summary>Show 2 hidden projects...</summary>
 
-- <b><a href="https://github.com/shyamd/mkdocs-bibtex">bibtex</a></b>  - 🥇20 ·  ⭐ 44 · <code><a href="https://tldrlegal.com/search?q=BSD-3-Clause-LBNL">❗️BSD-3-Clause-LBNL</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin for citation management using bibtex.
-- <b><a href="https://github.com/fmaida/pico8-mkdocs-plugin">pico-8</a></b>  - 🥉4 ·  ⭐ 1 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>A MKDocs plugin that allows to embed a Pico-8 web player in a page.
+<details><summary><b><a href="https://github.com/shyamd/mkdocs-bibtex">bibtex</a></b>  - 🥇20 ·  ⭐ 44 · <code><a href="https://tldrlegal.com/search?q=BSD-3-Clause-LBNL">❗️BSD-3-Clause-LBNL</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin for citation management using bibtex.</summary>
+
+- [GitHub](https://github.com/shyamd/mkdocs-bibtex) (👨‍💻 9 · 🔀 13 · 📦 160 · 📋 34 - 23% open · ⏱️ 01.06.2023)
+- [PyPi](https://pypi.org/project/mkdocs-bibtex) (📥 3.8K / month):
+	```
+	pip install mkdocs-bibtex
+	```
+- Add to [mkdocs.yml](https://www.mkdocs.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - bibtex
+   ```
+</details>
+<details><summary><b><a href="https://github.com/fmaida/pico8-mkdocs-plugin">pico-8</a></b>  - 🥉4 ·  ⭐ 1 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>A MKDocs plugin that allows to embed a Pico-8 web player in a page.</summary>
+
+- [GitHub](https://github.com/fmaida/pico8-mkdocs-plugin) (📦 1 · ⏱️ 17.03.2019)
+- [PyPi](https://pypi.org/project/pico8-mkdocs-plugin) (📥 100 / month):
+	```
+	pip install pico8-mkdocs-plugin
+	```
+- Add to [mkdocs.yml](https://www.mkdocs.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - pico-8
+   ```
+</details>
 </details>
 
 ---
