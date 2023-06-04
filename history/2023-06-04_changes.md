@@ -2,8 +2,5 @@
 
 _Projects that have a higher project-quality score compared to the last update. There might be a variety of reasons, such as increased downloads or code activity._
 
-- <b><a href="https://github.com/kuri65536/mkdocs-wavedrom-plugin">markdownwavedrom</a></b> (🥉6 ·  ⭐ 9 · 💤) - A MkDocs plugin for support wavedrom charts in markdown file. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/Andre601/mkdocs-pagenav-generator">pagenav-generator</a></b> (🥉2 ·  ⭐ 3 · 💤) - Little something to automatically generate a Navigation within a page itself. Depends on Awesome-pages. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/vzhong/mkdocs_pug">mkdocs-pug</a></b> (🥉1 · 💤) - Use pug templates with your mkdocs template. <code>❗Unlicensed</code>
-- <b><a href="{}">octadocs-adr</a></b> (📈) -  <code>❗Unlicensed</code> <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/haoda-li/mkdocs-plotly-plugin">plotly charts</a></b>  - 🥉4 ·  ⭐ 1 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Mkdocs plugin to add interactive charts with Plotly.js.
 
