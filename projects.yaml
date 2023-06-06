@@ -256,8 +256,8 @@ projects:
 - name: mkdocstrings
   mkdocs_plugin: mkdocstrings
   extra_dependencies:
-    mkdocstrings.handlers.crystal: mkdocstrings-crystal
-    mkdocstrings.handlers.python: mkdocstrings-python
+    plugins.mkdocstrings.handlers.crystal: mkdocstrings-crystal
+    plugins.mkdocstrings.handlers.python: mkdocstrings-python
   github_id: mkdocstrings/mkdocstrings
   pypi_id: mkdocstrings
   labels: [plugin]
