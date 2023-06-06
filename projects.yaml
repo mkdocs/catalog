@@ -710,6 +710,11 @@ projects:
   github_id: allevo/mkdocs-swagger-plugin
   labels: [plugin]
   category: integrations
+- name: mkdocs-render-swagger-plugin
+  mkdocs_plugin: render_swagger
+  github_id: bharel/mkdocs-render-swagger-plugin
+  labels: [plugin]
+  category: integrations
 - name: factsheet
   mkdocs_plugin: factsheet
   github_id: inuits/mkdocs-factsheet
@@ -839,6 +844,12 @@ projects:
   pypi_id: markdown-callouts
   labels: [markdown]
   category: markdown
+- name: mkdocs-callouts
+  mkdocs_plugin: callouts
+  github_id: sondregronas/mkdocs-callouts
+  pypi_id: mkdocs-callouts
+  labels: [plugin]
+  category: markdown
 - name: PyMdown Extensions
   markdown_extension: [pymdownx.arithmatex, pymdownx.b64, pymdownx.betterem, pymdownx.caret, pymdownx.critic, pymdownx.details, pymdownx.emoji, pymdownx.escapeall, pymdownx.extra, pymdownx.highlight, pymdownx.inlinehilite, pymdownx.keys, pymdownx.magiclink, pymdownx.mark, pymdownx.pathconverter, pymdownx.progressbar, pymdownx.saneheaders, pymdownx.smartsymbols, pymdownx.snippets, pymdownx.striphtml, pymdownx.superfences, pymdownx.tabbed, pymdownx.tasklist, pymdownx.tilde]
   github_id: facelessuser/pymdown-extensions
@@ -855,6 +866,12 @@ projects:
   markdown_extension: mdx_truly_sane_lists
   github_id: radude/mdx_truly_sane_lists
   pypi_id: mdx_truly_sane_lists
+  labels: [markdown]
+  category: markdown
+- name: Breakless Lists
+  markdown_extension: mdx_breakless_lists
+  github_id: adamb70/mdx-breakless-lists
+  pypi_id: mdx-breakless-lists
   labels: [markdown]
   category: markdown
 - name: Tweetable quotes
