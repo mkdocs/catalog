@@ -485,6 +485,18 @@ projects:
   pypi_id: mkdocs-plotly-plugin
   labels: [plugin]
   category: charts
+- name: Lightgallery
+  markdown_extension: lightgallery
+  github_id: g-provost/lightgallery-markdown
+  pypi_id: lightgallery
+  labels: [markdown]
+  category: charts
+- name: Markdown blockdiag
+  markdown_extension: markdown_blockdiag
+  github_id: gisce/markdown-blockdiag
+  pypi_id: markdown-blockdiag
+  labels: [markdown]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
@@ -592,7 +604,13 @@ projects:
   pypi_id: mkdocs-entangled-plugin
   labels: [plugin]
   category: code-exec-templating
-  
+- name: Termynal
+  mkdocs_plugin: termynal
+  github_id: daxartio/termynal
+  pypi_id: termynal
+  labels: [plugin]
+  category: code-exec-templating
+
 - name: branchcustomization
   mkdocs_plugin: branchcustomization
   github_id: effigies/mkdocs-branchcustomization-plugin
@@ -890,6 +908,24 @@ projects:
   markdown_extension: mkpatcher
   github_id: ofek/mkpatcher
   pypi_id: mkpatcher
+  labels: [markdown]
+  category: markdown
+- name: YAML metadata
+  markdown_extension: full_yaml_metadata
+  github_id: sivakov512/python-markdown-full-yaml-metadata
+  pypi_id: markdown-full-yaml-metadata
+  labels: [markdown]
+  category: markdown
+- name: HEARTBEATS Flavored Markdown
+  markdown_extension: [hbfm.inline_coloring, hbfm.inline_list, hbfm.number_headers, hbfm.quote_uri_hash]
+  github_id: heartbeatsjp/markdown-extension-hbfm
+  pypi_id: hbfm
+  labels: [markdown]
+  category: markdown
+- name: Markdown Inline Graphviz
+  markdown_extension: markdown_inline_graphviz
+  github_id: cesaremorel/markdown-inline-graphviz
+  pypi_id: markdown_inline_graphviz_extension
   labels: [markdown]
   category: markdown
 
@@ -1310,5 +1346,11 @@ projects:
   mkdocs_plugin: no-sitemap
   github_id: leonardehrenfried/mkdocs-no-sitemap-plugin
   pypi_id: mkdocs-no-sitemap-plugin
+  labels: [plugin]
+  category: other
+- name: techdocs-core
+  mkdocs_plugin: techdocs-core
+  github_id: backstage/mkdocs-techdocs-core
+  pypi_id: mkdocs-techdocs-core
   labels: [plugin]
   category: other
