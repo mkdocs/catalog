@@ -917,15 +917,15 @@ projects:
   labels: [markdown]
   category: markdown
 - name: HEARTBEATS Flavored Markdown
-  markdown_extension: hbfm
+  markdown_extension: [hbfm.inline_coloring, hbfm.inline_list, hbfm.number_headers, hbfm.quote_uri_hash]
   github_id: heartbeatsjp/markdown-extension-hbfm
   pypi_id: hbfm
   labels: [markdown]
   category: markdown
 - name: Markdown Inline Graphviz
-  markdown_extension: inline_graphviz
-  github_id: sprin/markdown-inline-graphviz
-  pypi_id: markdown-inline-graphviz
+  markdown_extension: markdown_inline_graphviz
+  github_id: cesaremorel/markdown-inline-graphviz
+  pypi_id: markdown_inline_graphviz_extension
   labels: [markdown]
   category: markdown
 
