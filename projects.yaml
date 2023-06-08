@@ -923,7 +923,7 @@ projects:
   labels: [markdown]
   category: markdown
 - name: Markdown Inline Graphviz
-  markdown_extension: markdown_inline_graphviz
+  markdown_extension: inline_graphviz
   github_id: sprin/markdown-inline-graphviz
   pypi_id: markdown-inline-graphviz
   labels: [markdown]
