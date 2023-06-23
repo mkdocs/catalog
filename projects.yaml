@@ -1062,6 +1062,12 @@ projects:
   pypi_id: mkdocs-nav-weight
   labels: [plugin]
   category: nav-pages
+- name: mkdocs-live-edit-plugin
+  mkdocs_plugin: live-edit
+  github_id: eddyluten/mkdocs-live-edit-plugin
+  pypi_id: mkdocs-live-edit-plugin
+  labels: [plugin]
+  category: nav-pages
 
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
