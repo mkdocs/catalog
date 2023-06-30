@@ -855,6 +855,12 @@ projects:
   pypi_id: mkdocs-link-marker
   labels: [plugin]
   category: links-refs
+- name: mkdocs-open-in-new-tab
+  mkdocs_plugin: open-in-new-tab
+  github_id: JakubAndrysek/mkdocs-open-in-new-tab
+  pypi_id: mkdocs-open-in-new-tab
+  labels: [plugin]
+  category: links-refs
 
 - name: markdown-callouts
   markdown_extension: callouts
