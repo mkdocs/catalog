@@ -703,6 +703,12 @@ projects:
   pypi_id: mkdocs-enumerate-headings-plugin
   labels: [plugin]
   category: html-css
+- name: minify-html
+  mkdocs_plugin: minify_html
+  github_id: monosans/mkdocs-minify-html-plugin
+  pypi_id: mkdocs-minify-html-plugin
+  labels: [plugin]
+  category: html-css
 
 - name: static-i18n
   mkdocs_plugin: i18n
