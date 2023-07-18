@@ -77,7 +77,6 @@ This list contains 210 awesome open-source projects with a total of 24K stars gr
    ```yaml
    theme: material
    plugins:
-     - info
      - offline
      - search
      - social
