@@ -1259,6 +1259,12 @@ projects:
   pypi_id: mkdocs-yamp
   labels: [plugin]
   category: site-management
+- name: mkdocs-exclude-unused-files
+  mkdocs_plugin: exclude-unused-files
+  github_id: JonasDoesThings/mkdocs-exclude-unused-files
+  pypi_id: mkdocs-exclude-unused-files
+  labels: ["plugin", "files-filter"]
+  category: site-management
 
 - name: mkdocs-embed-external-markdown
   mkdocs_plugin: external-markdown
