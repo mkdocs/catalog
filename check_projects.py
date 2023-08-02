@@ -22,7 +22,11 @@ _kind_to_label = {
     "markdown_extension": "markdown",
 }
 
-projects = yaml.safe_load(Path("projects.yaml").read_text())["projects"]
+config = yaml.safe_load(Path("projects.yaml").read_text())
+
+projects = config["projects"]
+all_labels = dict.fromkeys(label["label"] for label in config["labels"])
+all_categories = dict.fromkeys(category["category"] for category in config["categories"])
 
 
 def check_install_project(project, install_name, errors=None):
@@ -86,16 +90,24 @@ futures = []
 for project in projects:
     errors = []
 
-    if not project.get("name"):
+    name = project.get("name")
+    if not name:
         errors.append("Project must have a 'name:'")
         continue
-    if not project.get("category"):
+    category = project.get("category")
+    if not category:
         errors.append("Project must have a 'category:'")
+    elif category not in all_categories:
+        errors.append(f"Unknown category: {category!r} - should be one of: {', '.join(all_categories)}")
+    labels = project.get("labels", ())
+    for label in labels:
+        if label not in all_labels:
+            errors.append(f"Unknown label: {label!r} - should be one of: {', '.join(all_labels)}")
 
     for kind, label in _kind_to_label.items():
         items = _get_as_list(project, kind)
 
-        if (label in project.get("labels", ())) != bool(items):
+        if (label in labels) != bool(items):
             errors.append(f"'{label}' label should be present if and only if '{kind}:' is present")
 
         for item in items:
@@ -105,12 +117,12 @@ for project in projects:
             if already_available:
                 if kind not in project.get("shadowed", ()):
                     errors.append(
-                        f"{kind} '{item.split('/')[-1]}' is present in both project '{already_available}' and '{project['name']}'.\n"
+                        f"{kind} '{item.split('/')[-1]}' is present in both project '{already_available}' and '{name}'.\n"
                         f"If that is expected, the later of the two projects will be ignored, "
                         f"and to indicate this, it should contain 'shadowed: [{kind}]'"
                     )
             else:
-                available[kind][item] = project["name"]
+                available[kind][item] = name
 
     install_name = None
     if any(key in project for key in _kind_to_label):
@@ -126,7 +138,7 @@ for project in projects:
     else:
         fut = concurrent.futures.Future()
         fut.set_result(errors)
-    futures.append((project["name"], fut))
+    futures.append((name, fut))
 
 
 error_count = 0
