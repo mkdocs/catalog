@@ -867,6 +867,12 @@ projects:
   pypi_id: mkdocs-open-in-new-tab
   labels: [plugin]
   category: links-refs
+- name: mkdocs-site-urls
+  mkdocs_plugin: site-urls
+  github_id: OctoPrint/mkdocs-site-urls
+  pypi_id: mkdocs-site-urls
+  labels: [plugin]
+  category: links-refs
 
 - name: markdown-callouts
   markdown_extension: callouts
