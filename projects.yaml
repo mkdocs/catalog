@@ -1275,7 +1275,7 @@ projects:
   mkdocs_plugin: mkdocs_exclude_tagged_files
   github_id: JonasDoesThings/mkdocs-exclude-tagged-files
   pypi_id: mkdocs-exclude-tagged-files
-  labels: ["plugin", "files-filter"]
+  labels: [plugin]
   category: site-management
 
 - name: mkdocs-embed-external-markdown
