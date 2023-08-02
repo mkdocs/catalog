@@ -1271,6 +1271,12 @@ projects:
   pypi_id: mkdocs-exclude-unused-files
   labels: [plugin]
   category: site-management
+- name: mkdocs-exclude-tagged-files
+  mkdocs_plugin: mkdocs_exclude_tagged_files
+  github_id: JonasDoesThings/mkdocs-exclude-tagged-files
+  pypi_id: mkdocs-exclude-tagged-files
+  labels: [plugin]
+  category: site-management
 
 - name: mkdocs-embed-external-markdown
   mkdocs_plugin: external-markdown
