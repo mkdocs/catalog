@@ -1269,7 +1269,7 @@ projects:
   mkdocs_plugin: exclude-unused-files
   github_id: JonasDoesThings/mkdocs-exclude-unused-files
   pypi_id: mkdocs-exclude-unused-files
-  labels: ["plugin", "files-filter"]
+  labels: [plugin]
   category: site-management
 
 - name: mkdocs-embed-external-markdown
