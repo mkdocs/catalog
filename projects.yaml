@@ -867,6 +867,12 @@ projects:
   pypi_id: mkdocs-open-in-new-tab
   labels: [plugin]
   category: links-refs
+- name: mkdocs-site-urls
+  mkdocs_plugin: site-urls
+  github_id: OctoPrint/mkdocs-site-urls
+  pypi_id: mkdocs-site-urls
+  labels: [plugin]
+  category: links-refs
 
 - name: markdown-callouts
   markdown_extension: callouts
@@ -1257,6 +1263,12 @@ projects:
   mkdocs_plugin: yamp
   github_id: boozallen/mkdocs-yamp-plugin
   pypi_id: mkdocs-yamp
+  labels: [plugin]
+  category: site-management
+- name: mkdocs-exclude-unused-files
+  mkdocs_plugin: exclude-unused-files
+  github_id: JonasDoesThings/mkdocs-exclude-unused-files
+  pypi_id: mkdocs-exclude-unused-files
   labels: [plugin]
   category: site-management
 - name: mkdocs-exclude-tagged-files
