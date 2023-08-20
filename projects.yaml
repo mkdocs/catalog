@@ -606,7 +606,7 @@ projects:
   category: code-exec-templating
 - name: Termynal
   mkdocs_plugin: termynal
-  github_id: daxartio/termynal
+  github_id: mkdocs-plugins/termynal
   pypi_id: termynal
   labels: [plugin]
   category: code-exec-templating
