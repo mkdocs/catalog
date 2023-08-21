@@ -1390,3 +1390,7 @@ projects:
   pypi_id: mkdocs-techdocs-core
   labels: [plugin]
   category: other
+- name: Family tree example
+  github_id: unverbuggt/mkdocs-familytree-example
+  labels: []
+  category: other
