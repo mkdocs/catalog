@@ -248,6 +248,12 @@ projects:
   pypi_id: mkdocs-dracula-theme
   labels: [theme]
   category: theming
+- name: Risonia
+  mkdocs_theme: risonia
+  github_id: unverbuggt/mkdocs-risonia-theme
+  pypi_id: mkdocs-risonia-theme
+  labels: [theme]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
