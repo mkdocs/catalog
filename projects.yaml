@@ -797,6 +797,12 @@ projects:
   pypi_id: mkdocs-autolinks-plugin
   labels: [plugin]
   category: links-refs
+- name: ezglossary
+  mkdocs_plugin: ezglossary
+  github_id: realtimeprojects/mkdocs-ezglossary
+  pypi_id: mkdocs-ezglossary-plugin
+  labels: [plugin]
+  category: links-refs
 - name: roamlinks
   mkdocs_plugin: roamlinks
   github_id: Jackiexiao/mkdocs-roamlinks-plugin
