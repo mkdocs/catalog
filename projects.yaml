@@ -715,6 +715,12 @@ projects:
   pypi_id: mkdocs-minify-html-plugin
   labels: [plugin]
   category: html-css
+- name: toggle-sidebar
+  mkdocs_plugin: toggle-sidebar
+  github_id: six-two/mkdocs-toggle-sidebar-plugin
+  pypi_id: mkdocs-toggle-sidebar-plugin
+  labels: [plugin]
+  category: html-css
 
 - name: static-i18n
   mkdocs_plugin: i18n
