@@ -964,6 +964,102 @@ projects:
   pypi_id: markdown_inline_graphviz_extension
   labels: [markdown]
   category: markdown
+- name: markdown-katex
+  markdown_extension: markdown_katex
+  gitlab_id: mbarkhau/markdown-katex
+  pypi_id: markdown-katex
+  labels: [markdown]
+  category: markdown
+- name: python-asciimathml
+  markdown_extension: asciimathml
+  github_id: ShadowKyogre/python-asciimathml
+  pypi_id: asciimathml
+  labels: [markdown]
+  category: markdown
+- name: Django Static Image
+  markdown_extension: django_static_image
+  bitbucket_id: melvinkcx/markdown-extension-django-static-image
+  pypi_id: markdown-djangostaticimage
+  labels: [markdown]
+  category: markdown
+- name: markdown-icons
+  markdown_extension: iconfonts
+  github_id: MadLittleMods/markdown-icons
+  pypi_id: markdown-iconfonts
+  labels: [markdown]
+  category: markdown
+- name: MarkdownSuperscript
+  markdown_extension: superscript
+  github_id: jambonrose/markdown_superscript_extension
+  pypi_id: MarkdownSuperscript
+  labels: [markdown]
+  category: markdown
+- name: MarkdownSubscript
+  markdown_extension: subscript
+  github_id: jambonrose/markdown_subscript_extension
+  pypi_id: MarkdownSubscript
+  labels: [markdown]
+  category: markdown
+- name: markdown_sub_sup
+  markdown_extension: markdown_sub_sup
+  github_id: alberic89/markdown_sub_sup
+  pypi_id: markdown_sub_sup
+  labels: [markdown]
+  category: markdown
+- name: KBD Extension
+  markdown_extension: kbdextension
+  github_id: RickTalken/kbdextension
+  pypi_id: kbdextension
+  labels: [markdown]
+  category: markdown
+- name: markdown-emdash
+  markdown_extension: mdx_emdash
+  github_id: czue/markdown-emdash
+  pypi_id: markdown-emdash
+  labels: [markdown]
+  category: markdown
+- name: QRCODE Markdown Extension
+  markdown_extension: mdx_qrcode
+  github_id: airtonix/python-markdown-qrcode
+  pypi_id: python_markdown_qrcode
+  labels: [markdown]
+  category: markdown
+- name: Semantic Data Extension
+  markdown_extension: semanticdata
+  github_id: aleray/mdx_semanticdata
+  pypi_id: mdx_semanticdata
+  labels: [markdown]
+  category: markdown
+- name: Semantic WikiLinks Extension
+  markdown_extension: semanticwikilinks
+  github_id: aleray/mdx_semanticwikilinks
+  pypi_id: mdx_semanticwikilinks
+  labels: [markdown]
+  category: markdown
+- name: Cite Extension
+  markdown_extension: cite
+  github_id: aleray/mdx_cite
+  pypi_id: mdx_cite
+  labels: [markdown]
+  category: markdown
+- name: Markdown Grid Tables
+  markdown_extension: markdown_grid_tables
+  gitlab_id: WillDaSilva/markdown_grid_tables
+  pypi_id: markdown-grid-tables
+  labels: [markdown]
+  category: markdown
+- name: Markdown Checklist
+  markdown_extension: markdown_checklist.extension
+  github_id: FND/markdown-checklist
+  pypi_id: markdown-checklist
+  labels: [markdown]
+  category: markdown
+- name: Markdown Bugzilla Extension
+  markdown_extension: mdbz
+  github_id: atodorov/Markdown-Bugzilla-Extension
+  pypi_id: Markdown-Bugzilla-Extension
+  labels: [markdown]
+  category: markdown
 
 - name: exclude
   mkdocs_plugin: exclude
