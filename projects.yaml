@@ -971,7 +971,7 @@ projects:
   labels: [markdown]
   category: markdown
 - name: python-asciimathml
-  markdown_extension: asciimathml
+  markdown_extension: mdx_asciimathml
   github_id: ShadowKyogre/python-asciimathml
   pypi_id: asciimathml
   labels: [markdown]
