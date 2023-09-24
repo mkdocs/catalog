@@ -1018,26 +1018,20 @@ projects:
   pypi_id: markdown-emdash
   labels: [markdown]
   category: markdown
-- name: QRCODE Markdown Extension
-  markdown_extension: mdx_qrcode
-  github_id: airtonix/python-markdown-qrcode
-  pypi_id: python_markdown_qrcode
-  labels: [markdown]
-  category: markdown
 - name: Semantic Data Extension
-  markdown_extension: semanticdata
+  markdown_extension: mdx_semanticdata
   github_id: aleray/mdx_semanticdata
   pypi_id: mdx_semanticdata
   labels: [markdown]
   category: markdown
 - name: Semantic WikiLinks Extension
-  markdown_extension: semanticwikilinks
+  markdown_extension: mdx_semanticwikilinks
   github_id: aleray/mdx_semanticwikilinks
   pypi_id: mdx_semanticwikilinks
   labels: [markdown]
   category: markdown
 - name: Cite Extension
-  markdown_extension: cite
+  markdown_extension: mdx_cite
   github_id: aleray/mdx_cite
   pypi_id: mdx_cite
   labels: [markdown]
@@ -1052,12 +1046,6 @@ projects:
   markdown_extension: markdown_checklist.extension
   github_id: FND/markdown-checklist
   pypi_id: markdown-checklist
-  labels: [markdown]
-  category: markdown
-- name: Markdown Bugzilla Extension
-  markdown_extension: mdbz
-  github_id: atodorov/Markdown-Bugzilla-Extension
-  pypi_id: Markdown-Bugzilla-Extension
   labels: [markdown]
   category: markdown
 
