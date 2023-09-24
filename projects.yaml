@@ -828,6 +828,7 @@ projects:
   labels: [plugin]
   category: links-refs
 - name: Mkdocs-Addresses
+  mkdocs_plugin: mkdocs-addresses
   gitlab_id: frederic.zinelli/mkdocs-addresses
   pypi_id: mkdocs-addresses
   labels: [plugin]
