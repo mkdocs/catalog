@@ -113,12 +113,6 @@ projects:
   pypi_id: mkdocs-custommill
   labels: [theme]
   category: theming
-- name: Bootstrap4
-  mkdocs_theme: bootstrap4
-  github_id: byrnereese/mkdocs-bootstrap4
-  pypi_id: mkdocs-bootstrap4
-  labels: [theme]
-  category: theming
 - name: Bootstrap 4
   mkdocs_theme: bootstrap4
   shadowed: [mkdocs_theme]
