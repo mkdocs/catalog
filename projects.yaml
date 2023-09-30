@@ -63,7 +63,7 @@ labels:
 projects:
 - name: Material for MkDocs
   mkdocs_theme: material
-  mkdocs_plugin: [material/offline, material/search, material/social, material/tags]
+  mkdocs_plugin: [material/search, material/social, material/tags]
   github_id: squidfunk/mkdocs-material
   pypi_id: mkdocs-material
   labels: [theme, plugin]
