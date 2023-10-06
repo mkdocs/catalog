@@ -743,6 +743,7 @@ projects:
 - name: mkdocs-render-swagger-plugin
   mkdocs_plugin: render_swagger
   github_id: bharel/mkdocs-render-swagger-plugin
+  pypi_id: mkdocs-render-swagger-plugin
   labels: [plugin]
   category: integrations
 - name: factsheet
