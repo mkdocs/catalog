@@ -90,11 +90,6 @@ projects:
   github_id: mberneti/mkdocs-rtl
   labels: []
   category: theming
-- name: docSkimmer
-  mkdocs_theme: docskimmer
-  github_id: hfagerlund/mkdocs-docskimmer
-  labels: [theme]
-  category: theming
 - name: mkdocs-theme-topdf
   mkdocs_theme: topdf
   github_id: kuri65536/mkdocs-theme-topdf
@@ -181,47 +176,16 @@ projects:
   pypi_id: mkdocs-cluster
   labels: [theme]
   category: theming
-- name: Unidata
-  mkdocs_theme: unidata
-  github_id: mjames-upc/mkdocs-unidata
-  pypi_id: mkdocs-unidata
-  labels: [theme]
-  category: theming
 - name: Moonstone
   mkdocs_theme: moonstone
   github_id: byrnereese/mkdocs-moonstone
   pypi_id: mkdocs-moonstone
   labels: [theme]
   category: theming
-- name: Jinks
-  mkdocs_theme: jinks_en
-  github_id: anetwork/mkdocs-jinks-theme
-  pypi_id: mkdocs-jinks
-  labels: [theme]
-  category: theming
-- name: Inspired
-  mkdocs_theme: inspired
-  github_id: rnason/mkdocs-inspired
-  pypi_id: mkdocs-inspired
-  labels: [theme]
-  category: theming
-- name: Semantic
-  mkdocs_theme: semantic
-  description: Semantic-UI Theme for MkDocs
-  github_id: cryocaustik/mkdocs-semantic
-  pypi_id: mkdocs-semantic
-  labels: [theme]
-  category: theming
 - name: Alabaster
   mkdocs_theme: alabaster
   github_id: notpushkin/mkdocs-alabaster
   pypi_id: mkdocs-alabaster
-  labels: [theme]
-  category: theming
-- name: Lantana
-  mkdocs_theme: lantana
-  github_id: WSOFT-Project/lantana
-  pypi_id: lantana
   labels: [theme]
   category: theming
 - name: Simple Blog
