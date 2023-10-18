@@ -469,7 +469,6 @@ projects:
   category: charts
 - name: mkdocs-resize-images
   mkdocs_plugin: resize-images
-  markdown_extension: markdown_blockdiag
   github_id: JakubAndrysek/mkdocs-resize-images
   pypi_id: mkdocs-resize-images
   labels: [plugin]
