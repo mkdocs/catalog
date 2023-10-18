@@ -293,6 +293,12 @@ projects:
   pypi_id: mkdoxy
   labels: [plugin]
   category: api-docs
+- name: mkdocs-typedoc
+  mkdocs_plugin: typedoc
+  github_id: JakubAndrysek/mkdocs-typedoc
+  pypi_id: mkdocs-typedoc
+  labels: [plugin]
+  category: api-docs
 
 - name: blog
   mkdocs_plugin: blog
@@ -460,6 +466,12 @@ projects:
   github_id: gisce/markdown-blockdiag
   pypi_id: markdown-blockdiag
   labels: [markdown]
+  category: charts
+- name: mkdocs-resize-images
+  mkdocs_plugin: resize-images
+  github_id: JakubAndrysek/mkdocs-resize-images
+  pypi_id: mkdocs-resize-images
+  labels: [plugin]
   category: charts
 
 - name: pheasant
@@ -1260,6 +1272,12 @@ projects:
   mkdocs_plugin: autozip
   github_id: martinohanlon/mkdocs_autozip
   pypi_id: mkdocs-autozip
+  labels: [plugin]
+  category: site-conversion
+- name: mkdocs-zip-folders
+  mkdocs_plugin: zip_folders
+  github_id: JakubAndrysek/mkdocs-zip-folders
+  pypi_id: mkdocs-zip-folders
   labels: [plugin]
   category: site-conversion
 
