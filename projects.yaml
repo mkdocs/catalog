@@ -212,6 +212,12 @@ projects:
   pypi_id: mkdocs-risonia-theme
   labels: [theme]
   category: theming
+- name: MkDocs Basic Theme
+  mkdocs_theme: basictheme
+  github_id: mkdocs/mkdocs-basic-theme
+  pypi_id: mkdocs-basic-theme
+  labels: [theme]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
