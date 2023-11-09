@@ -107,7 +107,9 @@ for project in projects:
     for kind, label in _kind_to_label.items():
         items = _get_as_list(project, kind)
 
-        if (label in labels) != bool(items):
+        if label == "plugin" and "theme" in labels and "plugin" not in labels:
+            pass
+        elif (label in labels) != bool(items):
             errors.append(f"'{label}' label should be present if and only if '{kind}:' is present")
 
         for item in items:
