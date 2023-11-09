@@ -225,6 +225,7 @@ projects:
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
+  pypi_id: automacdoc
   labels: []
   category: api-docs
 - name: mkdocstrings
@@ -318,6 +319,7 @@ projects:
 - name: Blogs for MkDocs
   mkdocs_plugin: blog
   github_id: fmaida/mkdocs-blog-plugin
+  pypi_id: mkdocs-blog-plugin
   labels: [plugin]
   category: blogging
   shadowed: [mkdocs_plugin]
@@ -445,6 +447,7 @@ projects:
 - name: Termage
   mkdocs_plugin: termage
   github_id: bczsalba/Termage
+  pypi_id: mkdocs-termage-plugin
   labels: [plugin]
   category: charts
 - name: MkDocs GLightbox
