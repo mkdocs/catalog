@@ -90,6 +90,11 @@ projects:
   github_id: mberneti/mkdocs-rtl
   labels: []
   category: theming
+- name: docSkimmer
+  mkdocs_theme: docskimmer
+  github_id: hfagerlund/mkdocs-docskimmer
+  labels: [theme]
+  category: theming
 - name: mkdocs-theme-topdf
   mkdocs_theme: topdf
   github_id: kuri65536/mkdocs-theme-topdf
