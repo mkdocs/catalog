@@ -110,6 +110,7 @@ projects:
   category: theming
 - name: Bootstrap 4
   mkdocs_theme: bootstrap4
+  mkdocs_plugin: [bootstrap4-blockquotes, bootstrap4-tables]
   shadowed: [mkdocs_theme]
   github_id: LukeCarrier/mkdocs-theme-bootstrap4
   pypi_id: mkdocs-theme-bootstrap4
@@ -165,6 +166,7 @@ projects:
   category: theming
 - name: Zettelkasten
   mkdocs_theme: zettelkasten-solarized-light
+  mkdocs_plugin: [zettelkasten]
   github_id: buvis-net/mkdocs-zettelkasten
   pypi_id: mkdocs-zettelkasten
   labels: [theme]
@@ -196,6 +198,7 @@ projects:
   category: theming
 - name: Terminal for MkDocs
   mkdocs_theme: terminal
+  mkdocs_plugin: [terminal/md-to-html]
   github_id: ntno/mkdocs-terminal
   pypi_id: mkdocs-terminal
   labels: [theme]
@@ -208,6 +211,7 @@ projects:
   category: theming
 - name: Risonia
   mkdocs_theme: risonia
+  mkdocs_plugin: [risonia/color-theme, risonia/w3css-classes]
   github_id: unverbuggt/mkdocs-risonia-theme
   pypi_id: mkdocs-risonia-theme
   labels: [theme]
