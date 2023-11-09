@@ -1,5 +1,6 @@
 import concurrent.futures
 import configparser
+import re
 import subprocess
 import sys
 import tempfile
@@ -35,7 +36,7 @@ def check_install_project(project, install_name, errors=None):
 
     with tempfile.TemporaryDirectory(prefix="best-of-mkdocs-") as directory:
         try:
-            result = subprocess.run(
+            subprocess.run(
                 ["pip", "install", "-U", "--ignore-requires-python", "--no-deps", "--target", directory, install_name],
                 stdin=subprocess.DEVNULL,
                 capture_output=True,
@@ -47,9 +48,21 @@ def check_install_project(project, install_name, errors=None):
             errors.append(f"Failed {e.cmd}:\n{e.stderr}")
             return
 
+        try:
+            [metadata_file] = Path(directory).glob("*.dist-info/METADATA")
+            text = metadata_file.read_text()
+            meta_name = next(re.finditer(r"^Name: *(.+)", text, flags=re.IGNORECASE | re.MULTILINE))[1]
+        except (ValueError, StopIteration) as e:
+            errors.append(f"Could not validate metadata of project: {type(e).__name__}: {e}")
+        else:
+            if meta_name != install_name:
+                errors.append(
+                    f"The project's declared name on PyPI is '{meta_name}', but got pypi_id: '{install_name}'"
+                )
+
         entry_points = configparser.ConfigParser()
         try:
-            [entry_points_file] = Path(directory).glob(f"*.dist-info/entry_points.txt")
+            [entry_points_file] = Path(directory).glob("*.dist-info/entry_points.txt")
             entry_points.read_string(entry_points_file.read_text())
         except ValueError:
             pass
@@ -128,6 +141,9 @@ for project in projects:
     if any(key in project for key in _kind_to_label):
         if "pypi_id" in project:
             install_name = project["pypi_id"]
+            if "_" in install_name:
+                install_name = install_name.replace("_", "-")
+                errors.append(f"'pypi_id' should be '{install_name}' not '{project['pypi_id']}'")
         elif "github_id" in project:
             install_name = f"git+https://github.com/{project['github_id']}"
         else:

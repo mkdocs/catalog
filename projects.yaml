@@ -314,6 +314,7 @@ projects:
 - name: Blogs for MkDocs
   mkdocs_plugin: blog
   github_id: fmaida/mkdocs-blog-plugin
+  pypi_id: mkdocs-blog-plugin
   labels: [plugin]
   category: blogging
   shadowed: [mkdocs_plugin]
