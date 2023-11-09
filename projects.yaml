@@ -558,7 +558,7 @@ projects:
   mkdocs_plugin: mkdocs_protobuf
   description: Mkdocs plugin to render protobuf messages
   github_id: rymurr/mkdocs-protobuf
-  pypi_id: mkdocs_protobuf
+  pypi_id: mkdocs-protobuf
   labels: [plugin]
   license: Apache-2
   category: code-exec-templating
@@ -847,7 +847,7 @@ projects:
 - name: Wikilink Plus
   markdown_extension: mdx_wikilink_plus
   github_id: neurobin/mdx_wikilink_plus
-  pypi_id: mdx_wikilink_plus
+  pypi_id: mdx-wikilink-plus
   labels: [markdown]
   category: links-refs
 - name: unused-files
@@ -902,7 +902,7 @@ projects:
 - name: Mdx Truly Sane Lists
   markdown_extension: mdx_truly_sane_lists
   github_id: radude/mdx_truly_sane_lists
-  pypi_id: mdx_truly_sane_lists
+  pypi_id: mdx-truly-sane-lists
   labels: [markdown]
   category: markdown
 - name: Breakless Lists
@@ -944,7 +944,7 @@ projects:
 - name: Markdown Inline Graphviz
   markdown_extension: markdown_inline_graphviz
   github_id: cesaremorel/markdown-inline-graphviz
-  pypi_id: markdown_inline_graphviz_extension
+  pypi_id: markdown-inline-graphviz-extension
   labels: [markdown]
   category: markdown
 - name: markdown-katex
@@ -986,7 +986,7 @@ projects:
 - name: markdown_sub_sup
   markdown_extension: markdown_sub_sup
   github_id: alberic89/markdown_sub_sup
-  pypi_id: markdown_sub_sup
+  pypi_id: markdown-sub-sup
   labels: [markdown]
   category: markdown
 - name: KBD Extension
@@ -1004,19 +1004,19 @@ projects:
 - name: Semantic Data Extension
   markdown_extension: mdx_semanticdata
   github_id: aleray/mdx_semanticdata
-  pypi_id: mdx_semanticdata
+  pypi_id: mdx-semanticdata
   labels: [markdown]
   category: markdown
 - name: Semantic WikiLinks Extension
   markdown_extension: mdx_semanticwikilinks
   github_id: aleray/mdx_semanticwikilinks
-  pypi_id: mdx_semanticwikilinks
+  pypi_id: mdx-semanticwikilinks
   labels: [markdown]
   category: markdown
 - name: Cite Extension
   markdown_extension: mdx_cite
   github_id: aleray/mdx_cite
-  pypi_id: mdx_cite
+  pypi_id: mdx-cite
   labels: [markdown]
   category: markdown
 - name: Markdown Grid Tables
@@ -1416,7 +1416,7 @@ projects:
 - name: Mdx Include
   markdown_extension: mdx_include
   github_id: neurobin/mdx_include
-  pypi_id: mdx_include
+  pypi_id: mdx-include
   labels: [markdown]
   category: snippets-include
 - name: mkdocs-version-annotations

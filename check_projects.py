@@ -128,6 +128,9 @@ for project in projects:
     if any(key in project for key in _kind_to_label):
         if "pypi_id" in project:
             install_name = project["pypi_id"]
+            if "_" in install_name:
+                install_name = install_name.replace("_", "-")
+                errors.append(f"'pypi_id' should be '{install_name}' not '{project['pypi_id']}'")
         elif "github_id" in project:
             install_name = f"git+https://github.com/{project['github_id']}"
         else:
