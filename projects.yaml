@@ -483,6 +483,18 @@ projects:
   pypi_id: mkdocs-resize-images
   labels: [plugin]
   category: charts
+- name: plantuml-markdown
+  markdown_extension: plantuml_markdown
+  github_id: mikitex70/plantuml-markdown
+  pypi_id: plantuml-markdown
+  labels: [markdown]
+  category: charts
+- name: markdown-captions
+  markdown_extension: markdown_captions
+  github_id: Evidlo/markdown_captions
+  pypi_id: markdown-captions
+  labels: [markdown]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
@@ -699,6 +711,12 @@ projects:
   mkdocs_plugin: toggle-sidebar
   github_id: six-two/mkdocs-toggle-sidebar-plugin
   pypi_id: mkdocs-toggle-sidebar-plugin
+  labels: [plugin]
+  category: html-css
+- name: mkdocs-extra-sass-plugin
+  mkdocs_plugin: extra-sass
+  github_id: orzih/mkdocs-extra-sass-plugin
+  pypi_id: mkdocs-extra-sass-plugin
   labels: [plugin]
   category: html-css
 
@@ -1035,6 +1053,11 @@ projects:
   pypi_id: markdown-checklist
   labels: [markdown]
   category: markdown
+- name: caption
+  markdown_extension: [caption, image_captions, table_captions]
+  github_id: flywire/caption
+  labels: [markdown]
+  category: markdown
 
 - name: exclude
   mkdocs_plugin: exclude
@@ -1173,6 +1196,12 @@ projects:
   mkdocs_plugin: live-edit
   github_id: eddyluten/mkdocs-live-edit-plugin
   pypi_id: mkdocs-live-edit-plugin
+  labels: [plugin]
+  category: nav-pages
+- name: include directory to navigation
+  mkdocs_plugin: include_dir_to_nav
+  github_id: mysiki/mkdocs_include_dir_to_nav
+  pypi_id: mkdocs-include-dir-to-nav
   labels: [plugin]
   category: nav-pages
 
