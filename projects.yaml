@@ -505,6 +505,12 @@ projects:
   pypi_id: markdown-captions
   labels: [markdown]
   category: charts
+- name: mkdocs-d2-plugin
+  mkdocs_plugin: d2
+  github_id: landmaj/mkdocs-d2-plugin
+  pypi_id: mkdocs-d2-plugin
+  labels: [plugin]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
