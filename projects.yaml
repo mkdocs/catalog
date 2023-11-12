@@ -1269,6 +1269,12 @@ projects:
   pypi_id: mkdocs-auto-tag-plugin
   labels: [plugin]
   category: search-toc
+- name: extract listings
+  mkdocs_plugin: extract_listings
+  github_id: six-two/mkdocs-extract-listings-plugin
+  pypi_id: mkdocs-extract-listings-plugin
+  labels: [plugin]
+  category: search-toc
 
 - name: mkdocs-with-pdf
   mkdocs_plugin: with-pdf
