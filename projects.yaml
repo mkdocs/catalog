@@ -1528,3 +1528,9 @@ projects:
   github_id: unverbuggt/mkdocs-familytree-example
   labels: []
   category: other
+- name: extract-listings
+  mkdocs_plugin: placeholder
+  github_id: six-two/mkdocs-extract-listings-plugin
+  pypi_id: mkdocs-extract-listings-plugin
+  labels: [plugin]
+  category: search-toc
