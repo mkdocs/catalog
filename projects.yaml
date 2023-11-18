@@ -511,6 +511,12 @@ projects:
   pypi_id: mkdocs-d2-plugin
   labels: [plugin]
   category: charts
+- name: Markdown aafigure
+  markdown_extension: markdown_aafigure
+  github_id: mbarkhau/markdown-aafigure
+  pypi_id: markdown-aafigure
+  labels: [markdown]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
