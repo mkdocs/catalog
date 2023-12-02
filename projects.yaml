@@ -229,6 +229,12 @@ projects:
   pypi_id: mkdocs-basic-theme
   labels: [theme]
   category: theming
+- name: Lantana
+  mkdocs_theme: lantana
+  github_id: WSOFT-Project/lantana
+  pypi_id: lantana
+  labels: [theme]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
@@ -317,12 +323,6 @@ projects:
   pypi_id: mkdocs-typedoc
   labels: [plugin]
   category: api-docs
-- name: Lantana
-  mkdocs_theme: lantana
-  github_id: WSOFT-Project/lantana
-  pypi_id: lantana
-  labels: [theme]
-  category: theming
 
 - name: blog
   mkdocs_plugin: blog
