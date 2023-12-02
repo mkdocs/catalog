@@ -223,6 +223,12 @@ projects:
   pypi_id: mkdocs-risonia-theme
   labels: [theme]
   category: theming
+- name: Lantana
+  mkdocs_theme: lantana
+  github_id: WSOFT-Project/lantana
+  pypi_id: lantana
+  labels: [theme]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
