@@ -1347,6 +1347,12 @@ projects:
   pypi_id: mkdocs-zip-folders
   labels: [plugin]
   category: site-conversion
+- name: mkdocs-exporter
+  mkdocs_plugin: mkdocs/exporter
+  github_id: adrienbrignon/mkdocs-exporter
+  pypi_id: mkdocs-exporter
+  labels: [plugin]
+  category: site-conversion
 
 - name: mkdocs-multirepo-plugin
   mkdocs_plugin: multirepo
