@@ -517,6 +517,12 @@ projects:
   pypi_id: markdown-aafigure
   labels: [markdown]
   category: charts
+- name: image-formatter-plugin
+  mkdocs_plugin: image-formatter
+  github_id: ASypula/mkdocs-image-formatter-plugin
+  pypi_id: mkdocs-image-formatter-plugin
+  labels: [plugin]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
