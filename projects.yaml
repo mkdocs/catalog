@@ -1232,6 +1232,12 @@ projects:
   pypi_id: mkdocs-include-dir-to-nav
   labels: [plugin]
   category: nav-pages
+- name: mkdocs-pagetree-plugin
+  mkdocs_plugin: pagetree
+  github_id: tombreit/mkdocs-pagetree-plugin
+  pypi_id: mkdocs-pagetree-plugin
+  labels: [plugin]
+  category: nav-pages
 
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
