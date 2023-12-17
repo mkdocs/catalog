@@ -687,6 +687,12 @@ projects:
   pypi_id: mdx-gh-links
   labels: [markdown]
   category: git-info
+- name: mkdocs-git-latest-changes-plugin
+  mkdocs_plugin: git-latest-changes
+  github_id: tombreit/mkdocs-git-latest-changes-plugin
+  pypi_id: mkdocs-git-latest-changes-plugin
+  labels: [plugin]
+  category: git-info
 
 - name: docstyler
   mkdocs_plugin: docstyler
