@@ -811,7 +811,7 @@ projects:
   github_id: djpugh/mkdocs_github_changelog
   pypi_id: mkdocs-github-changelog
   labels: [plugin]
-  category: integrations
+  category: git-info
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
