@@ -806,6 +806,12 @@ projects:
   pypi_id: mkdocs-swagger-ui-tag
   labels: [plugin]
   category: integrations
+- name: MkDocs Dependency License Information
+  mkdocs_plugin: mkdocs_licenseinfo
+  github_id: djpugh/mkdocs_licenseinfo
+  pypi_id: mkdocs-licenseinfo
+  labels: [plugin]
+  category: integrations
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
