@@ -693,6 +693,12 @@ projects:
   pypi_id: mkdocs-git-latest-changes-plugin
   labels: [plugin]
   category: git-info
+- name: Github Releaase Changelog
+  mkdocs_plugin: mkdocs_github_changelog
+  github_id: djpugh/mkdocs_github_changelog
+  pypi_id: mkdocs-github-changelog
+  labels: [plugin]
+  category: git-info
 
 - name: docstyler
   mkdocs_plugin: docstyler
