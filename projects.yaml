@@ -608,6 +608,8 @@ projects:
   category: code-exec-templating
 - name: markdown-exec
   mkdocs_plugin: markdown-exec
+  extra_dependencies:
+    plugins.markdown-exec.ansi: markdown-exec[ansi]
   github_id: pawamoy/markdown-exec
   pypi_id: markdown-exec
   labels: [plugin]
