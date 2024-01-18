@@ -523,6 +523,12 @@ projects:
   pypi_id: mkdocs-image-formatter-plugin
   labels: [plugin]
   category: charts
+- name: inline-svg
+  mkdocs_plugin: inline-svg
+  github_id: rajguru7/mkdocs-plugin-inline-svg-mod
+  pypi_id: mkdocs-plugin-inline-svg-mod
+  labels: [plugin]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
