@@ -952,7 +952,7 @@ projects:
   category: links-refs
 
 - name: markdown-callouts
-  markdown_extension: callouts
+  markdown_extension: [callouts, github-callouts]
   github_id: oprypin/markdown-callouts
   pypi_id: markdown-callouts
   labels: [markdown]
