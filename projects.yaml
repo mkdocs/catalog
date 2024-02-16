@@ -1431,6 +1431,11 @@ projects:
   labels: [plugin]
   category: site-conversion
 
+- name: markdown-docs
+  github_id: ldeluigi/markdown-docs
+  dockerhub_id: deloo/markdown-docs
+  labels: [project]
+  category: site-management
 - name: mkdocs-multirepo-plugin
   mkdocs_plugin: multirepo
   github_id: jdoiro3/mkdocs-multirepo-plugin
