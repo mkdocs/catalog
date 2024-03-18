@@ -793,6 +793,12 @@ projects:
   pypi_id: mkdocs-extra-sass-plugin
   labels: [plugin]
   category: html-css
+- name: mkdocs-link-embeds
+  mkdocs_plugin: link-embeds
+  github_id: Aetherinox/mkdocs-link-embeds
+  pypi_id: mkdocs-link-embeds-plugin
+  labels: [plugin]
+  category: html-css
 
 - name: static-i18n
   mkdocs_plugin: i18n
