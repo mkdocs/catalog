@@ -1547,6 +1547,7 @@ projects:
   pypi_id:  mkdocs-required-frontmatter-plugin
   labels: [plugin]
   category: site-management
+
 - name: mkdocs-embed-external-markdown
   mkdocs_plugin: external-markdown
   github_id: fire1ce/mkdocs-embed-external-markdown
