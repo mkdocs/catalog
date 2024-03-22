@@ -1541,7 +1541,12 @@ projects:
   pypi_id: mkdocs-same-dir
   labels: [plugin]
   category: site-management
-
+- name: mkdocs-required-frontmatter-plugin
+  mkdocs_plugin: required-frontmatter
+  github_id: unmc-vcr/mkdocs-required-frontmatter-plugin
+  pypi_id:  mkdocs-required-frontmatter-plugin
+  labels: [plugin]
+  category: site-management
 - name: mkdocs-embed-external-markdown
   mkdocs_plugin: external-markdown
   github_id: fire1ce/mkdocs-embed-external-markdown
