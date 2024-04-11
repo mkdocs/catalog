@@ -7,6 +7,7 @@ configuration:
   min_projectrank: 0
   require_homepage: false
   require_license: false
+  allowed_licenses: ["all"]
   project_inactive_months: 12
   project_dead_months: 99999  # "dead" is a somewhat strong assumption, so we avoid making it
 
@@ -873,11 +874,6 @@ projects:
   mkdocs_plugin: ezlinks
   github_id: orbikm/mkdocs-ezlinks-plugin
   pypi_id: mkdocs-ezlinks-plugin
-  labels: [plugin]
-  category: links-refs
-- name: autoreflinks
-  mkdocs_plugin: autoreflinks
-  github_id: p-ouellette/mkdocs-autoreflinks-plugin
   labels: [plugin]
   category: links-refs
 - name: autolinks
