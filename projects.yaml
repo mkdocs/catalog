@@ -174,7 +174,7 @@ projects:
 - name: Zettelkasten
   mkdocs_theme: zettelkasten-solarized-light
   mkdocs_plugin: [zettelkasten]
-  github_id: buvis-net/mkdocs-zettelkasten
+  github_id: buvis/mkdocs-zettelkasten
   pypi_id: mkdocs-zettelkasten
   labels: [theme]
   category: theming
@@ -282,14 +282,9 @@ projects:
   category: api-docs
 - name: mkdocs-click
   markdown_extension: mkdocs-click
-  github_id: DataDog/mkdocs-click
+  github_id: mkdocs/mkdocs-click
   pypi_id: mkdocs-click
   labels: [markdown]
-  category: api-docs
-- name: ansible-document
-  description: Auto-generate ansible role documentation
-  pypi_id: ansible-mkdocs
-  labels: []
   category: api-docs
 - name: MkDocsOAD
   mkdocs_plugin: [neoteroi.mkdocsoad, neoteroi.contribs]
@@ -423,7 +418,7 @@ projects:
   category: charts
 - name: MkDocs Graphviz
   markdown_extension: mkdocs_graphviz
-  gitlab_id: rodrigo.schwencke/mkdocs-graphviz
+  gitlab_id: rod2ik/mkdocs-graphviz
   pypi_id: mkdocs-graphviz
   labels: [markdown]
   category: charts
@@ -454,7 +449,7 @@ projects:
 - name: Termage
   mkdocs_plugin: termage
   github_id: bczsalba/Termage
-  pypi_id: mkdocs-termage-plugin
+  pypi_id: Termage
   labels: [plugin]
   category: charts
 - name: MkDocs GLightbox
@@ -815,6 +810,7 @@ projects:
   labels: [plugin]
   category: i18n-l10n
 - name: Mkdocs translations plugin
+  homepage: https://pypi.org/project/mkdocs-translations/
   mkdocs_plugin: translations
   description: Internationalization plugin for mkdocs
   pypi_id: mkdocs-translations
@@ -881,12 +877,12 @@ projects:
   category: links-refs
 - name: autoreflinks
   mkdocs_plugin: autoreflinks
-  github_id: pauloue/mkdocs-autoreflinks-plugin
+  github_id: p-ouellette/mkdocs-autoreflinks-plugin
   labels: [plugin]
   category: links-refs
 - name: autolinks
   mkdocs_plugin: autolinks
-  github_id: midnightprioriem/mkdocs-autolinks-plugin
+  github_id: zachhannum/mkdocs-autolinks-plugin
   pypi_id: mkdocs-autolinks-plugin
   labels: [plugin]
   category: links-refs
@@ -916,7 +912,7 @@ projects:
   category: links-refs
 - name: Mkdocs-Addresses
   mkdocs_plugin: mkdocs-addresses
-  gitlab_id: frederic.zinelli/mkdocs-addresses
+  gitlab_id: frederic-zinelli/mkdocs-addresses
   pypi_id: mkdocs-addresses
   labels: [plugin]
   category: links-refs
@@ -939,7 +935,7 @@ projects:
   category: links-refs
 - name: tooltipster-links
   mkdocs_plugin: tooltipster-links
-  github_id: midnightprioriem/mkdocs-tooltipster-links-plugin
+  github_id: zachhannum/mkdocs-tooltipster-links-plugin
   pypi_id: mkdocs-tooltipster-links-plugin
   labels: [plugin]
   category: links-refs
@@ -1077,6 +1073,7 @@ projects:
   labels: [markdown]
   category: markdown
 - name: Django Static Image
+  homepage: https://pypi.org/project/markdown-djangostaticimage/
   markdown_extension: django_static_image
   bitbucket_id: melvinkcx/markdown-extension-django-static-image
   pypi_id: markdown-djangostaticimage
@@ -1193,7 +1190,7 @@ projects:
   category: nav-pages
 - name: encryptcontent
   mkdocs_plugin: encryptcontent
-  github_id: CoinK0in/mkdocs-encryptcontent-plugin
+  github_id: unverbuggt/mkdocs-encryptcontent-plugin
   pypi_id: mkdocs-encryptcontent-plugin
   labels: [plugin]
   category: nav-pages
@@ -1204,7 +1201,7 @@ projects:
   category: nav-pages
 - name: toc-sidebar
   mkdocs_plugin: toc-sidebar
-  github_id: midnightprioriem/mkdocs-toc-sidebar-plugin
+  github_id: zachhannum/mkdocs-toc-sidebar-plugin
   pypi_id: mkdocs-toc-sidebar-plugin
   labels: [plugin]
   category: nav-pages
@@ -1240,7 +1237,7 @@ projects:
   category: nav-pages
 - name: mkdocs-title-casing-plugin
   mkdocs_plugin: title-casing
-  github_id: Rusty3141/mkdocs-title-casing-plugin
+  github_id: mattchristopher314/mkdocs-title-casing-plugin
   pypi_id: mkdocs-title-casing-plugin
   labels: [plugin]
   category: nav-pages
@@ -1307,7 +1304,7 @@ projects:
   category: nav-pages
 - name: vim-md-tags
   mkdocs_plugin: vim-md-tags
-  github_id: midnightprioriem/mkdocs-vim-md-tags-plugin
+  github_id: zachhannum/mkdocs-vim-md-tags-plugin
   pypi_id: mkdocs-vim-md-tags-plugin
   labels: [plugin]
   category: nav-pages
@@ -1498,7 +1495,7 @@ projects:
   category: site-management
 - name: octadocs-adr
   mkdocs_plugin: octadocs_adr
-  github_id: octadocs/octadocs
+  github_id: octadocs/octadocs-adr
   pypi_id: octadocs-adr
   labels: [plugin]
   category: site-management
@@ -1549,6 +1546,12 @@ projects:
   pypi_id:  mkdocs-required-frontmatter-plugin
   labels: [plugin]
   category: site-management
+- name: ansible-document
+  homepage: https://pypi.org/project/ansible-mkdocs/
+  description: Auto-generate ansible role documentation
+  pypi_id: ansible-mkdocs
+  labels: []
+  category: api-docs
 
 - name: mkdocs-embed-external-markdown
   mkdocs_plugin: external-markdown
