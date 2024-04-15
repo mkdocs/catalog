@@ -350,7 +350,8 @@ projects:
   pypi_id: mkblog
   labels: [plugin]
   category: blogging
-- name: pub-blog
+- name: mkdocs-publisher-blog
+  mkdocs_plugin: pub-blog
   description: Blogging engine (part of Publisher for MkDocs)
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
@@ -803,13 +804,15 @@ projects:
   pypi_id: mkdocs-link-embeds-plugin
   labels: [plugin]
   category: html-css
-- name: pub-social
+- name: mkdocs-publisher-social
+  mkdocs_plugin: pub-social
   description: Social media sharing helper (part of Publisher for MkDocs)
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: html-css
-- name: pub-minifier
+- name: mkdocs-publisher-minifier
+  mkdocs_plugin: pub-minifier
   description: HTML, CSS and graphics files size optimization (part of Publisher for MkDocs)
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
@@ -875,7 +878,8 @@ projects:
   pypi_id: mkdocs-licenseinfo
   labels: [plugin]
   category: integrations
-- name: pub-obsidian
+- name: mkdocs-publisher-obsidian
+  mkdocs_plugin: pub-obsidian
   description: Obsidian.md integration (part of Publisher for MkDocs)
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
@@ -1328,7 +1332,8 @@ projects:
   pypi_id: mkdocs-vim-md-tags-plugin
   labels: [plugin]
   category: nav-pages
-- name: pub-meta
+- name: mkdocs-publisher-meta
+  mkdocs_plugin: pub-meta
   description: Navigation and page building (part of Publisher for MkDocs)
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
@@ -1572,7 +1577,8 @@ projects:
   pypi_id:  mkdocs-required-frontmatter-plugin
   labels: [plugin]
   category: site-management
-- name: pub-debugger
+- name: mkdocs-publisher-debugger
+  mkdocs_plugin: pub-debugger
   description: Better console and file logger (part of Publisher for MkDocs)
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
