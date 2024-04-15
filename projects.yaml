@@ -350,9 +350,9 @@ projects:
   pypi_id: mkblog
   labels: [plugin]
   category: blogging
-- name: mkdocs-publisher-blog
+- name: Publisher for MkDocs - blog
   mkdocs_plugin: pub-blog
-  description: Blogging engine (part of Publisher for MkDocs)
+  description: Blogging engine
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
@@ -804,16 +804,16 @@ projects:
   pypi_id: mkdocs-link-embeds-plugin
   labels: [plugin]
   category: html-css
-- name: mkdocs-publisher-social
+- name: Publisher for MkDocs - social
   mkdocs_plugin: pub-social
-  description: Social media sharing helper (part of Publisher for MkDocs)
+  description: Social media sharing helper
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: html-css
-- name: mkdocs-publisher-minifier
+- name: Publisher for MkDocs - minifier
   mkdocs_plugin: pub-minifier
-  description: HTML, CSS and graphics files size optimization (part of Publisher for MkDocs)
+  description: HTML, CSS and graphics files size optimization
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
@@ -878,9 +878,9 @@ projects:
   pypi_id: mkdocs-licenseinfo
   labels: [plugin]
   category: integrations
-- name: mkdocs-publisher-obsidian
+- name: Publisher for MkDocs - obsidian
   mkdocs_plugin: pub-obsidian
-  description: Obsidian.md integration (part of Publisher for MkDocs)
+  description: Obsidian.md integration including with support for wiki links, callouts, etc.
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
@@ -1332,9 +1332,9 @@ projects:
   pypi_id: mkdocs-vim-md-tags-plugin
   labels: [plugin]
   category: nav-pages
-- name: mkdocs-publisher-meta
+- name: Publisher for MkDocs - meta
   mkdocs_plugin: pub-meta
-  description: Navigation and page building (part of Publisher for MkDocs)
+  description: Navigation and page building based on files metadata
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
@@ -1577,9 +1577,9 @@ projects:
   pypi_id:  mkdocs-required-frontmatter-plugin
   labels: [plugin]
   category: site-management
-- name: mkdocs-publisher-debugger
+- name: Publisher for MkDocs - debugger
   mkdocs_plugin: pub-debugger
-  description: Better console and file logger (part of Publisher for MkDocs)
+  description: Advanced console and file logger from build and serve process
   github_id: mkusz/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
