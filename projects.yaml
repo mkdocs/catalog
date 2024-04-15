@@ -350,6 +350,12 @@ projects:
   pypi_id: mkblog
   labels: [plugin]
   category: blogging
+- name: pub-blog
+  description: Blogging engine (part of Publisher for MkDocs)
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
+  labels: [plugin]
+  category: blogging
 
 - name: table-reader
   mkdocs_plugin: table-reader
@@ -797,6 +803,18 @@ projects:
   pypi_id: mkdocs-link-embeds-plugin
   labels: [plugin]
   category: html-css
+- name: pub-social
+  description: Social media sharing helper (part of Publisher for MkDocs)
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
+  labels: [plugin]
+  category: html-css
+- name: pub-minifier
+  description: HTML, CSS and graphics files size optimization (part of Publisher for MkDocs)
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
+  labels: [plugin]
+  category: html-css
 
 - name: static-i18n
   mkdocs_plugin: i18n
@@ -855,6 +873,12 @@ projects:
   mkdocs_plugin: mkdocs_licenseinfo
   github_id: djpugh/mkdocs_licenseinfo
   pypi_id: mkdocs-licenseinfo
+  labels: [plugin]
+  category: integrations
+- name: pub-obsidian
+  description: Obsidian.md integration (part of Publisher for MkDocs)
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
   labels: [plugin]
   category: integrations
 
@@ -1304,6 +1328,12 @@ projects:
   pypi_id: mkdocs-vim-md-tags-plugin
   labels: [plugin]
   category: nav-pages
+- name: pub-meta
+  description: Navigation and page building (part of Publisher for MkDocs)
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
+  labels: [plugin]
+  category: nav-pages
 
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
@@ -1542,6 +1572,13 @@ projects:
   pypi_id:  mkdocs-required-frontmatter-plugin
   labels: [plugin]
   category: site-management
+- name: pub-debugger
+  description: Better console and file logger (part of Publisher for MkDocs)
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
+  labels: [plugin]
+  category: site-management
+
 - name: ansible-document
   homepage: https://pypi.org/project/ansible-mkdocs/
   description: Auto-generate ansible role documentation
