@@ -350,6 +350,13 @@ projects:
   pypi_id: mkblog
   labels: [plugin]
   category: blogging
+- name: Publisher for MkDocs - blog
+  mkdocs_plugin: pub-blog
+  description: Blogging engine
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
+  labels: [plugin]
+  category: blogging
 
 - name: table-reader
   mkdocs_plugin: table-reader
@@ -797,6 +804,20 @@ projects:
   pypi_id: mkdocs-link-embeds-plugin
   labels: [plugin]
   category: html-css
+- name: Publisher for MkDocs - social
+  mkdocs_plugin: pub-social
+  description: Social media sharing helper
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
+  labels: [plugin]
+  category: html-css
+- name: Publisher for MkDocs - minifier
+  mkdocs_plugin: pub-minifier
+  description: HTML, CSS and graphics files size optimization
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
+  labels: [plugin]
+  category: html-css
 
 - name: static-i18n
   mkdocs_plugin: i18n
@@ -855,6 +876,13 @@ projects:
   mkdocs_plugin: mkdocs_licenseinfo
   github_id: djpugh/mkdocs_licenseinfo
   pypi_id: mkdocs-licenseinfo
+  labels: [plugin]
+  category: integrations
+- name: Publisher for MkDocs - obsidian
+  mkdocs_plugin: pub-obsidian
+  description: Obsidian.md integration including with support for wiki links, callouts, etc.
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
   labels: [plugin]
   category: integrations
 
@@ -1304,6 +1332,13 @@ projects:
   pypi_id: mkdocs-vim-md-tags-plugin
   labels: [plugin]
   category: nav-pages
+- name: Publisher for MkDocs - meta
+  mkdocs_plugin: pub-meta
+  description: Navigation and page building based on files metadata
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
+  labels: [plugin]
+  category: nav-pages
 
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
@@ -1542,6 +1577,14 @@ projects:
   pypi_id:  mkdocs-required-frontmatter-plugin
   labels: [plugin]
   category: site-management
+- name: Publisher for MkDocs - debugger
+  mkdocs_plugin: pub-debugger
+  description: Advanced console and file logger from build and serve process
+  github_id: mkusz/mkdocs-publisher
+  pypi_id: mkdocs-publisher
+  labels: [plugin]
+  category: site-management
+
 - name: ansible-document
   homepage: https://pypi.org/project/ansible-mkdocs/
   description: Auto-generate ansible role documentation
