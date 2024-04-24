@@ -15,7 +15,7 @@ hide:
     <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-260-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/mkdocs/catalog/releases" title="Catalog Updates"><img src="https://img.shields.io/github/release-date/mkdocs/catalog?color=green&label=updated"></a>
-    <a href="https://fralfaro.github.io/catalog/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-green"></a>
+    <a href="https://mkdocs.github.io/catalog/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-green"></a>
 </p>
 
 
