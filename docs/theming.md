@@ -6,6 +6,13 @@ hide:
 
 # 🎨 Theming
 
+<div style="text-align: center;">
+    <img src="../images/theme.png" alt="Theme Image" style="display: block; margin: 0 auto; width: 200px;">
+    <p>This section provides a comprehensive overview of various themes available for MkDocs. <br>
+    Each theme is described, highlighting its key features, design principles, 
+        and licensing information.</p> <br>
+</div>
+
 ??? note "<b><a href="https://github.com/squidfunk/mkdocs-material">Material for MkDocs</a></b>  - 🥇42 ·  ⭐ 18K · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://cdn.icon-icons.com/icons2/1495/PNG/512/preferencesdesktoptheme_102980.png" style="display:inline;" width="13" height="13"></code> · <code><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png" style="display:inline;" width="13" height="13"></code><br>Documentation that simply works."
 
     <a href="https://pawamoy.github.io/mkdocs-gallery/themes/material/">
