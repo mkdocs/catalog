@@ -1,0 +1,105 @@
+# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+# Project information
+site_name: Mkdocs Catalog
+site_url: https://github.com/mkdocs/catalog
+site_author: Francisco Alfaro
+site_description:
+
+# Repository
+repo_name: mkdocs/catalog
+repo_url: https://github.com/mkdocs/catalog
+edit_uri: ''
+
+# Markdown extensions
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - neoteroi.cards
+  - neoteroi.timeline
+  - neoteroi.projects
+  - admonition
+  - pymdownx.details
+
+extra_css:
+  - css/neoteroi-mkdocs.css
+
+# Theme
+theme:
+  name: material
+  language: es
+  logo: images/catalog.png
+  favicon: images/catalog.png
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: black
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: black
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - navigation.indexes
+  - content.tooltips
+  - navigation.path
+  - content.code.annotate
+  - content.code.copy
+  - content.code.select
+  - navigation.tabs
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mkdocs
+    - icon: fontawesome/solid/globe
+      link: https://www.mkdocs.org/
+
+# Plugins
+plugins:
+  - mkdocs-jupyter:
+      kernel_name: python3
+  - search
+
+# Extra javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+#TOC
+nav:
+    - Home: index.md
+    - explanation.md
+    - theming.md
+    - ⭐️ More Projects:
+        - more/more.md
+        - more/api.md
+        - more/blogging.md
+        - more/charts.md
+        - more/code.md
+        - more/git.md
+        - more/html.md
+        - more/integrations.md
+        - more/inter.md
+        - more/links.md
+        - more/markdown.md
+        - more/nav.md
+        - more/quality.md
+        - more/search.md
+        - more/site.md
+        - more/management.md
+        - more/snippets.md
+    - info.md
+
