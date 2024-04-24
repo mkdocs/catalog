@@ -57,6 +57,7 @@ theme:
   - content.code.copy
   - content.code.select
   - navigation.tabs
+  - navigation.footer
 
 # Customization
 extra:
