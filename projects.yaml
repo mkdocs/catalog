@@ -1648,9 +1648,9 @@ projects:
   pypi_id: mdx-include
   labels: [markdown]
   category: snippets-include
-- name: mkdocs-version-annotations
-  mkdocs_plugin: mkdocs-version-annotations
-  github_id: glennmatthews/mkdocs-version-annotations
-  pypi_id: mkdocs-version-annotations
-  labels: [plugin]
+- name: markdown-version-annotations
+  markdown_extension: markdown_version_annotations
+  github_id: glennmatthews/markdown-version-annotations
+  pypi_id: markdown-version-annotations
+  labels: [markdown]
   category: snippets-include
