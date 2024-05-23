@@ -327,6 +327,7 @@ projects:
   category: api-docs
 - name: mkdocstrings-shell
   github_id: mkdocstrings/shell
+  license: ISC
   category: api-docs
 
 - name: blog
@@ -842,6 +843,7 @@ projects:
 - name: MkDocs Pygments
   mkdocs_plugin: pygments
   github_id: pawamoy/mkdocs-pygments
+  license: ISC
   labels: [plugin]
   category: html-css
 
@@ -1203,6 +1205,7 @@ projects:
 - name: Markdown PyCon
   markdown_extension: pycon
   github_id: pawamoy/markdown-pycon
+  license: ISC
   labels: [markdown]
   category: markdown
 
