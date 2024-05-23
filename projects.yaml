@@ -313,6 +313,21 @@ projects:
   pypi_id: mkdocs-typedoc
   labels: [plugin]
   category: api-docs
+- name: mkdocstrings-python
+  github_id: mkdocstrings/python
+  pypi_id: mkdocstrings-python
+  category: api-docs
+- name: mkdocstrings-crystal
+  github_id: mkdocstrings/crystal
+  pypi_id: mkdocstrings-crystal
+  category: api-docs
+- name: mkdocstrings-vba
+  github_id: mkdocstrings/vba
+  pypi_id: mkdocstrings-vba
+  category: api-docs
+- name: mkdocstrings-shell
+  github_id: mkdocstrings/shell
+  category: api-docs
 
 - name: blog
   mkdocs_plugin: blog
