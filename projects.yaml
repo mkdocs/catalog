@@ -824,6 +824,11 @@ projects:
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: html-css
+- name: MkDocs Pygments
+  mkdocs_plugin: pygments
+  github_id: pawamoy/mkdocs-pygments
+  labels: [plugin]
+  category: html-css
 
 - name: static-i18n
   mkdocs_plugin: i18n
@@ -1178,6 +1183,11 @@ projects:
 - name: caption
   markdown_extension: [caption, image_captions, table_captions]
   github_id: flywire/caption
+  labels: [markdown]
+  category: markdown
+- name: Markdown PyCon
+  markdown_extension: pycon
+  github_id: pawamoy/markdown-pycon
   labels: [markdown]
   category: markdown
 
