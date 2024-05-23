@@ -49,16 +49,16 @@ categories:
 
 labels:
 - label: plugin
-  image: https://cdn.icon-icons.com/icons2/1465/PNG/512/701electricplug_100845.png
+  image: https://cdn.icon-icons.com/icons2/1465/PNG/32/701electricplug_100845.png
   description: MkDocs plugin
 - label: theme
-  image: https://cdn.icon-icons.com/icons2/1495/PNG/512/preferencesdesktoptheme_102980.png
+  image: https://cdn.icon-icons.com/icons2/1495/PNG/32/preferencesdesktoptheme_102980.png
   description: MkDocs theme
 - label: project
-  image: https://cdn.icon-icons.com/icons2/1448/PNG/512/42498factory_99134.png
+  image: https://cdn.icon-icons.com/icons2/1448/PNG/32/42498factory_99134.png
   description: Mkdocs-based project (website, templates, etc.)
 - label: markdown
-  image: https://cdn.icon-icons.com/icons2/1459/PNG/512/2799201-jigsaw-processing_99781.png
+  image: https://cdn.icon-icons.com/icons2/1459/PNG/32/2799201-jigsaw-processing_99781.png
   description: Markdown extension(s)
 
 projects:
