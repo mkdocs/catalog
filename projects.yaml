@@ -327,7 +327,6 @@ projects:
   category: api-docs
 - name: mkdocstrings-shell
   github_id: mkdocstrings/shell
-  pypi_id: mkdocstrings-shell
   category: api-docs
 
 - name: blog
