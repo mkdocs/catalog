@@ -234,7 +234,7 @@ projects:
   mkdocs_theme: torillic
   github_id: TEParsons/torillic
   pypi_id: mkdocs-torillic
-  labels: [theme, ttrpg]
+  labels: [theme]
   category: theming
 
 - name: automacdoc
