@@ -230,6 +230,12 @@ projects:
   pypi_id: lantana
   labels: [theme]
   category: theming
+- name: Torillic
+  mkdocs_theme: torillic
+  github_id: TEParsons/torillic
+  pypi_id: mkdocs-torillic
+  labels: [theme]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
