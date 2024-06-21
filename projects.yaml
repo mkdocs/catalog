@@ -582,6 +582,12 @@ projects:
   pypi_id: mkdocs-obsidian-interactive-graph-plugin
   labels: [plugin]
   category: charts
+- name: svgbob extension for Python Markdown
+  markdown_extension: markdown_svgbob
+  github_id: mbarkhau/markdown-svgbob
+  pypi_id: markdown-svgbob
+  labels: [markdown]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
