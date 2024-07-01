@@ -24,14 +24,14 @@ jobs:
       - if: ${{ ! (env.VERSION != null && env.VERSION != '') }}
         name: set-version-via-date
         run: echo "VERSION=$(date '+%Y.%m.%d')" >> $GITHUB_ENV
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: check-version-tag
         shell: bash
         run: |
           git fetch --tags --force
           git show-ref --tags --verify --quiet -- "refs/tags/${{ env.VERSION }}" && echo "VERSION=$(date '+%Y.%m.%d-%H.%M')" >> $GITHUB_ENV || exit 0
       - name: create-update-branch
-        uses: peterjgrainger/action-create-branch@v2.0.1
+        uses: peterjgrainger/action-create-branch@v3.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -48,7 +48,7 @@ jobs:
       - name: update-best-of-list
         run: best-of generate projects.yaml --github-key=${{ secrets.GITHUB_TOKEN }} --libraries-key=${{ secrets.LIBRARIES_KEY }}
       - name: push-update
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }}
           commit_user_name: best-of update
@@ -67,13 +67,13 @@ jobs:
           rm bin/hub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: create-release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ env.VERSION  }}
-          release_name: "Update: ${{ env.VERSION  }}"
-          body_path: "latest-changes.md"
-          draft: true
-          prerelease: false
+      # - name: create-release
+      #   uses: softprops/action-gh-release@v2
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     tag_name: ${{ env.VERSION  }}
+      #     name: "Update: ${{ env.VERSION  }}"
+      #     body_path: "latest-changes.md"
+      #     draft: true
+      #     prerelease: false
