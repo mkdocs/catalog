@@ -1507,7 +1507,7 @@ projects:
   labels: [plugin]
   category: site-conversion
 - name: mkdocs-exporter
-  mkdocs_plugin: [exporter]
+  mkdocs_plugin: exporter
   github_id: adrienbrignon/mkdocs-exporter
   pypi_id: mkdocs-exporter
   labels: [plugin]
