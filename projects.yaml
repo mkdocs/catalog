@@ -1630,6 +1630,12 @@ projects:
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: site-management
+- name: mkdocs-auto-refresh-build-pages
+  mkdocs_plugin: auto-refresh-build-pages
+  github_id: JakubAndrysek/mkdocs-auto-refresh-build-pages
+  pypi_id: mkdocs-auto-refresh-build-pages
+  labels: [plugin]
+  category: site-management
 
 - name: ansible-document
   homepage: https://pypi.org/project/ansible-mkdocs/
