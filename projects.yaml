@@ -1008,6 +1008,12 @@ projects:
   github_id: cmitu/mkdocs-altlink-plugin
   labels: [plugin]
   category: links-refs
+- name: mkdocs-issues-plugin
+  mkdocs_plugin: mkdocs-issues-plugin
+  github_id: mihaigalos/mkdocs-issues-plugin
+  pypi_id: mkdocs-issues-plugin
+  labels: [plugin]
+  category: links-refs
 - name: mkdocs-alias-plugin
   mkdocs_plugin: alias
   github_id: eddyluten/mkdocs-alias-plugin
