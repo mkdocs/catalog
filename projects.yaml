@@ -926,6 +926,12 @@ projects:
   labels: [plugin]
   category: integrations
 
+- name: Autolink References
+  mkdocs_plugin: autolink_references
+  github_id: theskumar/autolink-references-mkdocs-plugin
+  pypi_id: autolink-references-mkdocs-plugin
+  labels: [plugin]
+  category: links-refs
 - name: ArgRef
   mkdocs_plugin: argref
   github_id: rhshadrach/mkdocs-argref-plugin
