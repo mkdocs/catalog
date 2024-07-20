@@ -932,6 +932,12 @@ projects:
   pypi_id: autolink-references-mkdocs-plugin
   labels: [plugin]
   category: links-refs
+- name: ArgRef
+  mkdocs_plugin: argref
+  github_id: rhshadrach/mkdocs-argref-plugin
+  pypi_id: mkdocs-argref-plugin
+  labels: [plugin]
+  category: links-refs
 - name: autorefs
   mkdocs_plugin: autorefs
   github_id: mkdocstrings/autorefs
