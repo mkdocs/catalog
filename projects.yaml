@@ -379,6 +379,7 @@ projects:
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: blogging
+
 - name: table-reader
   mkdocs_plugin: table-reader
   github_id: timvink/mkdocs-table-reader-plugin
