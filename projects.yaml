@@ -374,8 +374,8 @@ projects:
   category: blogging
 - name: Publisher for MkDocs - blog
   mkdocs_plugin: pub-blog
-  description: Blogging engine
-  github_id: mkusz/mkdocs-publisher
+  description: Blogging engine with support for categories, tags and archive
+  github_id: mkdocs-publisher/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: blogging
@@ -841,14 +841,14 @@ projects:
 - name: Publisher for MkDocs - social
   mkdocs_plugin: pub-social
   description: Social media sharing helper
-  github_id: mkusz/mkdocs-publisher
+  github_id: mkdocs-publisher/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: html-css
 - name: Publisher for MkDocs - minifier
   mkdocs_plugin: pub-minifier
-  description: HTML, CSS and graphics files size optimization
-  github_id: mkusz/mkdocs-publisher
+  description: Size optimization (minification) for HTML, CSS, JS, SVG, PNG and JPEG files
+  github_id: mkdocs-publisher/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: html-css
@@ -920,8 +920,8 @@ projects:
   category: integrations
 - name: Publisher for MkDocs - obsidian
   mkdocs_plugin: pub-obsidian
-  description: Obsidian.md integration including with support for wiki links, callouts, etc.
-  github_id: mkusz/mkdocs-publisher
+  description: Obsidian.md integration including with support for wiki links, callouts, backlinks etc.
+  github_id: mkdocs-publisher/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: integrations
@@ -1392,8 +1392,8 @@ projects:
   category: nav-pages
 - name: Publisher for MkDocs - meta
   mkdocs_plugin: pub-meta
-  description: Navigation and page building based on files metadata
-  github_id: mkusz/mkdocs-publisher
+  description: Automatic navigation based on files metadata with URL name and publication status control
+  github_id: mkdocs-publisher/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: nav-pages
@@ -1638,7 +1638,7 @@ projects:
 - name: Publisher for MkDocs - debugger
   mkdocs_plugin: pub-debugger
   description: Advanced console and file logger from build and serve process
-  github_id: mkusz/mkdocs-publisher
+  github_id: mkdocs-publisher/mkdocs-publisher
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: site-management
