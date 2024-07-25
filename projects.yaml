@@ -10,7 +10,7 @@ configuration:
   allowed_licenses: ["all"]
   project_inactive_months: 12
   project_dead_months: 99999  # "dead" is a somewhat strong assumption, so we avoid making it
- 
+
 categories:
 - category: theming
   title: 🎨 Theming
