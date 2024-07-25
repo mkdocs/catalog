@@ -1431,7 +1431,7 @@ projects:
   mkdocs_plugin: task-collector
   github_id: costantinoai/mkdocs-task-collector
   pypi_id: mkdocs-task-collector
-  labels: []
+  labels: [plugin]
   category: search-toc
 - name: localsearch
   mkdocs_plugin: localsearch
