@@ -1427,6 +1427,12 @@ projects:
   labels: []
   category: quality
 
+- name: mkdocs-task-collector
+  mkdocs_plugin: task-collector
+  github_id: costantinoai/mkdocs-task-collector
+  pypi_id: mkdocs-task-collector
+  labels: [plugin]
+  category: search-toc
 - name: localsearch
   mkdocs_plugin: localsearch
   github_id: wilhelmer/mkdocs-localsearch
