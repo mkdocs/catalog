@@ -1348,12 +1348,6 @@ projects:
   pypi_id: mkdocs-gallery
   labels: [plugin]
   category: nav-pages
-- name: mkdocs-copy
-  mkdocs_plugin: copy
-  github_id: chikamichi/mkdocs-copy
-  pypi_id: mkdocs-copy
-  labels: [plugin]
-  category: nav-pages
 - name: file-filter
   mkdocs_plugin: file-filter
   github_id: DariuszPorowski/mkdocs-file-filter-plugin
