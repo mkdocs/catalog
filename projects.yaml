@@ -925,6 +925,12 @@ projects:
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: integrations
+- name: MkDocs asciinema-player
+  mkdocs_plugin: asciinema-player
+  github_id: pa-decarvalho/mkdocs-asciinema-player
+  pypi_id: mkdocs-asciinema-player
+  labels: [plugin]
+  category: integrations
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
