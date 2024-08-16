@@ -339,7 +339,6 @@ projects:
   github_id: obegron/mkdocs-pipeline-visualizer
   pypi_id: mkdocs-pipeline-visualizer
   category: api-docs
-  labels: [plugin]
 
 - name: blog
   mkdocs_plugin: blog
