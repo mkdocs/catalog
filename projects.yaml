@@ -335,6 +335,12 @@ projects:
   github_id: mkdocstrings/shell
   license: ISC
   category: api-docs
+- name: mkdocs-pipeline-visualizer
+  mkdocs_plugin: pipeline-visualizer
+  github_id: obegron/mkdocs-pipeline-visualizer
+  pypi_id: mkdocs-pipeline-visualizer
+  category: api-docs
+  labels: [plugin]
 
 - name: blog
   mkdocs_plugin: blog
