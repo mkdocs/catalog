@@ -1384,6 +1384,12 @@ projects:
   pypi_id: mkdocs-include-dir-to-nav
   labels: [plugin]
   category: nav-pages
+- name: mkdocs-breadcrumbs-plugin
+  mkdocs_plugin: mkdocs-breadcrumbs-plugin
+  github_id: mihaigalos/mkdocs-breadcrumbs-plugin
+  pypi_id: mkdocs-breadcrumbs-plugin
+  labels: [plugin]
+  category: nav-pages
 - name: mkdocs-pagetree-plugin
   mkdocs_plugin: pagetree
   github_id: tombreit/mkdocs-pagetree-plugin
