@@ -1730,3 +1730,8 @@ projects:
   pypi_id: markdown-version-annotations
   labels: [markdown]
   category: snippets-include
+- name: panzoom
+  github_id: PLAYG0N/mkdocs-panzoom
+  pypi_id: mkdocs-panzoom-plugin
+  labels: [plugin]
+  category: charts
