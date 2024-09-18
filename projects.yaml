@@ -594,6 +594,12 @@ projects:
   pypi_id: markdown-svgbob
   labels: [markdown]
   category: charts
+- name: panzoom
+  mkdocs_plugin: panzoom
+  github_id: PLAYG0N/mkdocs-panzoom
+  pypi_id: mkdocs-panzoom-plugin
+  labels: [plugin]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
