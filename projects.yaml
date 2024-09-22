@@ -1250,6 +1250,14 @@ projects:
   license: ISC
   labels: [markdown]
   category: markdown
+- name: Mkdocs Quiz
+  markdown_extension: mkdocs_quizz
+  pypi_id: mkdocs-quizz
+  github_id: bdallard/mkdocs_quiz
+  license: MIT
+  labels: [markdown]
+  category: markdown
+
 
 - name: exclude
   mkdocs_plugin: exclude
