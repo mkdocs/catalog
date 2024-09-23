@@ -1681,7 +1681,6 @@ projects:
   labels: [plugin]
   category: site-management
 
-
 - name: ansible-document
   homepage: https://pypi.org/project/ansible-mkdocs/
   description: Auto-generate ansible role documentation
