@@ -1251,7 +1251,6 @@ projects:
   labels: [markdown]
   category: markdown
 
-
 - name: exclude
   mkdocs_plugin: exclude
   github_id: apenwarr/mkdocs-exclude
