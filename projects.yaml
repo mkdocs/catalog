@@ -1673,7 +1673,7 @@ projects:
   pypi_id: mkdocs-auto-refresh-build-pages
   labels: [plugin]
   category: site-management
-- name: Mkdocs Quiz
+- name: Mkdocs Quizz
   mkdocs_plugin: mkdocs_quizz
   pypi_id: mkdocs-quizz
   github_id: bdallard/mkdocs_quiz
