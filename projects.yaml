@@ -236,6 +236,12 @@ projects:
   pypi_id: mkdocs-torillic
   labels: [theme]
   category: theming
+- name: Landing
+  mkdocs_theme: landing
+  github_id: TEParsons/mkdocs-landing
+  pypi_id: mkdocs-landing
+  labels: [theme]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
