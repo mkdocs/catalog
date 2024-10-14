@@ -392,6 +392,12 @@ projects:
   labels: [plugin]
   category: blogging
 
+- name: mkdocs_puml
+  mkdocs_plugin: plantuml
+  github_id: MikhailKravets/mkdocs_puml
+  pypi_id: mkdocs-puml
+  labels: [plugin]
+  category: charts
 - name: table-reader
   mkdocs_plugin: table-reader
   github_id: timvink/mkdocs-table-reader-plugin
