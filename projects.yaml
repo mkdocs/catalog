@@ -395,7 +395,7 @@ projects:
 - name: mkdocs_puml
   mkdocs_plugin: plantuml
   github_id: MikhailKravets/mkdocs_puml
-  pypi_id: mkdocs_puml
+  pypi_id: mkdocs-puml
   labels: [plugin]
   category: charts
 - name: table-reader
