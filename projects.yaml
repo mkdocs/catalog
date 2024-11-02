@@ -623,7 +623,7 @@ projects:
   mkdocs_plugin: macros
   github_id: fralau/mkdocs_macros_plugin
   pypi_id: mkdocs-macros-plugin
-  labels: [plugin]
+  labels: [plugin, git-info]
   license: MIT
   category: code-exec-templating
 - name: markdownextradata
@@ -1455,6 +1455,13 @@ projects:
   github_id: koaning/mktestdocs
   pypi_id: mktestdocs
   labels: []
+  category: quality
+- name: MkDocs-Test
+  mkdocs_plugin: test
+  github_id: fralau/mkdocs-test
+  pypi: mkdocs-test
+  labels: [plugin]
+  license: MIT
   category: quality
 
 - name: mkdocs-task-collector
