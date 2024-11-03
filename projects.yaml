@@ -623,7 +623,7 @@ projects:
   mkdocs_plugin: macros
   github_id: fralau/mkdocs_macros_plugin
   pypi_id: mkdocs-macros-plugin
-  labels: [plugin, git-info]
+  labels: [plugin]
   license: MIT
   category: code-exec-templating
 - name: markdownextradata
