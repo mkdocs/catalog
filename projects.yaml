@@ -242,6 +242,12 @@ projects:
   pypi_id: mkdocs-landing
   labels: [theme]
   category: theming
+- name: mkdocs-curriculum-vitae
+  mkdocs_theme: mkdocs-curriculum-vitae
+  github_id: Paul-Riviere/mkdocs-curriculum-vitae
+  pypi_id: mkdocs-curriculum-vitae
+  labels: [theme]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
