@@ -961,6 +961,12 @@ projects:
   pypi_id: mkdocs-asciinema-player
   labels: [plugin]
   category: integrations
+- name: Vercel Password Protection
+  mkdocs_plugin: vercel_pw
+  github_id: six-two/mkdocs-vercel-pw-plugin
+  pypi_id: mkdocs-vercel-pw-plugin
+  labels: [plugin]
+  category: integrations
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
