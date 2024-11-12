@@ -1274,6 +1274,13 @@ projects:
   license: ISC
   labels: [markdown]
   category: markdown
+- name: MkDocs Remove Sections Plugin
+  mkdocs_plugin: remove_sections
+  github_id: six-two/mkdocs-remove-sections-plugin
+  pypi_id: mkdocs-remove-sections-plugin
+  labels: [plugin]
+  category: markdown
+
 
 - name: exclude
   mkdocs_plugin: exclude
