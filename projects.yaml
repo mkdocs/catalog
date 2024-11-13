@@ -1439,6 +1439,12 @@ projects:
   pypi_id: mkdocs-publisher
   labels: [plugin]
   category: nav-pages
+- name: MkDocs Remove Sections Plugin
+  mkdocs_plugin: remove_sections
+  github_id: six-two/mkdocs-remove-sections-plugin
+  pypi_id: mkdocs-remove-sections-plugin
+  labels: [plugin]
+  category: nav-pages
 
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
