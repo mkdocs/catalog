@@ -1780,3 +1780,10 @@ projects:
   pypi_id: markdown-version-annotations
   labels: [markdown]
   category: snippets-include
+- name: mkdocs-data-plugin
+  mkdocs_plugin: data
+  github_id: joapuiib/mkdocs-data-plugin
+  pypi_id: mkdocs-data-plugin
+  labels: [plugin]
+  license: MIT
+  category: code-exec-templating
