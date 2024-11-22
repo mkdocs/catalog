@@ -739,6 +739,13 @@ projects:
   pypi_id: mkdocs-placeholder-plugin
   labels: [plugin]
   category: code-exec-templating
+- name: mkdocs-data-plugin
+  mkdocs_plugin: data
+  github_id: joapuiib/mkdocs-data-plugin
+  pypi_id: mkdocs-data-plugin
+  labels: [plugin]
+  license: MIT
+  category: code-exec-templating
 
 - name: branchcustomization
   mkdocs_plugin: branchcustomization
