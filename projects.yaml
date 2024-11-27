@@ -75,12 +75,14 @@ projects:
   mkdocs_theme: cinder
   github_id: chrissimpkins/cinder
   pypi_id: mkdocs-cinder
+  license: MIT
   labels: [theme]
   category: theming
 - name: Windmill
   mkdocs_theme: windmill
   github_id: gristlabs/mkdocs-windmill
   pypi_id: mkdocs-windmill
+  license: MIT
   labels: [theme]
   category: theming
 - name: Windmill Dark
