@@ -64,7 +64,7 @@ labels:
 projects:
 - name: mkdocs-ai-summary
   labels: [plugin]
-  mkdocs_plugin: mkdocs-ai-summary
+  mkdocs_plugin: ai-summary
   category: html-css
   github_id: AIboy996/mkdocs-ai-summary
   homepage: https://aiboy996.github.io/mkdocs-ai-summary/
