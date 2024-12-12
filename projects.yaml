@@ -897,6 +897,14 @@ projects:
   license: ISC
   labels: [plugin]
   category: html-css
+- name: mkdocs-ai-summary
+  mkdocs_plugin: ai-summary
+  github_id: AIboy996/mkdocs-ai-summary
+  homepage: https://aiboy996.github.io/mkdocs-ai-summary/
+  pypi_id: mkdocs-ai-summary
+  license: MIT
+  labels: [plugin]
+  category: html-css
 
 - name: static-i18n
   mkdocs_plugin: i18n
