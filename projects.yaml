@@ -62,6 +62,13 @@ labels:
   description: Markdown extension(s)
 
 projects:
+- name: mkdocs-ai-summary
+  labels: [plugin]
+  category: html-css
+  github_id: AIboy996/mkdocs-ai-summary
+  homepage: https://aiboy996.github.io/mkdocs-ai-summary/
+  pypi_id: mkdocs-ai-summary
+  license: MIT
 - name: Material for MkDocs
   mkdocs_theme: material
   mkdocs_plugin: [material/blog, material/group, material/offline, material/search, material/social, material/tags]
