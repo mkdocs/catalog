@@ -1122,6 +1122,12 @@ projects:
   labels: [plugin]
   license: BSD-3-Clause-LBNL
   category: links-refs
+- name: MkDocs Backlinks Section Plugin
+  mkdocs_plugin: backlinks_section
+  github_id: six-two/mkdocs-backlinks-section-plugin
+  pypi_id: mkdocs-backlinks-section-plugin
+  labels: [plugin]
+  category: links-refs
 
 - name: markdown-callouts
   markdown_extension: [callouts, github-callouts]
