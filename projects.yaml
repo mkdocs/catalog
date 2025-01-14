@@ -984,6 +984,12 @@ projects:
   pypi_id: mkdocs-vercel-pw-plugin
   labels: [plugin]
   category: integrations
+- name: mkdocs-llmstxt
+  mkdocs_plugin: llmstxt
+  github_id: pawamoy/mkdocs-llmstxt
+  pypi_id: mkdocs-llmstxt
+  labels: [plugin]
+  category: integrations
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
