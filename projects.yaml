@@ -1809,3 +1809,9 @@ projects:
   pypi_id: markdown-version-annotations
   labels: [markdown]
   category: snippets-include
+- name: mkdocs-material-adr
+  mkdocs_plugin: mkdocs-material-adr/adr
+  github_id: Kl0ven/mkdocs-material-adr
+  pypi_id: mkdocs-material-adr
+  labels: [plugin]
+  category: api-docs
