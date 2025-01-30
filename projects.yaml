@@ -626,6 +626,14 @@ projects:
   pypi_id: mkdocs-panzoom-plugin
   labels: [plugin]
   category: charts
+- name: oEmbedPy
+  homepage: https://oembedpy.readthedocs.io/en/stable/integrations/mkdocs/
+  description: MkDocs plugin to render rich contents from URL by oEmbed API
+  mkdocs_plugin: oembedpy
+  github_id: attakei/oEmbedPy
+  pypi_id: oEmbedPy
+  labels: [plugin]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
