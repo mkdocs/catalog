@@ -370,7 +370,7 @@ projects:
 - name: mkdocs-api-autonav
   mkdocs_plugin: api-autonav
   github_id: tlambert03/mkdocs-api-autonav
-  #pypi_id: mkdocs-api-autonav
+  pypi_id: mkdocs-api-autonav
   category: api-docs
   labels: [plugin]
 
