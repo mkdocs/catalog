@@ -361,6 +361,18 @@ projects:
   pypi_id: mkdocs-material-adr
   labels: [plugin]
   category: api-docs
+- name: mkdocs-autoapi
+  mkdocs_plugin: mkdocs-autoapi
+  github_id: jcayers20/mkdocs-autoapi
+  pypi_id: mkdocs-autoapi
+  category: api-docs
+  labels: [plugin]
+- name: mkdocs-api-autonav
+  mkdocs_plugin: api-autonav
+  github_id: tlambert03/mkdocs-api-autonav
+  #pypi_id: mkdocs-api-autonav
+  category: api-docs
+  labels: [plugin]
 
 - name: blog
   mkdocs_plugin: blog
