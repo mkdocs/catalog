@@ -775,6 +775,12 @@ projects:
   license: MIT
   category: code-exec-templating
 
+- name: document-dates
+  mkdocs_plugin: document-dates
+  github_id: jaywhj/mkdocs-document-dates
+  pypi_id: mkdocs-document-dates
+  labels: [plugin]
+  category: git-info
 - name: branchcustomization
   mkdocs_plugin: branchcustomization
   github_id: effigies/mkdocs-branchcustomization-plugin
