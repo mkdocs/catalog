@@ -379,6 +379,10 @@ projects:
   pypi_id: ansible-mkdocs
   labels: []
   category: api-docs
+- name: mkdocs-azure-pipelines
+  github_id: Wesztman/mkdocs-azure-pipelines
+  license: MIT
+  category: api-docs
 
 - name: blog
   mkdocs_plugin: blog
