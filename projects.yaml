@@ -1433,8 +1433,6 @@ projects:
   labels: [plugin]
   category: nav-pages
 - name: mkdocs-pug
-  # mkdocs_plugin: mkdocs-pug
-  # https://github.com/vzhong/mkdocs_pug/issues/1
   github_id: vzhong/mkdocs_pug
   pypi_id: mkdocs-pug
   labels: []
@@ -1770,13 +1768,6 @@ projects:
   pypi_id: mkdocs-auto-refresh-build-pages
   labels: [plugin]
   category: site-management
-# - name: Mkdocs Quizz
-#   mkdocs_plugin: mkdocs_quizz
-#   pypi_id: mkdocs-quizz
-#   github_id: bdallard/mkdocs_quiz
-#   license: MIT
-#   labels: [plugin]
-#   category: site-management
 
 - name: ansible-document
   homepage: https://pypi.org/project/ansible-mkdocs/
