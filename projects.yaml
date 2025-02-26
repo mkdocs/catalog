@@ -373,6 +373,12 @@ projects:
   pypi_id: mkdocs-api-autonav
   category: api-docs
   labels: [plugin]
+- name: ansible-document
+  homepage: https://pypi.org/project/ansible-mkdocs/
+  description: Auto-generate ansible role documentation
+  pypi_id: ansible-mkdocs
+  labels: []
+  category: api-docs
 
 - name: blog
   mkdocs_plugin: blog
@@ -1768,13 +1774,6 @@ projects:
   pypi_id: mkdocs-auto-refresh-build-pages
   labels: [plugin]
   category: site-management
-
-- name: ansible-document
-  homepage: https://pypi.org/project/ansible-mkdocs/
-  description: Auto-generate ansible role documentation
-  pypi_id: ansible-mkdocs
-  labels: []
-  category: api-docs
 
 - name: mkdocs-embed-external-markdown
   mkdocs_plugin: external-markdown
