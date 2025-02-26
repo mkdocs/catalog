@@ -380,6 +380,7 @@ projects:
   labels: []
   category: api-docs
 - name: mkdocs-azure-pipelines
+  mkdocs_plugin: mkdocs-azure-pipelines
   github_id: Wesztman/mkdocs-azure-pipelines
   pypi_id: mkdocs-azure-pipelines
   labels: [plugin]
