@@ -322,7 +322,7 @@ projects:
   labels: [markdown]
   category: api-docs
 - name: mkdocs-typer2
-  markdown_extension: mkdocs-typer2
+  mkdocs_plugin: mkdocs-typer2
   github_id: syn54x/mkdocs-typer2
   pypi_id: mkdocs-typer2
   labels: [markdown]
