@@ -325,7 +325,7 @@ projects:
   mkdocs_plugin: mkdocs-typer2
   github_id: syn54x/mkdocs-typer2
   pypi_id: mkdocs-typer2
-  labels: [markdown]
+  labels: [plugin]
   category: api-docs
 - name: mkdoxy
   mkdocs_plugin: mkdoxy
