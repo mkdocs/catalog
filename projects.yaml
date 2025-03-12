@@ -1343,10 +1343,10 @@ projects:
   pypi_id: mkdocs-select-files
   labels: [plugin]
   category: nav-pages
-- name: awesome-pages
-  mkdocs_plugin: awesome-pages
-  github_id: lukasgeiter/mkdocs-awesome-pages-plugin
-  pypi_id: mkdocs-awesome-pages-plugin
+- name: awesome-nav
+  mkdocs_plugin: awesome-nav
+  github_id: lukasgeiter/mkdocs-awesome-nav
+  pypi_id: mkdocs-awesome-nav
   labels: [plugin]
   category: nav-pages
 - name: mkdocs-nav-enhancements
