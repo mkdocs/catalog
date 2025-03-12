@@ -321,6 +321,12 @@ projects:
   pypi_id: mkdocs-typer
   labels: [markdown]
   category: api-docs
+- name: mkdocs-typer2
+  mkdocs_plugin: mkdocs-typer2
+  github_id: syn54x/mkdocs-typer2
+  pypi_id: mkdocs-typer2
+  labels: [plugin]
+  category: api-docs
 - name: mkdoxy
   mkdocs_plugin: mkdoxy
   github_id: JakubAndrysek/MkDoxy
@@ -370,9 +376,21 @@ projects:
 - name: mkdocs-api-autonav
   mkdocs_plugin: api-autonav
   github_id: tlambert03/mkdocs-api-autonav
-  #pypi_id: mkdocs-api-autonav
+  pypi_id: mkdocs-api-autonav
   category: api-docs
   labels: [plugin]
+- name: ansible-document
+  homepage: https://pypi.org/project/ansible-mkdocs/
+  description: Auto-generate ansible role documentation
+  pypi_id: ansible-mkdocs
+  labels: []
+  category: api-docs
+- name: mkdocs-azure-pipelines
+  mkdocs_plugin: mkdocs-azure-pipelines
+  github_id: Wesztman/mkdocs-azure-pipelines
+  pypi_id: mkdocs-azure-pipelines
+  labels: [plugin]
+  category: api-docs
 
 - name: blog
   mkdocs_plugin: blog
@@ -775,6 +793,12 @@ projects:
   license: MIT
   category: code-exec-templating
 
+- name: document-dates
+  mkdocs_plugin: document-dates
+  github_id: jaywhj/mkdocs-document-dates
+  pypi_id: mkdocs-document-dates
+  labels: [plugin]
+  category: git-info
 - name: branchcustomization
   mkdocs_plugin: branchcustomization
   github_id: effigies/mkdocs-branchcustomization-plugin
@@ -1427,8 +1451,6 @@ projects:
   labels: [plugin]
   category: nav-pages
 - name: mkdocs-pug
-  # mkdocs_plugin: mkdocs-pug
-  # https://github.com/vzhong/mkdocs_pug/issues/1
   github_id: vzhong/mkdocs_pug
   pypi_id: mkdocs-pug
   labels: []
@@ -1764,20 +1786,6 @@ projects:
   pypi_id: mkdocs-auto-refresh-build-pages
   labels: [plugin]
   category: site-management
-# - name: Mkdocs Quizz
-#   mkdocs_plugin: mkdocs_quizz
-#   pypi_id: mkdocs-quizz
-#   github_id: bdallard/mkdocs_quiz
-#   license: MIT
-#   labels: [plugin]
-#   category: site-management
-
-- name: ansible-document
-  homepage: https://pypi.org/project/ansible-mkdocs/
-  description: Auto-generate ansible role documentation
-  pypi_id: ansible-mkdocs
-  labels: []
-  category: api-docs
 
 - name: mkdocs-embed-external-markdown
   mkdocs_plugin: external-markdown
