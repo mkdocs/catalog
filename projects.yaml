@@ -792,6 +792,13 @@ projects:
   labels: [plugin]
   license: MIT
   category: code-exec-templating
+- name: mkdocs-marimo
+  mkdocs_plugin: mkdocs-marimo
+  github_id: marimo-team/mkdocs-marimo
+  pypi_id: mkdocs-marimo
+  labels: [plugin]
+  license: Apache-2
+  category: code-exec-templating
 
 - name: document-dates
   mkdocs_plugin: document-dates
