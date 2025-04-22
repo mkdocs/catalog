@@ -1047,6 +1047,12 @@ projects:
   pypi_id: mkdocs-llmstxt
   labels: [plugin]
   category: integrations
+- name: mkdocs-mcp
+  mkdocs_plugin: mcp
+  github_id: ubaumann/mkdocs-mcp
+  pypi_id: mkdocs-mcp
+  labels: [plugin]
+  category: integrations
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
