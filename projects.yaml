@@ -664,6 +664,12 @@ projects:
   pypi_id: oEmbedPy
   labels: [plugin]
   category: charts
+- name: mkdocs-bpmn-js
+  mkdocs_plugin: bpmn-js
+  github_id: madebyherzblut/mkdocs-bpmn-js
+  pypi_id: mkdocs-bpmn-js
+  labels: [plugin]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
