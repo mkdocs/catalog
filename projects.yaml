@@ -250,6 +250,13 @@ projects:
   pypi_id: mkdocs-curriculum-vitae
   labels: [theme]
   category: theming
+- name: Shadcn
+  mkdocs_theme: shadcn
+  mkdocs_plugin: [shadcn/search, shadcn/excalidraw]
+  github_id: asiffer/mkdocs-shadcn
+  pypi_id: mkdocs-shadcn
+  labels: [theme, plugin]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
