@@ -398,6 +398,11 @@ projects:
   pypi_id: mkdocs-azure-pipelines
   labels: [plugin]
   category: api-docs
+- name: mkdocs-apidescribed-plugin
+  github_id: idlesign/mkdocs-apidescribed-plugin
+  pypi_id: mkdocs-apidescribed-plugin
+  labels: [markdown]
+  category: api-docs
 
 - name: blog
   mkdocs_plugin: blog
