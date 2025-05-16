@@ -1554,6 +1554,13 @@ projects:
   pypi_id: mkdocs-remove-sections-plugin
   labels: [plugin]
   category: nav-pages
+- name: mkdocs-navsorted-plugin
+  mkdocs_plugin: navsorted
+  description: mkdocs plugin to get nav sorted without yml directives
+  github_id: idlesign/mkdocs-navsorted-plugin
+  pypi_id: mkdocs-navsorted-plugin
+  labels: [plugin]
+  category: nav-pages
 
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
