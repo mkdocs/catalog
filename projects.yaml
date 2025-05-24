@@ -399,10 +399,10 @@ projects:
   labels: [plugin]
   category: api-docs
 - name: mkdocs-apidescribed-plugin
-  markdown_extension: mkdocs_apidescribed.extension
+  mkdocs_plugin: apidescribed
   github_id: idlesign/mkdocs-apidescribed-plugin
   pypi_id: mkdocs-apidescribed-plugin
-  labels: [markdown]
+  labels: [plugin]
   category: api-docs
 
 - name: blog
