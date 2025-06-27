@@ -350,6 +350,10 @@ projects:
   github_id: mkdocstrings/python
   pypi_id: mkdocstrings-python
   category: api-docs
+- name: mkdocstrings-matlab
+  github_id: watermarkhu/mkdocstrings-matlab
+  pypi_id: mkdocstrings-matlab
+  category: api-docs
 - name: mkdocstrings-crystal
   github_id: mkdocstrings/crystal
   pypi_id: mkdocstrings-crystal
