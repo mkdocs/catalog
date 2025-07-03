@@ -687,6 +687,12 @@ projects:
   pypi_id: mkdocs-bpmn-js
   labels: [plugin]
   category: charts
+- name: mkdocs-matplotlib
+  mkdocs_plugin: mkdocs_matplotlib
+  github_id: AnH0ang/mkdocs-matplotlib
+  pypi_id: mkdocs-matplotlib
+  labels: [plugin]
+  category: charts
 
 - name: pheasant
   mkdocs_plugin: pheasant
