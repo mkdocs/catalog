@@ -1577,7 +1577,6 @@ projects:
   pypi_id: mkdocs-authors-plugin
   labels: [plugin]
   category: nav-pages
-  
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
   github_id: pawamoy/mkdocs-spellcheck
