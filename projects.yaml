@@ -1571,7 +1571,13 @@ projects:
   pypi_id: mkdocs-navsorted-plugin
   labels: [plugin]
   category: nav-pages
-
+- name: authors
+  mkdocs_plugin: authors
+  github_id: thomaszwagerman/mkdocs-authors-plugin
+  pypi_id: mkdocs-authors-plugin
+  labels: [plugin]
+  category: nav-pages
+  
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
   github_id: pawamoy/mkdocs-spellcheck
