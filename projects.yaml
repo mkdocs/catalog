@@ -748,6 +748,12 @@ projects:
   pypi_id: mkdocs-jupyter
   labels: [plugin]
   category: code-exec-templating
+- name: mkdocs-jupyterlite
+  mkdocs_plugin: mkdocs-jupyterlite
+  github_id: NickCrews/mkdocs-jupyterlite
+  pypi_id: mkdocs-jupyterlite
+  labels: [plugin]
+  category: code-exec-templating
 - name: codeyaml
   mkdocs_plugin: codeyaml
   github_id: textileio/mkdocs-codeyaml-plugin
