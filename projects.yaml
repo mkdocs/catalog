@@ -749,7 +749,7 @@ projects:
   labels: [plugin]
   category: code-exec-templating
 - name: mkdocs-jupyterlite
-  mkdocs_plugin: mkdocs-jupyterlite
+  mkdocs_plugin: jupyterlite
   github_id: NickCrews/mkdocs-jupyterlite
   pypi_id: mkdocs-jupyterlite
   labels: [plugin]
