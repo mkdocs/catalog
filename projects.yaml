@@ -997,6 +997,12 @@ projects:
   license: MIT
   labels: [plugin]
   category: html-css
+- name: mk-append-to-head
+  github_id: marcelaodev/mk-append-to-head
+  pypi_id: mk-append-to-head
+  mkdocs_plugin: mk-append-to-head
+  labels: [plugin]
+  category: html-css
 
 - name: static-i18n
   mkdocs_plugin: i18n
