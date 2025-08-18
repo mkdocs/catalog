@@ -1904,3 +1904,8 @@ projects:
   pypi_id: markdown-version-annotations
   labels: [markdown]
   category: snippets-include
+- name: mk-append-to-head
+  github_id: marcelaodev/mk-append-to-head
+  pypi_id: mk-append-to-head
+  labels: [plugin]
+  category: html-css
