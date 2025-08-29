@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/mkdocs-catalog-badge.png)](https://mseep.ai/app/mkdocs-catalog)
+
 <!-- markdownlint-disable -->
 <h1 align="center">
     catalog
