@@ -1094,6 +1094,12 @@ projects:
   pypi_id: mkdocs-mcp
   labels: [plugin]
   category: integrations
+- name: mkdocs-copy-to-llm
+  mkdocs_plugin: copy-to-llm
+  github_id: leonardocustodio/mkdocs-copy-to-llm
+  pypi_id: mkdocs-copy-to-llm
+  labels: [plugin]
+  category: integrations
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
