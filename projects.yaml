@@ -835,6 +835,12 @@ projects:
   license: Apache-2
   category: code-exec-templating
 
+- name: recently-updated
+  mkdocs_plugin: recently-updated
+  github_id: jaywhj/mkdocs-recently-updated-docs
+  pypi_id: mkdocs-recently-updated-docs
+  labels: [plugin]
+  category: git-info
 - name: document-dates
   mkdocs_plugin: document-dates
   github_id: jaywhj/mkdocs-document-dates
