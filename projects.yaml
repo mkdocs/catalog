@@ -1865,6 +1865,12 @@ projects:
   pypi_id: mkdocs-auto-refresh-build-pages
   labels: [plugin]
   category: site-management
+- name: mkdocs-note
+  mkdocs_plugin: mkdocs-note
+  github_id: virtualguard101/mkdocs-note
+  pypi_id: mkdocs-note
+  labels: [plugin]
+  category: site-management
 
 - name: mkdocs-embed-external-markdown
   mkdocs_plugin: external-markdown
@@ -1922,9 +1928,3 @@ projects:
   pypi_id: markdown-version-annotations
   labels: [markdown]
   category: snippets-include
-- name: mkdocs-note
-  mkdocs_plugin: mkdocs-note
-  github_id: virtualguard101/mkdocs-note
-  pypi_id: mkdocs-note
-  labels: [plugin]
-  category: site-management
