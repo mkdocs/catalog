@@ -661,6 +661,12 @@ projects:
   pypi_id: mkdocs-obsidian-interactive-graph-plugin
   labels: [plugin]
   category: charts
+- name: MkDocs Network Graph Plugin
+  mkdocs_plugin: network-graph
+  github_id: develmusa/mkdocs-network-graph-plugin
+  pypi_id: mkdocs-network-graph-plugin
+  labels: [plugin]
+  category: charts
 - name: svgbob extension for Python Markdown
   markdown_extension: markdown_svgbob
   github_id: mbarkhau/markdown-svgbob
