@@ -1106,6 +1106,12 @@ projects:
   pypi_id: mkdocs-copy-to-llm
   labels: [plugin]
   category: integrations
+- name: MkDocs SQLAlchemy Plugin
+  mkdocs_plugin: mkdocs-sqlalchemy-plugin
+  github_id: dadodimauro/mkdocs-sqlalchemy-plugin
+  pypi_id: mkdocs-sqlalchemy-plugin
+  labels: [plugin]
+  category: integrations
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
