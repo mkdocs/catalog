@@ -477,6 +477,12 @@ projects:
   pypi_id: mkdocs-drawio-exporter
   labels: [plugin]
   category: charts
+- name: mkdocs-drawio
+  mkdocs_plugin: drawio
+  github_id: tuunit/mkdocs-drawio
+  pypi_id: mkdocs-drawio
+  labels: [plugin]
+  category: charts
 - name: markdownmermaid
   mkdocs_plugin: markdownmermaid
   description: A MkDocs plugin that support mermaid graph in markdown file
