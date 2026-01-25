@@ -1106,6 +1106,12 @@ projects:
   pypi_id: mkdocs-copy-to-llm
   labels: [plugin]
   category: integrations
+- name: mkdocs-chatbot
+  mkdocs_plugin: chatbot
+  github_id: jonco5555/mkdocs-chatbot
+  pypi_id: mkdocs-chatbot
+  labels: [plugin]
+  category: integrations
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
