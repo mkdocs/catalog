@@ -73,9 +73,12 @@ projects:
   category: theming
 - name: MaterialX for MkDocs(next-generation)
   mkdocs_theme: materialx
+  mkdocs_plugin: [material/blog, material/group, material/offline, material/search, material/social, material/tags]
+  extra_dependencies:
+    plugins.social: mkdocs-materialx[imaging]
   github_id: jaywhj/mkdocs-materialx
   pypi_id: mkdocs-materialx
-  labels: [theme]
+  labels: [theme, plugin]
   category: theming
 - name: Cinder
   mkdocs_theme: cinder
