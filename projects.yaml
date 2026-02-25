@@ -185,7 +185,6 @@ projects:
   category: theming
 - name: Zettelkasten
   mkdocs_theme: zettelkasten-solarized-light
-  mkdocs_plugin: [zettelkasten]
   github_id: buvis/mkdocs-zettelkasten
   pypi_id: mkdocs-zettelkasten
   labels: [theme]
