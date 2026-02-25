@@ -71,6 +71,13 @@ projects:
   pypi_id: mkdocs-material
   labels: [theme, plugin]
   category: theming
+- name: MaterialX for MkDocs(next-generation)
+  mkdocs_theme: materialx
+  mkdocs_plugin: [material/blog, material/group, material/offline, material/search, material/social, material/tags]
+  github_id: jaywhj/mkdocs-materialx
+  pypi_id: mkdocs-materialx
+  labels: [theme, plugin]
+  category: theming
 - name: Cinder
   mkdocs_theme: cinder
   github_id: chrissimpkins/cinder
