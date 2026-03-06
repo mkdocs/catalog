@@ -963,6 +963,13 @@ projects:
   pypi_id: mkdocs-toggle-sidebar-plugin
   labels: [plugin]
   category: html-css
+- name: zen-mode
+  mkdocs_plugin: zen-mode
+  description: Zen Mode toggle for distraction-free reading — hides navigation, TOC, header, footer with a single click or keyboard shortcut
+  github_id: nitaibezerra/mkdocs-zen-mode
+  pypi_id: mkdocs-zen-mode
+  labels: [plugin]
+  category: html-css
 - name: mkdocs-extra-sass-plugin
   mkdocs_plugin: extra-sass
   github_id: orzih/mkdocs-extra-sass-plugin
