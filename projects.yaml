@@ -1094,6 +1094,12 @@ projects:
   pypi_id: mkdocs-llmstxt
   labels: [plugin]
   category: integrations
+- name: mkdocs-ask-ai
+  mkdocs_plugin: ask-ai
+  github_id: mrkhachaturov/mkdocs-ask-ai
+  pypi_id: mkdocs-ask-ai
+  labels: [plugin]
+  category: integrations
 - name: mkdocs-mcp
   mkdocs_plugin: mcp
   github_id: ubaumann/mkdocs-mcp
