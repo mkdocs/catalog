@@ -175,11 +175,12 @@ projects:
   labels: [theme]
   category: theming
 - name: Zettelkasten
-  mkdocs_theme: zettelkasten-solarized-light
-  mkdocs_plugin: [zettelkasten]
-  github_id: buvis/mkdocs-zettelkasten
+  mkdocs_theme: zettelkasten
+  mkdocs_plugin: zettelkasten
+  shadowed: [mkdocs_theme]
+  github_id: buvis/zettelkasten
   pypi_id: mkdocs-zettelkasten
-  labels: [theme]
+  labels: [theme, plugin]
   category: theming
 - name: Cluster
   mkdocs_theme: cluster
@@ -256,6 +257,12 @@ projects:
   github_id: asiffer/mkdocs-shadcn
   pypi_id: mkdocs-shadcn
   labels: [theme, plugin]
+  category: theming
+- name: Cwd
+  mkdocs_theme: cwd
+  github_id: catwatchdog/mkdocs-cwd
+  pypi_id: mkdocs-cwd
+  labels: [theme]
   category: theming
 
 - name: automacdoc
