@@ -175,7 +175,7 @@ projects:
   labels: [theme]
   category: theming
 - name: Zettelkasten
-  mkdocs_theme: zettelkasten-solarized-light
+  mkdocs_theme: zettelkasten
   mkdocs_plugin: [zettelkasten]
   github_id: buvis/mkdocs-zettelkasten
   pypi_id: mkdocs-zettelkasten
@@ -1599,6 +1599,12 @@ projects:
   mkdocs_plugin: authors
   github_id: thomaszwagerman/mkdocs-authors-plugin
   pypi_id: mkdocs-authors-plugin
+  labels: [plugin]
+  category: nav-pages
+- name: repo-docs
+  mkdocs_plugin: repo-docs
+  github_id: killrazor/mkdocs-repo-docs
+  pypi_id: mkdocs-repo-docs
   labels: [plugin]
   category: nav-pages
 
