@@ -1601,6 +1601,12 @@ projects:
   pypi_id: mkdocs-authors-plugin
   labels: [plugin]
   category: nav-pages
+- name: repo-docs
+  mkdocs_plugin: repo-docs
+  github_id: killrazor/mkdocs-repo-docs
+  pypi_id: mkdocs-repo-docs
+  labels: [plugin]
+  category: nav-pages
 
 - name: mkdocs-spellcheck
   mkdocs_plugin: spellcheck
