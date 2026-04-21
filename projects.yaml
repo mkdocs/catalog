@@ -1250,6 +1250,11 @@ projects:
   pypi_id: mkdocs-backlinks-section-plugin
   labels: [plugin]
   category: links-refs
+- name: Mkdocs Material Footer Tags
+  mkdocs_plugin: mkdocs-material-footer-tags
+  github_id: ruanformigoni/mkdocs-material-footer-tags
+  labels: [plugin]
+  category: links-refs
 
 - name: markdown-callouts
   markdown_extension: [callouts, github-callouts]
