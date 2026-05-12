@@ -759,7 +759,7 @@ projects:
   github_id: textileio/mkdocs-codeyaml-plugin
   pypi_id: mkdocs-codeyaml-plugin
   labels: [plugin]
-  license: MIT
+  license: MIT  
   category: code-exec-templating
 - name: markdown-filter
   mkdocs_plugin: markdown-filter
@@ -1928,3 +1928,10 @@ projects:
   pypi_id: markdown-version-annotations
   labels: [markdown]
   category: snippets-include
+- name: mkdocs-adr-plugin
+  mkdocs_plugin: adr_plugin
+  github_id: maresin/mkdocs-adr-plugin
+  pypi_id: mkdocs-adr-plugin
+  labels: [plugin]
+  license: MIT
+  category: code-exec-templating 
