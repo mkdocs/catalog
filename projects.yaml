@@ -1928,3 +1928,10 @@ projects:
   pypi_id: markdown-version-annotations
   labels: [markdown]
   category: snippets-include
+- name: MkDocs Source Links
+  mkdocs_plugin: source-links
+  github_id: filipchristiansen/mkdocs-source-links
+  pypi_id: mkdocs-source-links
+  license: MIT
+  labels: [plugin]
+  category: links-refs
