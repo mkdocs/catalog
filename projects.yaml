@@ -1928,3 +1928,9 @@ projects:
   pypi_id: markdown-version-annotations
   labels: [markdown]
   category: snippets-include
+- name: mkdocs-biel
+  mkdocs_plugin: biel
+  github_id: TechDocsStudio/mkdocs-biel
+  pypi_id: mkdocs-biel
+  labels: [plugin]
+  category: search-toc
