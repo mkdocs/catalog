@@ -1644,6 +1644,12 @@ projects:
   pypi_id: mkdocs-task-collector
   labels: [plugin]
   category: search-toc
+- name: mkdocs-rangefind
+  mkdocs_plugin: rangefind
+  github_id: xjodoin/rangefind
+  pypi_id: mkdocs-rangefind
+  labels: [plugin]
+  category: search-toc
 - name: localsearch
   mkdocs_plugin: localsearch
   github_id: wilhelmer/mkdocs-localsearch
