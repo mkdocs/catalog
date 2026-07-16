@@ -1106,6 +1106,13 @@ projects:
   pypi_id: mkdocs-copy-to-llm
   labels: [plugin]
   category: integrations
+- name: mkdocs-agentready
+  mkdocs_plugin: agentready
+  github_id: AshutoshRaj97/agentready-mcp
+  pypi_id: mkdocs-agentready
+  labels: [plugin]
+  license: MIT
+  category: integrations
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
