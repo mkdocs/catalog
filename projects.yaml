@@ -713,6 +713,12 @@ projects:
   pypi_id: mkdocs-markdownextradata-plugin
   labels: [plugin]
   category: code-exec-templating
+- name: mkdocs-unirate
+  mkdocs_plugin: unirate
+  github_id: UniRate-API/mkdocs-unirate
+  pypi_id: mkdocs-unirate
+  labels: [plugin]
+  category: code-exec-templating
 - name: jinja2sandbox
   mkdocs_plugin: jinja2sandbox
   github_id: rkoe/mkdocs-jinja2sandbox
