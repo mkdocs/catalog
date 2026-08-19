@@ -258,6 +258,13 @@ projects:
   labels: [theme, plugin]
   category: theming
 
+- name: NeoAbs
+  mkdocs_theme: neoabs
+  github_id: rkriad585/mkdocs-neoabs
+  pypi_id: mkdocs-neoabs
+  labels: [theme]
+  category: theming
+
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
   pypi_id: automacdoc
