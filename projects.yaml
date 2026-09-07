@@ -257,6 +257,12 @@ projects:
   pypi_id: mkdocs-shadcn
   labels: [theme, plugin]
   category: theming
+- name: Primer
+  mkdocs_theme: primer
+  github_id: olegshulyakov/mkdocs-primer
+  pypi_id: mkdocs-primer
+  labels: [theme]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
