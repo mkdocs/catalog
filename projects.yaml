@@ -238,7 +238,7 @@ projects:
   pypi_id: mkdocs-torillic
   labels: [theme]
   category: theming
-  - name: KERN UX for MkDocs
+- name: KERN UX for MkDocs
   mkdocs_theme: kern-ux
   github_id: MichaelSalp/mkdocs-kernux
   pypi_id: mkdocs-kern-ux
