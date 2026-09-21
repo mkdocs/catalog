@@ -1637,6 +1637,12 @@ projects:
   labels: [plugin]
   license: MIT
   category: quality
+- name: mdoctest
+  mkdocs_plugin: mdoctest
+  github_id: ingrid-owusu/mdoctest
+  pypi_id: mdoctest
+  labels: [plugin]
+  category: quality
 
 - name: mkdocs-task-collector
   mkdocs_plugin: task-collector
