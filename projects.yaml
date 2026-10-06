@@ -1928,3 +1928,6 @@ projects:
   pypi_id: markdown-version-annotations
   labels: [markdown]
   category: snippets-include
+- name: EkLine Docs Skills
+  github_id: ekline-io/ekline-docs-skills
+  description: Documentation review, style, terminology, and link-checking skills for AI coding agents.
