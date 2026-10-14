@@ -1106,6 +1106,15 @@ projects:
   pypi_id: mkdocs-copy-to-llm
   labels: [plugin]
   category: integrations
+- name: mkdocs-ai-chatbot
+  mkdocs_plugin: asyntai
+  github_id: asyntai/mkdocs-ai-chatbot
+  pypi_id: mkdocs-ai-chatbot
+  homepage: https://asyntai.com/documentation/integrations/mkdocs/
+  description: Adds the Asyntai AI chat assistant to every page. It answers reader questions from your own documentation.
+  license: MIT
+  labels: [plugin]
+  category: integrations
 
 - name: Autolink References
   mkdocs_plugin: autolink_references
