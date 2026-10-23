@@ -975,6 +975,13 @@ projects:
   pypi_id: mkdocs-link-embeds-plugin
   labels: [plugin]
   category: html-css
+- name: mkdocs-allscreenshots-og-screenshot
+  mkdocs_plugin: allscreenshots-og-screenshot
+  description: Generates an OpenGraph (og:image) meta tag for every page, pointing at a live screenshot rendered via the Allscreenshots API
+  github_id: allscreenshots/mkdocs-og-image-plugin
+  pypi_id: mkdocs-allscreenshots-og-screenshot
+  labels: [plugin]
+  category: html-css
 - name: Publisher for MkDocs - social
   mkdocs_plugin: pub-social
   description: Social media sharing helper
