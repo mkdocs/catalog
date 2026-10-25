@@ -175,7 +175,7 @@ projects:
   labels: [theme]
   category: theming
 - name: Zettelkasten
-  mkdocs_theme: zettelkasten-solarized-light
+  mkdocs_theme: zettelkasten
   mkdocs_plugin: [zettelkasten]
   github_id: buvis/mkdocs-zettelkasten
   pypi_id: mkdocs-zettelkasten
@@ -255,6 +255,14 @@ projects:
   mkdocs_plugin: [shadcn/search, shadcn/excalidraw]
   github_id: asiffer/mkdocs-shadcn
   pypi_id: mkdocs-shadcn
+  labels: [theme, plugin]
+  category: theming
+- name: Pixel Lab
+  mkdocs_theme: pixel-lab
+  mkdocs_plugin: [pixel-lab/metadata, pixel-lab/git-lastmod, pixel-lab/robots]
+  github_id: trained-by-humans/mkdocs-pixel-lab
+  pypi_id: mkdocs-pixel-lab
+  homepage: https://trained-by-humans.github.io/mkdocs-pixel-lab/
   labels: [theme, plugin]
   category: theming
 
@@ -526,10 +534,10 @@ projects:
   labels: [plugin]
   category: charts
 - name: MkDocs Graphviz
-  markdown_extension: mkdocs_graphviz
+  mkdocs_plugin: mkdocs_graphviz
   gitlab_id: rod2ik/mkdocs-graphviz
   pypi_id: mkdocs-graphviz
-  labels: [markdown]
+  labels: [plugin]
   category: charts
 - name: mkdocs-diagrams
   mkdocs_plugin: diagrams
