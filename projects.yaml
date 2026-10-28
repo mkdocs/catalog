@@ -1035,6 +1035,13 @@ projects:
   github_id: allevo/mkdocs-swagger-plugin
   labels: [plugin]
   category: integrations
+- name: mkdocs-privatus-analytics
+  mkdocs_plugin: privatus
+  github_id: Privatus-Analytics/mkdocs
+  pypi_id: mkdocs-privatus-analytics
+  description: Adds Privatus Analytics, cookieless website analytics with no cookie pop-up, to every page of your MkDocs site.
+  labels: [plugin]
+  category: integrations
 - name: mkdocs-render-swagger-plugin
   mkdocs_plugin: render_swagger
   github_id: bharel/mkdocs-render-swagger-plugin
