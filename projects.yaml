@@ -257,6 +257,12 @@ projects:
   pypi_id: mkdocs-shadcn
   labels: [theme, plugin]
   category: theming
+- name: Blueprint
+  mkdocs_theme: blueprint
+  github_id: sharifndlovu123/mkdocs-blueprint
+  pypi_id: mkdocs-blueprint
+  labels: [theme]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
