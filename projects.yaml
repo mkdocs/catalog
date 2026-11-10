@@ -1675,6 +1675,12 @@ projects:
   pypi_id: mkdocs-extract-listings-plugin
   labels: [plugin]
   category: search-toc
+- name: Ask AI for MkDocs
+  description: An Ask AI box that answers readers' questions from the site's own search index. One line of extra_javascript, no plugin to install.
+  homepage: https://fengyiqicoder.github.io/mkdocs-onetag/
+  github_id: fengyiqicoder/mkdocs-onetag
+  labels: []
+  category: search-toc
 
 - name: mkdocs-with-pdf
   mkdocs_plugin: with-pdf
