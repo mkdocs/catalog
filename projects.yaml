@@ -834,6 +834,13 @@ projects:
   labels: [plugin]
   license: Apache-2
   category: code-exec-templating
+- name: mkdocs-onlinecompiler
+  mkdocs_plugin: onlinecompiler
+  github_id: onlinecompiler-io/mkdocs-onlinecompiler
+  pypi_id: mkdocs-onlinecompiler
+  labels: [plugin]
+  license: MIT
+  category: code-exec-templating
 
 - name: recently-updated
   mkdocs_plugin: recently-updated
