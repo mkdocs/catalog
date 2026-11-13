@@ -219,6 +219,12 @@ projects:
   pypi_id: mkdocs-dracula-theme
   labels: [theme]
   category: theming
+- name: Sorrow
+  mkdocs_theme: sorrow
+  github_id: MHS-20/sorrow-mkdocs-theme
+  pypi_id: mkdocs-sorrow-theme
+  labels: [theme]
+  category: theming
 - name: Risonia
   mkdocs_theme: risonia
   mkdocs_plugin: [risonia/color-theme, risonia/w3css-classes]
